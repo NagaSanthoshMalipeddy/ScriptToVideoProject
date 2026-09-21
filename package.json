@@ -1,0 +1,27 @@
+{
+  "name": "whiteboard-studio",
+  "version": "1.0.0",
+  "description": "Reusable script-to-video whiteboard animation pipeline (edge-tts + Remotion).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tts": "python pipeline/tts.py",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Whiteboard out/video.mp4 --log=verbose",
+    "make": "node make.mjs",
+    "generate": "node generate.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.409",
+    "@remotion/google-fonts": "4.0.409",
+    "@remotion/layout-utils": "4.0.409",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.409"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.5.4"
+  }
+}

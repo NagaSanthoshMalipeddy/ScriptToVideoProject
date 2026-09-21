@@ -1,0 +1,14 @@
+{
+  "voice": "te-IN-MohanNeural",
+  "rate": "-4%",
+  "pitch": "+0Hz",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "theme": {
+    "background": "#fbfbf5",
+    "ink": "#1f2430",
+    "accent": "#e63946",
+    "font": "Caveat"
+  }
+}
