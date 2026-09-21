@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { measureText } from "@remotion/layout-utils";
-import { Pen } from "./Pen";
+import { PALETTE, Shapes } from "./Shapes";
 import type { Section, Theme } from "../types";
 
 type Placed = {
@@ -76,16 +76,6 @@ export const Board: React.FC<{
 
   const blockTop = (height - layout.totalHeight) / 2;
 
-  // Find the pen position: the word currently being written, else the last one.
-  const within = layout.placed.find((p) => t >= p.start && t < p.end);
-  let last: Placed | null = null;
-  for (const p of layout.placed) {
-    if (t + 0.0001 >= p.start) {
-      last = p;
-    }
-  }
-  const penWord = within ?? last;
-
   const boardOpacity = interpolate(t - section.start, [0, 0.25], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
@@ -93,6 +83,7 @@ export const Board: React.FC<{
 
   return (
     <div style={{ position: "absolute", inset: 0, opacity: boardOpacity }}>
+      <Shapes section={section} />
       {layout.placed.map((p, i) => {
         if (t < p.start) {
           return null;
@@ -112,7 +103,7 @@ export const Board: React.FC<{
               fontFamily,
               fontSize: layout.fontSize,
               fontWeight: FONT_WEIGHT,
-              color: theme.ink,
+              color: PALETTE[i % PALETTE.length],
               whiteSpace: "pre",
               lineHeight: 1,
               clipPath: `inset(-25% ${(1 - progress) * 100}% -25% -5%)`,
@@ -122,23 +113,6 @@ export const Board: React.FC<{
           </div>
         );
       })}
-      {penWord && t + 0.0001 >= penWord.start && (
-        <Pen
-          tipX={
-            MARGIN_X +
-            penWord.x +
-            penWord.width *
-              interpolate(
-                t,
-                [penWord.start, penWord.start + Math.max(0.12, penWord.end - penWord.start)],
-                [0, 1],
-                { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
-              )
-          }
-          tipY={blockTop + penWord.line * layout.lineHeight + layout.fontSize * 0.85}
-          accent={theme.accent}
-        />
-      )}
     </div>
   );
 };

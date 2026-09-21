@@ -85,10 +85,11 @@ fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + "\n", "utf-8");
 
 // 3. Run the pipeline: narration+timing -> typecheck -> render.
 const outPath = args.out ? args.out.replace(/\\/g, "/") : "out/video.mp4";
+const comp = args.comp || "Whiteboard";
 fs.mkdirSync(path.dirname(path.resolve(ROOT, outPath)), { recursive: true });
 
 run("[1/3] Narration + word timings (edge-tts)", "python pipeline/tts.py");
 run("[2/3] Typecheck", "npx tsc --noEmit");
-run("[3/3] Render whiteboard video", `npx remotion render src/index.ts Whiteboard "${outPath}"`);
+run("[3/3] Render whiteboard video", `npx remotion render src/index.ts ${comp} "${outPath}"`);
 
 console.log(`\n\u2714 Done  ->  ${path.resolve(ROOT, outPath)}`);

@@ -1,6 +1,8 @@
 import React from "react";
 import { Composition } from "remotion";
 import { Whiteboard } from "./Whiteboard";
+import { AiRace } from "./airace/AiRace";
+import { MarkerExplainer } from "./marker/MarkerExplainer";
 import timingJson from "../public/timing.json";
 import configJson from "../config.json";
 import type { Theme, Timing } from "./types";
@@ -20,14 +22,34 @@ export const RemotionRoot: React.FC = () => {
   );
 
   return (
-    <Composition
-      id="Whiteboard"
-      component={Whiteboard}
-      durationInFrames={durationInFrames}
-      fps={config.fps}
-      width={config.width}
-      height={config.height}
-      defaultProps={{ timing, theme: config.theme }}
-    />
+    <>
+      <Composition
+        id="Whiteboard"
+        component={Whiteboard}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing, theme: config.theme }}
+      />
+      <Composition
+        id="AiRace"
+        component={AiRace}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="Marker"
+        component={MarkerExplainer}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing }}
+      />
+    </>
   );
 };
