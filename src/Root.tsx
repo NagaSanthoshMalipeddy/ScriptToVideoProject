@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { Whiteboard } from "./Whiteboard";
 import { AiRace } from "./airace/AiRace";
 import { MarkerExplainer } from "./marker/MarkerExplainer";
+import { UkraineWar } from "./ukraine/UkraineWar";
 import timingJson from "../public/timing.json";
 import configJson from "../config.json";
 import type { Theme, Timing } from "./types";
@@ -44,6 +45,15 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="Marker"
         component={MarkerExplainer}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="Ukraine"
+        component={UkraineWar}
         durationInFrames={durationInFrames}
         fps={config.fps}
         width={config.width}

@@ -27,6 +27,10 @@ export const COUNTRIES: Record<string, Country> = {
   korea: { id: "korea", code: "KOR", name: "South Korea", lat: 36.5, lon: 128, color: "#2dd4bf" },
   japan: { id: "japan", code: "JPN", name: "Japan", lat: 36, lon: 138, color: "#ff6b9d" },
   india: { id: "india", code: "IND", name: "India", lat: 22, lon: 79, color: "#22e59a" },
+  ukraine: { id: "ukraine", code: "UKR", name: "Ukraine", lat: 49, lon: 31, color: "#4ea3ff" },
+  russia: { id: "russia", code: "RUS", name: "Russia", lat: 56, lon: 45, color: "#ff4d5e" },
+  belarus: { id: "belarus", code: "BLR", name: "Belarus", lat: 53.7, lon: 28, color: "#f4a261" },
+  europe: { id: "europe", code: "EU", name: "Europe", lat: 50, lon: 10, color: "#ffd166" },
 };
 
 export const COUNTRY_ORDER = ["usa", "china", "taiwan", "korea", "japan", "india"] as const;
