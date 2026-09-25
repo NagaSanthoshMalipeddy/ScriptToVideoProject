@@ -1,0 +1,13 @@
+[
+  { "bg": "#ffe9c9", "label": "HOOK", "title": "Kashmir → Kanyakumari", "map": "india", "caption": "~3,500 km apart", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "pop" },
+  { "bg": "#cfe8ff", "label": "BY CAR", "title": "44 HOURS", "titleColor": "#2b7fff", "route": "car", "caption": "80–90 km/h", "chars": { "expr": "neutral", "skin": "#ffffff" } },
+  { "bg": "#cdeede", "label": "BY TRAIN", "title": "35 HOURS", "titleColor": "#159e86", "route": "train", "caption": "100–120 km/h", "chars": { "expr": "neutral", "skin": "#ffffff" } },
+  { "bg": "#e6ddff", "label": "BY FLIGHT", "title": "4 HOURS", "titleColor": "#7c4dff", "route": "plane", "caption": "850–900 km/h", "chars": { "expr": "happy", "skin": "#ffffff" } },
+  { "bg": "#ffe0b0", "label": "NOW…", "title": "Things get CRAZY!", "big": true, "titleColor": "#e85d04", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "riser" },
+  { "bg": "#ffedcc", "label": "SU-30MKI", "title": "1 hr 20 min", "titleColor": "#ff8a00", "route": "jet", "caption": "Mach 2 • ~2,350 km/h", "chars": { "expr": "happy", "skin": "#ffffff" } },
+  { "bg": "#ffe0cc", "label": "BRAHMOS", "title": "~1 HOUR!", "titleColor": "#ff5a1f", "route": "rocket", "caption": "Mach 3 • ~3,500 km/h", "chars": { "expr": "happy", "skin": "#ffffff" }, "sfx": "boom" },
+  { "bg": "#ffd6d6", "label": "THE MONSTER", "title": "And then…", "big": true, "titleColor": "#c1121f", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "riser" },
+  { "bg": "#ffcccc", "label": "AGNI-V", "title": "A FEW MINUTES", "titleColor": "#e63946", "route": "rocket", "caption": "Mach 20+", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "boom" },
+  { "bg": "#e8f0ff", "label": "THE JUMP", "title": "2 DAYS → MINUTES", "chart": "speeds", "caption": "speed ranked (km/h)", "sfx": "boom" },
+  { "bg": "#ffe9c9", "label": "OUTRO", "title": "Another LEVEL!", "big": true, "titleColor": "#ff5a1f", "chars": { "expr": "happy", "skin": "#ffffff" }, "button": "FOLLOW", "caption": "India's speed game", "sfx": "boom" }
+]

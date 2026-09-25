@@ -1,6 +1,6 @@
 ---
 name: whiteboard-video
-description: Turn a plain-text script into a narrated whiteboard animation video (handwriting drawn word-by-word, synced to a text-to-speech voiceover, exported as MP4). Use when the user asks to create a whiteboard / doodle / handwriting / explainer / narrated animation video from a script, text, topic, or paragraphs. Supports many languages and voices (edge-tts) and vertical / landscape / square output.
+description: Make a WHITEBOARD-style narrated video specifically — words drawn out handwriting-style word-by-word (marker/doodle look), synced to a text-to-speech voiceover, exported as MP4. Use ONLY when the user explicitly asks for the whiteboard / handwriting / doodle style. For general "make a video / short / explainer / animation" requests, use the cartoon-explainer skill (the default style) instead. Supports many languages and voices (edge-tts) and vertical / landscape / square output.
 ---
 
 # Whiteboard Video

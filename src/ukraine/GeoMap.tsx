@@ -53,11 +53,14 @@ const ringToPath = (ring: Ring, project: (lon: number, lat: number) => [number, 
   return d + "Z";
 };
 
-export type MapMarker = { lon: number; lat: number; label?: string; color: string; star?: boolean; on?: number };
+export type MapMarker = { lon: number; lat: number; label?: string; color: string; star?: boolean; on?: number; size?: number; textColor?: string };
 export type MapArrow = { fromLon: number; fromLat: number; toLon: number; toLat: number; color: string; on: number };
 export type MapCountry = { geom: Geom; fill: string; stroke: string; strokeWidth?: number; fillOpacity?: number; draw?: number };
 
-/** Renders one or more country shapes (plus markers/arrows) in a shared projection. */
+export type MapMover = { lon: number; lat: number; w: number; h: number; el: React.ReactNode };
+export type MapLine = { pts: [number, number][]; color: string; width?: number; dash?: boolean; on?: number };
+
+/** Renders one or more country shapes (plus markers/arrows/movers) in a shared projection. */
 export const MapView: React.FC<{
   width: number;
   height: number;
@@ -65,8 +68,10 @@ export const MapView: React.FC<{
   countries: MapCountry[];
   markers?: MapMarker[];
   arrows?: MapArrow[];
+  movers?: MapMover[];
+  lines?: MapLine[];
   pulse?: number;
-}> = ({ width, height, region, countries, markers = [], arrows = [], pulse = 0 }) => {
+}> = ({ width, height, region, countries, markers = [], arrows = [], movers = [], lines = [], pulse = 0 }) => {
   const project = makeProjector(region, width, height);
 
   return (
@@ -107,11 +112,34 @@ export const MapView: React.FC<{
         );
       })}
 
+      {lines.map((ln, i) => {
+        const on = clamp(ln.on ?? 1);
+        if (on <= 0.01) return null;
+        const pts = ln.pts.map(([lo, la]) => project(lo, la));
+        const n = Math.max(1, Math.ceil((pts.length - 1) * on));
+        const shown = pts.slice(0, n + 1);
+        const d = shown.map(([x, y], j) => `${j === 0 ? "M" : "L"}${x.toFixed(1)},${y.toFixed(1)}`).join(" ");
+        return (
+          <path
+            key={`ln${i}`}
+            d={d}
+            fill="none"
+            stroke={ln.color}
+            strokeWidth={ln.width ?? 5}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeDasharray={ln.dash ? "12 10" : undefined}
+            opacity={on}
+          />
+        );
+      })}
+
       {markers.map((m, i) => {
         const [x, y] = project(m.lon, m.lat);
         const on = clamp(m.on ?? 1);
         if (on <= 0.01) return null;
         const r = 8 + pulse * 3;
+        const fs = m.size ?? 24;
         return (
           <g key={i} opacity={on}>
             <circle cx={x} cy={y} r={r + 8} fill="none" stroke={m.color} strokeWidth={2} opacity={0.5} />
@@ -125,17 +153,26 @@ export const MapView: React.FC<{
             {m.label && (
               <text
                 x={x + 14}
-                y={y + 6}
+                y={y + fs / 4}
                 fontFamily={BODY}
-                fontSize={24}
+                fontSize={fs}
                 fontWeight={800}
-                fill="#eaf2ff"
+                fill={m.textColor ?? "#eaf2ff"}
                 style={{ paintOrder: "stroke", stroke: "#05070f", strokeWidth: 4 }}
               >
                 {m.label}
               </text>
             )}
           </g>
+        );
+      })}
+
+      {movers.map((m, i) => {
+        const [x, y] = project(m.lon, m.lat);
+        return (
+          <foreignObject key={`mv${i}`} x={x - m.w / 2} y={y - m.h / 2} width={m.w} height={m.h} style={{ overflow: "visible" }}>
+            <div style={{ width: m.w, height: m.h, display: "flex", alignItems: "center", justifyContent: "center" }}>{m.el}</div>
+          </foreignObject>
         );
       })}
     </svg>

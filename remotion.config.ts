@@ -4,6 +4,8 @@ import path from "node:path";
 
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
+// Required for @remotion/three (WebGL) rendering in headless Chrome.
+Config.setChromiumOpenGlRenderer("angle");
 
 // Remotion's bundled Chrome download is blocked on some machines, so we point
 // it at an already-installed Chromium browser. Set "browserExecutable" in

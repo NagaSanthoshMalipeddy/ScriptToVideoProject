@@ -1,0 +1,133 @@
+[
+  {
+    "bg": "#e7f0ff",
+    "label": "VS",
+    "sfx": "riser",
+    "chars": { "expr": "happy", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Which city is better?",
+      "left": { "name": "BENGALURU", "display": "?", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "display": "?", "color": "#3b6bff" },
+      "note": "Let's compare them!"
+    }
+  },
+  {
+    "bg": "#fff0d6",
+    "label": "POPULATION",
+    "sfx": "pop",
+    "chars": { "expr": "surprised", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Population",
+      "left": { "name": "BENGALURU", "value": 14, "display": "14 M", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "value": 11.3, "display": "11.3 M", "color": "#3b6bff" },
+      "winner": "left",
+      "note": "Bengaluru is more populous"
+    }
+  },
+  {
+    "bg": "#e6f7ea",
+    "label": "AREA",
+    "sfx": "whoosh",
+    "chars": { "expr": "neutral", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Area",
+      "unit": "sq km",
+      "left": { "name": "BENGALURU", "value": 741, "display": "741", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "value": 650, "display": "650", "color": "#3b6bff" },
+      "winner": "left",
+      "note": "Both are heavy urban cities"
+    }
+  },
+  {
+    "bg": "#e7f0ff",
+    "label": "IT EXPORTS",
+    "sfx": "ding",
+    "chars": { "expr": "happy", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "IT Exports",
+      "left": { "name": "BENGALURU", "value": 100, "display": "GIANT", "sub": "huge share of India", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "value": 55, "display": "RISING", "color": "#3b6bff" },
+      "winner": "left",
+      "note": "Bengaluru leads India's IT exports"
+    }
+  },
+  {
+    "bg": "#ffe7ef",
+    "label": "IT GROWTH",
+    "sfx": "boom",
+    "chars": { "expr": "surprised", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "IT Growth",
+      "left": { "name": "BENGALURU", "value": 100, "display": "BIG", "sub": "established", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "value": 84, "display": "FAST", "sub": "growing rapidly", "color": "#3b6bff" },
+      "winner": "right",
+      "note": "Hyderabad is catching up fast!"
+    }
+  },
+  {
+    "bg": "#fff0d6",
+    "label": "STARTUPS",
+    "sfx": "ding",
+    "chars": { "expr": "happy", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Startups",
+      "left": { "name": "BENGALURU", "sub": "40+ Unicorns", "items": ["Swiggy", "Zepto", "Flipkart"], "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "sub": "growing hub", "items": ["Talent", "Deep Tech"], "color": "#3b6bff" },
+      "winner": "left",
+      "note": "Bengaluru = India's unicorn capital"
+    }
+  },
+  {
+    "bg": "#eef6ff",
+    "label": "SPACE & DEEP TECH",
+    "sfx": "whoosh",
+    "chars": { "expr": "happy", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Space & Deep Tech",
+      "left": { "name": "BENGALURU", "sub": "IT focus", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "sub": "space tech giants", "items": ["Skyroot", "Dhruva Space"], "color": "#3b6bff" },
+      "winner": "right",
+      "note": "Hyderabad leads new-age space tech"
+    }
+  },
+  {
+    "bg": "#e6f7ea",
+    "label": "COST OF LIVING",
+    "sfx": "pop",
+    "chars": { "expr": "annoyed", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Cost of Living",
+      "left": { "name": "BENGALURU", "value": 100, "display": "HIGH", "sub": "higher rents", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "value": 62, "display": "LOWER", "sub": "more affordable", "color": "#3b6bff" },
+      "winner": "right",
+      "note": "Hyderabad is more affordable"
+    }
+  },
+  {
+    "bg": "#fdeaea",
+    "label": "TRAFFIC",
+    "sfx": "riser",
+    "chars": { "expr": "worried", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Traffic",
+      "left": { "name": "BENGALURU", "value": 100, "display": "HEAVY", "sub": "legendary jams", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "value": 60, "display": "BETTER", "sub": "planned roads", "color": "#3b6bff" },
+      "winner": "right",
+      "note": "Hyderabad has better planned roads"
+    }
+  },
+  {
+    "bg": "#e7f0ff",
+    "label": "YOUR PICK?",
+    "sfx": "ding",
+    "button": "FOLLOW",
+    "buttonColor": "#3b6bff",
+    "chars": { "expr": "happy", "skin": "#ffd9b3" },
+    "compare": {
+      "metric": "Which would you choose?",
+      "left": { "name": "BENGALURU", "display": "?", "color": "#e63946" },
+      "right": { "name": "HYDERABAD", "display": "?", "color": "#3b6bff" },
+      "note": "Comment below!"
+    }
+  }
+]
