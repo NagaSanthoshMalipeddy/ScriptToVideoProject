@@ -10,7 +10,8 @@ type Geom = { type: string; coordinates: unknown };
 export const UKR_GEOM = (ukrGeo as any).features[0].geometry as Geom;
 export const RUS_GEOM = (rusGeo as any).features[0].geometry as Geom;
 
-export type Region = { lonMin: number; lonMax: number; latMin: number; latMax: number };
+// refLat pins the projection's aspect (so a moving camera doesn't breathe); noWrap keeps the Americas at negative longitudes.
+export type Region = { lonMin: number; lonMax: number; latMin: number; latMax: number; refLat?: number; noWrap?: boolean };
 
 // Focus windows (Russia's far east is normalized past 180 and cropped out).
 export const UKR_REGION: Region = { lonMin: 21, lonMax: 41, latMin: 43.5, latMax: 53 };
@@ -24,10 +25,10 @@ const polygons = (geom: Geom): Ring[] => {
 
 const normLon = (lon: number) => (lon < -30 ? lon + 360 : lon);
 
-const makeProjector = (region: Region, boxW: number, boxH: number) => {
-  const midLat = (region.latMin + region.latMax) / 2;
+export const makeProjector = (region: Region, boxW: number, boxH: number) => {
+  const midLat = region.refLat ?? (region.latMin + region.latMax) / 2;
   const cos = Math.cos((midLat * Math.PI) / 180);
-  const rawX = (lon: number) => normLon(lon) * cos;
+  const rawX = (lon: number) => (region.noWrap ? lon : normLon(lon)) * cos;
   const rawY = (lat: number) => -lat;
   const xmin = rawX(region.lonMin);
   const xmax = rawX(region.lonMax);
@@ -52,6 +53,9 @@ const ringToPath = (ring: Ring, project: (lon: number, lat: number) => [number, 
   }
   return d + "Z";
 };
+
+export const geomPath = (geom: Geom, project: (lon: number, lat: number) => [number, number]) =>
+  polygons(geom).map((r) => ringToPath(r, project)).join(" ");
 
 export type MapMarker = { lon: number; lat: number; label?: string; color: string; star?: boolean; on?: number; size?: number; textColor?: string };
 export type MapArrow = { fromLon: number; fromLat: number; toLon: number; toLat: number; color: string; on: number };

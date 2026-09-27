@@ -14,6 +14,18 @@ import { SpeedThumbnailV } from "./cartoon/SpeedThumbnailV";
 import { IndiaBorders } from "./india/IndiaBorders";
 import { KashmirExplainer } from "./kashmir/KashmirExplainer";
 import { KashmirThumbnailV } from "./kashmir/KashmirThumbnailV";
+import { WondersExplainer } from "./wonders/WondersExplainer";
+import { WondersThumbnailV } from "./wonders/WondersThumbnailV";
+import { WarMap } from "./warmap/WarMap";
+import { WarMapThumbnailV } from "./warmap/WarMapThumbnailV";
+import { KoreaWar } from "./korea/KoreaWar";
+import { KoreaThumbnailV } from "./korea/KoreaThumbnailV";
+import { KoreaLong } from "./korea/KoreaLong";
+import { KoreaThumbnail16 } from "./korea/KoreaThumbnail16";
+import { IranIraqWar, CTA_T as IRAQ_CTA_T, END_PAD as IRAQ_END_PAD } from "./iraniraq/IranIraqWar";
+import { IranIraqThumbnailV } from "./iraniraq/IranIraqThumbnailV";
+import { IraqLong, IraqShort } from "./iraniraq/IraqDoc";
+import { IraqLongThumb, IraqShortThumb } from "./iraniraq/IraqThumbs";
 import { IndiaThumbnailV } from "./india/IndiaThumbnailV";
 import timingJson from "../public/timing.json";
 import beatsJson from "../public/beats.json";
@@ -117,6 +129,71 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{ timing }}
       />
       <Composition
+        id="Wonders"
+        component={WondersExplainer}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="WarMap"
+        component={WarMap}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="KoreaWar"
+        component={KoreaWar}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={config.width}
+        height={config.height}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="IraqShort"
+        component={IraqShort}
+        durationInFrames={durationInFrames + 3 * config.fps}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="IraqLong"
+        component={IraqLong}
+        durationInFrames={durationInFrames + 3 * config.fps}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition id="IraqShortThumb" component={IraqShortThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="IraqLongThumb" component={IraqLongThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition
+        id="IranIraq"
+        component={IranIraqWar}
+        durationInFrames={Math.ceil((IRAQ_CTA_T + IRAQ_END_PAD) * config.fps)}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="KoreaLong"
+        component={KoreaLong}
+        durationInFrames={durationInFrames}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
         id="Three"
         component={ThreeScene}
         durationInFrames={6 * config.fps}
@@ -163,6 +240,49 @@ export const RemotionRoot: React.FC = () => {
         fps={config.fps}
         width={1080}
         height={1920}
+      />
+      <Composition
+        id="WondersThumbnailV"
+        component={WondersThumbnailV}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="WarMapThumbnailV"
+        component={WarMapThumbnailV}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="KoreaThumbnailV"
+        component={KoreaThumbnailV}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="IranIraqThumbnailV"
+        component={IranIraqThumbnailV}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="KoreaThumbnail16"
+        component={KoreaThumbnail16}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
       />
     </>
   );

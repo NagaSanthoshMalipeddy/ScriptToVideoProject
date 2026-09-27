@@ -1,945 +1,5274 @@
 {
   "audio": "audio.mp3",
-  "durationSec": 85.788,
+  "durationSec": 400.778,
   "sections": [
     {
-      "text": "One of the most disputed regions in the world is Jammu and Kashmir.",
-      "start": 0.1,
-      "end": 5.6,
+      "text": "Imagine a war that lasts…",
+      "start": 0.096,
+      "end": 2.535,
       "words": [
         {
-          "word": "One",
-          "start": 0.1,
-          "end": 0.338
+          "word": "Imagine",
+          "start": 0.096,
+          "end": 0.582
         },
         {
-          "word": "of",
-          "start": 0.338,
-          "end": 0.45
+          "word": "a",
+          "start": 0.594,
+          "end": 0.663
         },
         {
-          "word": "the",
-          "start": 0.45,
-          "end": 0.575
-        },
-        {
-          "word": "most",
-          "start": 0.575,
-          "end": 0.975
-        },
-        {
-          "word": "disputed",
-          "start": 1.038,
-          "end": 1.663
-        },
-        {
-          "word": "regions",
-          "start": 1.663,
-          "end": 2.225
-        },
-        {
-          "word": "in",
-          "start": 2.288,
-          "end": 2.388
-        },
-        {
-          "word": "the",
-          "start": 2.413,
-          "end": 2.538
-        },
-        {
-          "word": "world",
-          "start": 2.538,
-          "end": 2.962
-        },
-        {
-          "word": "is",
-          "start": 3.05,
-          "end": 3.25
-        },
-        {
-          "word": "Jammu",
-          "start": 3.25,
-          "end": 3.688
-        },
-        {
-          "word": "and",
-          "start": 3.7,
-          "end": 3.962
-        },
-        {
-          "word": "Kashmir",
-          "start": 3.962,
-          "end": 4.487
-        },
-        {
-          "word": "But",
-          "start": 5.375,
-          "end": 5.6
-        }
-      ]
-    },
-    {
-      "text": "But why is this region divided between India, Pakistan, and China?",
-      "start": 5.6,
-      "end": 11.438,
-      "words": [
-        {
-          "word": "why",
-          "start": 5.6,
-          "end": 5.912
-        },
-        {
-          "word": "is",
-          "start": 5.987,
-          "end": 6.15
-        },
-        {
-          "word": "this",
-          "start": 6.15,
-          "end": 6.4
-        },
-        {
-          "word": "region",
-          "start": 6.4,
-          "end": 6.8
-        },
-        {
-          "word": "divided",
-          "start": 6.8,
-          "end": 7.3
-        },
-        {
-          "word": "between",
-          "start": 7.3,
-          "end": 7.75
-        },
-        {
-          "word": "India",
-          "start": 7.825,
-          "end": 8.262
-        },
-        {
-          "word": "Pakistan",
-          "start": 8.463,
-          "end": 9.125
-        },
-        {
-          "word": "and",
-          "start": 9.262,
-          "end": 9.488
-        },
-        {
-          "word": "China",
-          "start": 9.488,
-          "end": 9.963
-        },
-        {
-          "word": "Pakistan",
-          "start": 10.8,
-          "end": 11.438
-        }
-      ]
-    },
-    {
-      "text": "Pakistan controls parts of the region that India refers to as Pakistan-occupied Jammu and Kashmir, including Azad Jammu and Kashmir and Gilgit-Baltistan.",
-      "start": 11.438,
-      "end": 24.0,
-      "words": [
-        {
-          "word": "controls",
-          "start": 11.463,
-          "end": 12.05
-        },
-        {
-          "word": "parts",
-          "start": 12.05,
-          "end": 12.475
-        },
-        {
-          "word": "of",
-          "start": 12.537,
-          "end": 12.688
-        },
-        {
-          "word": "the",
-          "start": 12.688,
-          "end": 12.812
-        },
-        {
-          "word": "region",
-          "start": 12.812,
-          "end": 13.238
+          "word": "war",
+          "start": 0.675,
+          "end": 0.918
         },
         {
           "word": "that",
-          "start": 13.238,
-          "end": 13.525
+          "start": 0.93,
+          "end": 1.126
         },
         {
-          "word": "India",
-          "start": 13.588,
-          "end": 14.012
-        },
-        {
-          "word": "refers",
-          "start": 14.012,
-          "end": 14.55
-        },
-        {
-          "word": "to",
-          "start": 14.762,
-          "end": 14.838
-        },
-        {
-          "word": "as",
-          "start": 14.863,
-          "end": 15.113
-        },
-        {
-          "word": "Pakistan-occupied",
-          "start": 15.113,
-          "end": 16.337
-        },
-        {
-          "word": "Jammu",
-          "start": 16.375,
-          "end": 16.825
-        },
-        {
-          "word": "and",
-          "start": 16.825,
-          "end": 17.075
-        },
-        {
-          "word": "Kashmir",
-          "start": 17.075,
-          "end": 17.613
-        },
-        {
-          "word": "including",
-          "start": 17.825,
-          "end": 18.425
-        },
-        {
-          "word": "Azad",
-          "start": 18.488,
-          "end": 18.95
-        },
-        {
-          "word": "Jammu",
-          "start": 18.988,
-          "end": 19.45
-        },
-        {
-          "word": "and",
-          "start": 19.462,
-          "end": 19.712
-        },
-        {
-          "word": "Kashmir",
-          "start": 19.712,
-          "end": 20.262
-        },
-        {
-          "word": "and",
-          "start": 20.337,
-          "end": 20.587
-        },
-        {
-          "word": "Gilgit-Baltistan",
-          "start": 20.587,
-          "end": 21.725
-        },
-        {
-          "word": "India",
-          "start": 22.575,
-          "end": 22.962
-        },
-        {
-          "word": "and",
-          "start": 23.038,
-          "end": 23.288
-        },
-        {
-          "word": "Pakistan",
-          "start": 23.288,
-          "end": 24.0
+          "word": "lasts",
+          "start": 1.138,
+          "end": 1.74
         }
       ]
     },
     {
-      "text": "India and Pakistan are separated here by the Line of Control, or LoC.",
-      "start": 24.0,
-      "end": 29.163,
+      "text": "eight years.",
+      "start": 2.535,
+      "end": 4.12,
       "words": [
         {
-          "word": "are",
-          "start": 24.075,
-          "end": 24.312
+          "word": "eight",
+          "start": 2.535,
+          "end": 2.766
         },
         {
-          "word": "separated",
-          "start": 24.312,
-          "end": 24.975
-        },
-        {
-          "word": "here",
-          "start": 24.975,
-          "end": 25.337
-        },
-        {
-          "word": "by",
-          "start": 25.337,
-          "end": 25.562
-        },
-        {
-          "word": "the",
-          "start": 25.562,
-          "end": 25.7
-        },
-        {
-          "word": "Line",
-          "start": 25.7,
-          "end": 26.062
-        },
-        {
-          "word": "of",
-          "start": 26.137,
-          "end": 26.363
-        },
-        {
-          "word": "Control",
-          "start": 26.363,
-          "end": 26.962
-        },
-        {
-          "word": "or",
-          "start": 27.188,
-          "end": 27.375
-        },
-        {
-          "word": "LoC",
-          "start": 27.475,
-          "end": 28.0
-        },
-        {
-          "word": "Then",
-          "start": 28.875,
-          "end": 29.163
+          "word": "years",
+          "start": 2.778,
+          "end": 3.322
         }
       ]
     },
     {
-      "text": "Then there's the Siachen Glacier.",
-      "start": 29.163,
-      "end": 30.95,
+      "text": "Two neighboring countries.",
+      "start": 4.12,
+      "end": 6.227,
       "words": [
         {
-          "word": "there's",
-          "start": 29.163,
-          "end": 29.587
+          "word": "Two",
+          "start": 4.12,
+          "end": 4.363
         },
         {
-          "word": "the",
-          "start": 29.587,
-          "end": 29.75
-        },
-        {
-          "word": "Siachen",
-          "start": 29.75,
-          "end": 30.325
-        },
-        {
-          "word": "Glacier",
-          "start": 30.363,
-          "end": 30.95
-        }
-      ]
-    },
-    {
-      "text": "In 1984, India launched Operation Meghdoot and established military positions in the Siachen region.",
-      "start": 30.95,
-      "end": 39.6,
-      "words": [
-        {
-          "word": "In 1984",
-          "start": 31.85,
-          "end": 33.425
-        },
-        {
-          "word": "India",
-          "start": 33.737,
-          "end": 34.212
-        },
-        {
-          "word": "launched",
-          "start": 34.212,
-          "end": 34.65
-        },
-        {
-          "word": "Operation",
-          "start": 34.712,
-          "end": 35.312
-        },
-        {
-          "word": "Meghdoot",
-          "start": 35.312,
-          "end": 35.938
-        },
-        {
-          "word": "and",
-          "start": 36.138,
-          "end": 36.4
-        },
-        {
-          "word": "established",
-          "start": 36.4,
-          "end": 37.013
-        },
-        {
-          "word": "military",
-          "start": 37.062,
-          "end": 37.562
-        },
-        {
-          "word": "positions",
-          "start": 37.575,
-          "end": 38.25
-        },
-        {
-          "word": "in",
-          "start": 38.325,
-          "end": 38.425
-        },
-        {
-          "word": "the",
-          "start": 38.462,
-          "end": 38.575
-        },
-        {
-          "word": "Siachen",
-          "start": 38.575,
-          "end": 39.175
-        },
-        {
-          "word": "region",
-          "start": 39.175,
-          "end": 39.6
-        }
-      ]
-    },
-    {
-      "text": "Now look towards the east.",
-      "start": 39.6,
-      "end": 42.125,
-      "words": [
-        {
-          "word": "Now",
-          "start": 40.513,
-          "end": 40.737
-        },
-        {
-          "word": "look",
-          "start": 40.75,
-          "end": 41.025
-        },
-        {
-          "word": "towards",
-          "start": 41.025,
-          "end": 41.538
-        },
-        {
-          "word": "the",
-          "start": 41.538,
-          "end": 41.737
-        },
-        {
-          "word": "east",
-          "start": 41.763,
-          "end": 42.125
-        }
-      ]
-    },
-    {
-      "text": "Aksai Chin is administered by China, while India claims it as part of Ladakh.",
-      "start": 42.125,
-      "end": 48.5,
-      "words": [
-        {
-          "word": "Aksai",
-          "start": 43.025,
-          "end": 43.438
-        },
-        {
-          "word": "Chin",
-          "start": 43.45,
-          "end": 43.75
-        },
-        {
-          "word": "is",
-          "start": 43.837,
-          "end": 44.025
-        },
-        {
-          "word": "administered",
-          "start": 44.087,
-          "end": 44.85
-        },
-        {
-          "word": "by",
-          "start": 44.85,
-          "end": 45.087
-        },
-        {
-          "word": "China",
-          "start": 45.112,
-          "end": 45.625
-        },
-        {
-          "word": "while",
-          "start": 45.85,
-          "end": 46.175
-        },
-        {
-          "word": "India",
-          "start": 46.25,
-          "end": 46.663
-        },
-        {
-          "word": "claims",
-          "start": 46.663,
-          "end": 47.125
-        },
-        {
-          "word": "it",
-          "start": 47.138,
-          "end": 47.275
-        },
-        {
-          "word": "as",
-          "start": 47.337,
-          "end": 47.587
-        },
-        {
-          "word": "part",
-          "start": 47.587,
-          "end": 47.913
-        },
-        {
-          "word": "of",
-          "start": 47.913,
-          "end": 48.075
-        },
-        {
-          "word": "Ladakh",
-          "start": 48.075,
-          "end": 48.5
-        }
-      ]
-    },
-    {
-      "text": "And the India-China military boundary in this region is known as the Line of Actual Control, or LAC.",
-      "start": 48.5,
-      "end": 56.5,
-      "words": [
-        {
-          "word": "And",
-          "start": 49.375,
-          "end": 49.575
-        },
-        {
-          "word": "the",
-          "start": 49.575,
-          "end": 49.763
-        },
-        {
-          "word": "India-China",
-          "start": 49.837,
-          "end": 50.65
-        },
-        {
-          "word": "military",
-          "start": 50.65,
-          "end": 51.188
-        },
-        {
-          "word": "boundary",
-          "start": 51.188,
-          "end": 51.775
-        },
-        {
-          "word": "in",
-          "start": 51.925,
-          "end": 52.075
-        },
-        {
-          "word": "this",
-          "start": 52.087,
-          "end": 52.35
-        },
-        {
-          "word": "region",
-          "start": 52.35,
-          "end": 52.788
-        },
-        {
-          "word": "is",
-          "start": 52.9,
-          "end": 53.112
-        },
-        {
-          "word": "known",
-          "start": 53.112,
-          "end": 53.475
-        },
-        {
-          "word": "as",
-          "start": 53.55,
-          "end": 53.8
-        },
-        {
-          "word": "the",
-          "start": 53.8,
-          "end": 53.938
-        },
-        {
-          "word": "Line",
-          "start": 53.938,
-          "end": 54.312
-        },
-        {
-          "word": "of",
-          "start": 54.375,
-          "end": 54.6
-        },
-        {
-          "word": "Actual",
-          "start": 54.65,
-          "end": 55.1
-        },
-        {
-          "word": "Control",
-          "start": 55.1,
-          "end": 55.688
-        },
-        {
-          "word": "or",
-          "start": 55.9,
-          "end": 56.112
-        },
-        {
-          "word": "LAC",
-          "start": 56.112,
-          "end": 56.5
-        }
-      ]
-    },
-    {
-      "text": "There's also the Shaksgam Valley, which Pakistan transferred to China under a 1963 agreement, a transfer India does not recognize.",
-      "start": 56.5,
-      "end": 67.188,
-      "words": [
-        {
-          "word": "There's",
-          "start": 57.413,
-          "end": 57.8
-        },
-        {
-          "word": "also",
-          "start": 57.888,
-          "end": 58.263
-        },
-        {
-          "word": "the",
-          "start": 58.263,
-          "end": 58.388
-        },
-        {
-          "word": "Shaksgam",
-          "start": 58.388,
-          "end": 58.962
-        },
-        {
-          "word": "Valley",
-          "start": 58.962,
-          "end": 59.375
-        },
-        {
-          "word": "which",
-          "start": 59.763,
-          "end": 60.038
-        },
-        {
-          "word": "Pakistan",
-          "start": 60.05,
-          "end": 60.712
-        },
-        {
-          "word": "transferred",
-          "start": 60.737,
-          "end": 61.375
-        },
-        {
-          "word": "to",
-          "start": 61.45,
-          "end": 61.587
-        },
-        {
-          "word": "China",
-          "start": 61.587,
-          "end": 62.038
-        },
-        {
-          "word": "under",
-          "start": 62.1,
-          "end": 62.438
-        },
-        {
-          "word": "a",
-          "start": 62.525,
-          "end": 62.612
-        },
-        {
-          "word": "1963",
-          "start": 62.612,
-          "end": 63.888
-        },
-        {
-          "word": "agreement",
-          "start": 63.95,
-          "end": 64.562
-        },
-        {
-          "word": "a",
-          "start": 64.825,
-          "end": 64.9
-        },
-        {
-          "word": "transfer",
-          "start": 64.9,
-          "end": 65.5
-        },
-        {
-          "word": "India",
-          "start": 65.588,
-          "end": 65.95
-        },
-        {
-          "word": "does",
-          "start": 65.95,
-          "end": 66.188
-        },
-        {
-          "word": "not",
-          "start": 66.188,
-          "end": 66.463
-        },
-        {
-          "word": "recognize",
-          "start": 66.463,
-          "end": 67.188
-        }
-      ]
-    },
-    {
-      "text": "So in this one region, three countries have competing territorial claims and military positions.",
-      "start": 67.188,
-      "end": 74.575,
-      "words": [
-        {
-          "word": "So",
-          "start": 68.062,
-          "end": 68.338
-        },
-        {
-          "word": "in",
-          "start": 68.4,
-          "end": 68.588
-        },
-        {
-          "word": "this",
-          "start": 68.6,
-          "end": 68.875
-        },
-        {
-          "word": "one",
-          "start": 68.875,
-          "end": 69.175
-        },
-        {
-          "word": "region",
-          "start": 69.175,
-          "end": 69.675
-        },
-        {
-          "word": "three",
-          "start": 70.1,
-          "end": 70.287
+          "word": "neighboring",
+          "start": 4.375,
+          "end": 4.803
         },
         {
           "word": "countries",
-          "start": 70.312,
-          "end": 70.912
-        },
-        {
-          "word": "have",
-          "start": 70.938,
-          "end": 71.237
-        },
-        {
-          "word": "competing",
-          "start": 71.25,
-          "end": 71.85
-        },
-        {
-          "word": "territorial",
-          "start": 71.85,
-          "end": 72.55
-        },
-        {
-          "word": "claims",
-          "start": 72.575,
-          "end": 73.013
-        },
-        {
-          "word": "and",
-          "start": 73.112,
-          "end": 73.338
-        },
-        {
-          "word": "military",
-          "start": 73.338,
-          "end": 73.875
-        },
-        {
-          "word": "positions",
-          "start": 73.888,
-          "end": 74.575
+          "start": 4.815,
+          "end": 5.428
         }
       ]
     },
     {
-      "text": "That's what makes Jammu and Kashmir one of the most strategically sensitive regions in the world.",
-      "start": 74.575,
-      "end": 83.025,
+      "text": "Millions of people affected.",
+      "start": 6.227,
+      "end": 8.507,
       "words": [
         {
-          "word": "That's",
-          "start": 75.438,
-          "end": 75.787
-        },
-        {
-          "word": "what",
-          "start": 75.838,
-          "end": 76.138
-        },
-        {
-          "word": "makes",
-          "start": 76.138,
-          "end": 76.575
-        },
-        {
-          "word": "Jammu",
-          "start": 76.575,
-          "end": 77.05
-        },
-        {
-          "word": "and",
-          "start": 77.088,
-          "end": 77.35
-        },
-        {
-          "word": "Kashmir",
-          "start": 77.35,
-          "end": 77.888
-        },
-        {
-          "word": "one",
-          "start": 77.888,
-          "end": 78.175
+          "word": "Millions",
+          "start": 6.227,
+          "end": 6.701
         },
         {
           "word": "of",
-          "start": 78.188,
-          "end": 78.275
+          "start": 6.713,
+          "end": 6.806
         },
         {
-          "word": "the",
-          "start": 78.275,
-          "end": 78.4
+          "word": "people",
+          "start": 6.817,
+          "end": 7.13
         },
         {
-          "word": "most",
-          "start": 78.4,
-          "end": 78.8
-        },
-        {
-          "word": "strategically",
-          "start": 78.862,
-          "end": 79.688
-        },
-        {
-          "word": "sensitive",
-          "start": 79.688,
-          "end": 80.263
-        },
-        {
-          "word": "regions",
-          "start": 80.263,
-          "end": 80.737
-        },
-        {
-          "word": "in",
-          "start": 80.812,
-          "end": 80.912
-        },
-        {
-          "word": "the",
-          "start": 80.925,
-          "end": 81.05
-        },
-        {
-          "word": "world",
-          "start": 81.05,
-          "end": 81.487
-        },
-        {
-          "word": "Want",
-          "start": 82.375,
-          "end": 82.688
-        },
-        {
-          "word": "Part",
-          "start": 82.688,
-          "end": 83.025
+          "word": "affected",
+          "start": 7.141,
+          "end": 7.708
         }
       ]
     },
     {
-      "text": "Want Part 2? Follow for more.",
-      "start": 83.025,
-      "end": 85.188,
+      "text": "Cities bombed.",
+      "start": 8.507,
+      "end": 10.289,
       "words": [
         {
-          "word": "2",
-          "start": 83.05,
-          "end": 83.287
+          "word": "Cities",
+          "start": 8.507,
+          "end": 8.97
         },
         {
-          "word": "Follow",
-          "start": 84.2,
-          "end": 84.562
+          "word": "bombed",
+          "start": 8.982,
+          "end": 9.491
+        }
+      ]
+    },
+    {
+      "text": "Oil facilities attacked.",
+      "start": 10.289,
+      "end": 12.523,
+      "words": [
+        {
+          "word": "Oil",
+          "start": 10.289,
+          "end": 10.579
+        },
+        {
+          "word": "facilities",
+          "start": 10.59,
+          "end": 11.146
+        },
+        {
+          "word": "attacked",
+          "start": 11.157,
+          "end": 11.725
+        }
+      ]
+    },
+    {
+      "text": "And a conflict that eventually became one of the longest and bloodiest conventional wars of the 20th century.",
+      "start": 12.523,
+      "end": 18.333,
+      "words": [
+        {
+          "word": "And",
+          "start": 12.523,
+          "end": 12.685
+        },
+        {
+          "word": "a",
+          "start": 12.697,
+          "end": 12.755
+        },
+        {
+          "word": "conflict",
+          "start": 12.766,
+          "end": 13.287
+        },
+        {
+          "word": "that",
+          "start": 13.299,
+          "end": 13.403
+        },
+        {
+          "word": "eventually",
+          "start": 13.414,
+          "end": 13.854
+        },
+        {
+          "word": "became",
+          "start": 13.866,
+          "end": 14.213
+        },
+        {
+          "word": "one",
+          "start": 14.225,
+          "end": 14.34
+        },
+        {
+          "word": "of",
+          "start": 14.352,
+          "end": 14.421
+        },
+        {
+          "word": "the",
+          "start": 14.433,
+          "end": 14.514
+        },
+        {
+          "word": "longest",
+          "start": 14.525,
+          "end": 15.035
+        },
+        {
+          "word": "and",
+          "start": 15.046,
+          "end": 15.139
+        },
+        {
+          "word": "bloodiest",
+          "start": 15.15,
+          "end": 15.625
+        },
+        {
+          "word": "conventional",
+          "start": 15.637,
+          "end": 16.181
+        },
+        {
+          "word": "wars",
+          "start": 16.192,
+          "end": 16.493
+        },
+        {
+          "word": "of",
+          "start": 16.505,
+          "end": 16.574
+        },
+        {
+          "word": "the",
+          "start": 16.586,
+          "end": 16.655
+        },
+        {
+          "word": "20th",
+          "start": 16.667,
+          "end": 17.025
+        },
+        {
+          "word": "century",
+          "start": 17.037,
+          "end": 17.535
+        }
+      ]
+    },
+    {
+      "text": "This was the Iran–Iraq War.",
+      "start": 18.333,
+      "end": 20.995,
+      "words": [
+        {
+          "word": "This",
+          "start": 18.333,
+          "end": 18.576
+        },
+        {
+          "word": "was",
+          "start": 18.588,
+          "end": 18.762
+        },
+        {
+          "word": "the",
+          "start": 18.773,
+          "end": 18.843
+        },
+        {
+          "word": "Iran",
+          "start": 18.854,
+          "end": 19.294
+        },
+        {
+          "word": "Iraq",
+          "start": 19.421,
+          "end": 19.792
+        },
+        {
+          "word": "War",
+          "start": 19.803,
+          "end": 20.197
+        }
+      ]
+    },
+    {
+      "text": "But why did Iraq invade Iran?",
+      "start": 20.995,
+      "end": 23.553,
+      "words": [
+        {
+          "word": "But",
+          "start": 20.995,
+          "end": 21.157
+        },
+        {
+          "word": "why",
+          "start": 21.169,
+          "end": 21.412
+        },
+        {
+          "word": "did",
+          "start": 21.424,
+          "end": 21.574
+        },
+        {
+          "word": "Iraq",
+          "start": 21.586,
+          "end": 21.944
+        },
+        {
+          "word": "invade",
+          "start": 21.956,
+          "end": 22.303
+        },
+        {
+          "word": "Iran",
+          "start": 22.315,
+          "end": 22.755
+        }
+      ]
+    },
+    {
+      "text": "Why did the war continue for eight years?",
+      "start": 23.553,
+      "end": 26.331,
+      "words": [
+        {
+          "word": "Why",
+          "start": 23.553,
+          "end": 23.785
+        },
+        {
+          "word": "did",
+          "start": 23.796,
+          "end": 23.924
+        },
+        {
+          "word": "the",
+          "start": 23.935,
+          "end": 24.016
+        },
+        {
+          "word": "war",
+          "start": 24.028,
+          "end": 24.248
+        },
+        {
+          "word": "continue",
+          "start": 24.259,
+          "end": 24.711
         },
         {
           "word": "for",
-          "start": 84.575,
-          "end": 84.862
+          "start": 24.722,
+          "end": 24.896
         },
         {
-          "word": "more",
-          "start": 84.862,
-          "end": 85.188
+          "word": "eight",
+          "start": 24.907,
+          "end": 25.046
+        },
+        {
+          "word": "years",
+          "start": 25.058,
+          "end": 25.532
+        }
+      ]
+    },
+    {
+      "text": "And how did it finally end?",
+      "start": 26.331,
+      "end": 28.518,
+      "words": [
+        {
+          "word": "And",
+          "start": 26.331,
+          "end": 26.481
+        },
+        {
+          "word": "how",
+          "start": 26.493,
+          "end": 26.678
+        },
+        {
+          "word": "did",
+          "start": 26.69,
+          "end": 26.794
+        },
+        {
+          "word": "it",
+          "start": 26.806,
+          "end": 26.887
+        },
+        {
+          "word": "finally",
+          "start": 26.898,
+          "end": 27.326
+        },
+        {
+          "word": "end",
+          "start": 27.338,
+          "end": 27.72
+        }
+      ]
+    },
+    {
+      "text": "Let's go back to 1980.",
+      "start": 28.518,
+      "end": 30.845,
+      "words": [
+        {
+          "word": "Let's",
+          "start": 28.518,
+          "end": 28.773
+        },
+        {
+          "word": "go",
+          "start": 28.785,
+          "end": 28.924
+        },
+        {
+          "word": "back",
+          "start": 28.935,
+          "end": 29.178
+        },
+        {
+          "word": "to",
+          "start": 29.19,
+          "end": 29.271
+        },
+        {
+          "word": "1980",
+          "start": 29.282,
+          "end": 30.046
+        }
+      ]
+    },
+    {
+      "text": "To understand the war, look at the map.",
+      "start": 30.845,
+      "end": 33.692,
+      "words": [
+        {
+          "word": "To",
+          "start": 30.845,
+          "end": 30.972
+        },
+        {
+          "word": "understand",
+          "start": 30.984,
+          "end": 31.539
+        },
+        {
+          "word": "the",
+          "start": 31.551,
+          "end": 31.632
+        },
+        {
+          "word": "war",
+          "start": 31.643,
+          "end": 31.956
+        },
+        {
+          "word": "look",
+          "start": 32.176,
+          "end": 32.338
+        },
+        {
+          "word": "at",
+          "start": 32.35,
+          "end": 32.407
+        },
+        {
+          "word": "the",
+          "start": 32.419,
+          "end": 32.488
+        },
+        {
+          "word": "map",
+          "start": 32.5,
+          "end": 32.894
+        }
+      ]
+    },
+    {
+      "text": "Here is Iraq.",
+      "start": 33.692,
+      "end": 35.394,
+      "words": [
+        {
+          "word": "Here",
+          "start": 33.692,
+          "end": 33.935
+        },
+        {
+          "word": "is",
+          "start": 33.947,
+          "end": 34.062
+        },
+        {
+          "word": "Iraq",
+          "start": 34.074,
+          "end": 34.595
+        }
+      ]
+    },
+    {
+      "text": "And directly to its east…",
+      "start": 35.394,
+      "end": 37.604,
+      "words": [
+        {
+          "word": "And",
+          "start": 35.394,
+          "end": 35.567
+        },
+        {
+          "word": "directly",
+          "start": 35.579,
+          "end": 36.053
+        },
+        {
+          "word": "to",
+          "start": 36.065,
+          "end": 36.192
+        },
+        {
+          "word": "its",
+          "start": 36.204,
+          "end": 36.366
+        },
+        {
+          "word": "east",
+          "start": 36.377,
+          "end": 36.806
+        }
+      ]
+    },
+    {
+      "text": "Iran.",
+      "start": 37.604,
+      "end": 38.947,
+      "words": [
+        {
+          "word": "Iran",
+          "start": 37.604,
+          "end": 38.16
+        }
+      ]
+    },
+    {
+      "text": "The two countries shared a long and strategically important border.",
+      "start": 38.947,
+      "end": 42.87,
+      "words": [
+        {
+          "word": "The",
+          "start": 38.947,
+          "end": 39.086
+        },
+        {
+          "word": "two",
+          "start": 39.097,
+          "end": 39.306
+        },
+        {
+          "word": "countries",
+          "start": 39.317,
+          "end": 39.699
+        },
+        {
+          "word": "shared",
+          "start": 39.711,
+          "end": 40.012
+        },
+        {
+          "word": "a",
+          "start": 40.023,
+          "end": 40.081
+        },
+        {
+          "word": "long",
+          "start": 40.093,
+          "end": 40.44
+        },
+        {
+          "word": "and",
+          "start": 40.451,
+          "end": 40.544
+        },
+        {
+          "word": "strategically",
+          "start": 40.556,
+          "end": 41.169
+        },
+        {
+          "word": "important",
+          "start": 41.181,
+          "end": 41.632
+        },
+        {
+          "word": "border",
+          "start": 41.644,
+          "end": 42.072
+        }
+      ]
+    },
+    {
+      "text": "One particularly important area was the Shatt al-Arab waterway, where the Tigris and Euphrates rivers meet before flowing toward the Persian Gulf.",
+      "start": 42.87,
+      "end": 50.799,
+      "words": [
+        {
+          "word": "One",
+          "start": 42.87,
+          "end": 43.137
+        },
+        {
+          "word": "particularly",
+          "start": 43.148,
+          "end": 43.762
+        },
+        {
+          "word": "important",
+          "start": 43.773,
+          "end": 44.236
+        },
+        {
+          "word": "area",
+          "start": 44.248,
+          "end": 44.572
+        },
+        {
+          "word": "was",
+          "start": 44.583,
+          "end": 44.745
+        },
+        {
+          "word": "the",
+          "start": 44.757,
+          "end": 44.838
+        },
+        {
+          "word": "Shatt",
+          "start": 44.85,
+          "end": 45.174
+        },
+        {
+          "word": "al-Arab",
+          "start": 45.185,
+          "end": 45.579
+        },
+        {
+          "word": "waterway",
+          "start": 45.59,
+          "end": 46.076
+        },
+        {
+          "word": "where",
+          "start": 46.377,
+          "end": 46.481
+        },
+        {
+          "word": "the",
+          "start": 46.493,
+          "end": 46.574
+        },
+        {
+          "word": "Tigris",
+          "start": 46.586,
+          "end": 47.037
+        },
+        {
+          "word": "and",
+          "start": 47.049,
+          "end": 47.176
+        },
+        {
+          "word": "Euphrates",
+          "start": 47.188,
+          "end": 47.674
+        },
+        {
+          "word": "rivers",
+          "start": 47.685,
+          "end": 48.009
+        },
+        {
+          "word": "meet",
+          "start": 48.021,
+          "end": 48.206
+        },
+        {
+          "word": "before",
+          "start": 48.218,
+          "end": 48.518
+        },
+        {
+          "word": "flowing",
+          "start": 48.53,
+          "end": 48.889
+        },
+        {
+          "word": "toward",
+          "start": 48.9,
+          "end": 49.143
+        },
+        {
+          "word": "the",
+          "start": 49.155,
+          "end": 49.213
+        },
+        {
+          "word": "Persian",
+          "start": 49.225,
+          "end": 49.56
+        },
+        {
+          "word": "Gulf",
+          "start": 49.572,
+          "end": 50.0
+        }
+      ]
+    },
+    {
+      "text": "The border and control of this waterway had been disputed for years.",
+      "start": 50.799,
+      "end": 54.884,
+      "words": [
+        {
+          "word": "The",
+          "start": 50.799,
+          "end": 50.938
+        },
+        {
+          "word": "border",
+          "start": 50.949,
+          "end": 51.308
+        },
+        {
+          "word": "and",
+          "start": 51.319,
+          "end": 51.424
+        },
+        {
+          "word": "control",
+          "start": 51.435,
+          "end": 51.875
+        },
+        {
+          "word": "of",
+          "start": 51.887,
+          "end": 51.968
+        },
+        {
+          "word": "this",
+          "start": 51.979,
+          "end": 52.141
+        },
+        {
+          "word": "waterway",
+          "start": 52.153,
+          "end": 52.627
+        },
+        {
+          "word": "had",
+          "start": 52.639,
+          "end": 52.789
+        },
+        {
+          "word": "been",
+          "start": 52.801,
+          "end": 52.917
+        },
+        {
+          "word": "disputed",
+          "start": 52.928,
+          "end": 53.391
+        },
+        {
+          "word": "for",
+          "start": 53.403,
+          "end": 53.576
+        },
+        {
+          "word": "years",
+          "start": 53.588,
+          "end": 54.086
+        }
+      ]
+    },
+    {
+      "text": "But there was another major development.",
+      "start": 54.884,
+      "end": 57.431,
+      "words": [
+        {
+          "word": "But",
+          "start": 54.884,
+          "end": 55.023
+        },
+        {
+          "word": "there",
+          "start": 55.035,
+          "end": 55.174
+        },
+        {
+          "word": "was",
+          "start": 55.185,
+          "end": 55.324
+        },
+        {
+          "word": "another",
+          "start": 55.336,
+          "end": 55.66
+        },
+        {
+          "word": "major",
+          "start": 55.671,
+          "end": 55.995
+        },
+        {
+          "word": "development",
+          "start": 56.007,
+          "end": 56.632
+        }
+      ]
+    },
+    {
+      "text": "In 1979, Iran experienced the Islamic Revolution.",
+      "start": 57.431,
+      "end": 61.991,
+      "words": [
+        {
+          "word": "In 1979",
+          "start": 57.431,
+          "end": 58.75
+        },
+        {
+          "word": "Iran",
+          "start": 59.016,
+          "end": 59.329
+        },
+        {
+          "word": "experienced",
+          "start": 59.34,
+          "end": 59.954
+        },
+        {
+          "word": "the",
+          "start": 59.965,
+          "end": 60.023
+        },
+        {
+          "word": "Islamic",
+          "start": 60.035,
+          "end": 60.544
+        },
+        {
+          "word": "Revolution",
+          "start": 60.556,
+          "end": 61.192
+        }
+      ]
+    },
+    {
+      "text": "The monarchy was overthrown, and a new Islamic Republic was established under Ayatollah Ruhollah Khomeini.",
+      "start": 61.991,
+      "end": 68.16,
+      "words": [
+        {
+          "word": "The",
+          "start": 61.991,
+          "end": 62.106
+        },
+        {
+          "word": "monarchy",
+          "start": 62.118,
+          "end": 62.604
+        },
+        {
+          "word": "was",
+          "start": 62.616,
+          "end": 62.812
+        },
+        {
+          "word": "overthrown",
+          "start": 62.824,
+          "end": 63.437
+        },
+        {
+          "word": "and",
+          "start": 63.646,
+          "end": 63.75
+        },
+        {
+          "word": "a",
+          "start": 63.762,
+          "end": 63.785
+        },
+        {
+          "word": "new",
+          "start": 63.796,
+          "end": 64.016
+        },
+        {
+          "word": "Islamic",
+          "start": 64.028,
+          "end": 64.479
+        },
+        {
+          "word": "Republic",
+          "start": 64.491,
+          "end": 64.954
+        },
+        {
+          "word": "was",
+          "start": 64.965,
+          "end": 65.093
+        },
+        {
+          "word": "established",
+          "start": 65.104,
+          "end": 65.66
+        },
+        {
+          "word": "under",
+          "start": 65.671,
+          "end": 65.914
+        },
+        {
+          "word": "Ayatollah",
+          "start": 65.926,
+          "end": 66.424
+        },
+        {
+          "word": "Ruhollah",
+          "start": 66.435,
+          "end": 66.84
+        },
+        {
+          "word": "Khomeini",
+          "start": 66.852,
+          "end": 67.361
+        }
+      ]
+    },
+    {
+      "text": "The revolution dramatically changed Iran's government and its relationship with neighboring countries.",
+      "start": 68.16,
+      "end": 73.553,
+      "words": [
+        {
+          "word": "The",
+          "start": 68.16,
+          "end": 68.275
+        },
+        {
+          "word": "revolution",
+          "start": 68.287,
+          "end": 68.843
+        },
+        {
+          "word": "dramatically",
+          "start": 68.854,
+          "end": 69.421
+        },
+        {
+          "word": "changed",
+          "start": 69.433,
+          "end": 69.826
+        },
+        {
+          "word": "Iran's",
+          "start": 69.838,
+          "end": 70.208
+        },
+        {
+          "word": "government",
+          "start": 70.22,
+          "end": 70.706
+        },
+        {
+          "word": "and",
+          "start": 70.718,
+          "end": 70.822
+        },
+        {
+          "word": "its",
+          "start": 70.833,
+          "end": 70.961
+        },
+        {
+          "word": "relationship",
+          "start": 70.972,
+          "end": 71.632
+        },
+        {
+          "word": "with",
+          "start": 71.644,
+          "end": 71.759
+        },
+        {
+          "word": "neighboring",
+          "start": 71.771,
+          "end": 72.164
+        },
+        {
+          "word": "countries",
+          "start": 72.176,
+          "end": 72.755
+        }
+      ]
+    },
+    {
+      "text": "Iraq's leader, Saddam Hussein, saw Iran as being politically unsettled.",
+      "start": 73.553,
+      "end": 78.75,
+      "words": [
+        {
+          "word": "Iraq's",
+          "start": 73.553,
+          "end": 73.993
+        },
+        {
+          "word": "leader",
+          "start": 74.005,
+          "end": 74.352
+        },
+        {
+          "word": "Saddam",
+          "start": 74.549,
+          "end": 74.965
+        },
+        {
+          "word": "Hussein",
+          "start": 74.977,
+          "end": 75.498
+        },
+        {
+          "word": "saw",
+          "start": 75.718,
+          "end": 76.03
+        },
+        {
+          "word": "Iran",
+          "start": 76.042,
+          "end": 76.424
+        },
+        {
+          "word": "as",
+          "start": 76.435,
+          "end": 76.551
+        },
+        {
+          "word": "being",
+          "start": 76.562,
+          "end": 76.782
+        },
+        {
+          "word": "politically",
+          "start": 76.794,
+          "end": 77.303
+        },
+        {
+          "word": "unsettled",
+          "start": 77.315,
+          "end": 77.951
+        }
+      ]
+    },
+    {
+      "text": "He also saw an opportunity to strengthen Iraq's position in the region.",
+      "start": 78.75,
+      "end": 83.102,
+      "words": [
+        {
+          "word": "He",
+          "start": 78.75,
+          "end": 78.935
+        },
+        {
+          "word": "also",
+          "start": 78.947,
+          "end": 79.259
+        },
+        {
+          "word": "saw",
+          "start": 79.271,
+          "end": 79.537
+        },
+        {
+          "word": "an",
+          "start": 79.549,
+          "end": 79.653
+        },
+        {
+          "word": "opportunity",
+          "start": 79.664,
+          "end": 80.278
+        },
+        {
+          "word": "to",
+          "start": 80.289,
+          "end": 80.382
+        },
+        {
+          "word": "strengthen",
+          "start": 80.394,
+          "end": 80.81
+        },
+        {
+          "word": "Iraq's",
+          "start": 80.822,
+          "end": 81.192
+        },
+        {
+          "word": "position",
+          "start": 81.204,
+          "end": 81.667
+        },
+        {
+          "word": "in",
+          "start": 81.678,
+          "end": 81.759
+        },
+        {
+          "word": "the",
+          "start": 81.771,
+          "end": 81.84
+        },
+        {
+          "word": "region",
+          "start": 81.852,
+          "end": 82.303
+        }
+      ]
+    },
+    {
+      "text": "Tensions rapidly increased.",
+      "start": 83.102,
+      "end": 85.532,
+      "words": [
+        {
+          "word": "Tensions",
+          "start": 83.102,
+          "end": 83.588
+        },
+        {
+          "word": "rapidly",
+          "start": 83.6,
+          "end": 84.051
+        },
+        {
+          "word": "increased",
+          "start": 84.062,
+          "end": 84.734
+        }
+      ]
+    },
+    {
+      "text": "And then…",
+      "start": 85.532,
+      "end": 86.898,
+      "words": [
+        {
+          "word": "And",
+          "start": 85.532,
+          "end": 85.718
+        },
+        {
+          "word": "then",
+          "start": 85.729,
+          "end": 86.1
+        }
+      ]
+    },
+    {
+      "text": "Iraq made its move.",
+      "start": 86.898,
+      "end": 88.958,
+      "words": [
+        {
+          "word": "Iraq",
+          "start": 86.898,
+          "end": 87.326
+        },
+        {
+          "word": "made",
+          "start": 87.338,
+          "end": 87.535
+        },
+        {
+          "word": "its",
+          "start": 87.546,
+          "end": 87.685
+        },
+        {
+          "word": "move",
+          "start": 87.697,
+          "end": 88.16
+        }
+      ]
+    },
+    {
+      "text": "September 22, 1980.",
+      "start": 88.958,
+      "end": 91.898,
+      "words": [
+        {
+          "word": "September 22, 1980",
+          "start": 88.958,
+          "end": 91.1
+        }
+      ]
+    },
+    {
+      "text": "Look at the map.",
+      "start": 91.898,
+      "end": 93.519,
+      "words": [
+        {
+          "word": "Look",
+          "start": 91.898,
+          "end": 92.141
+        },
+        {
+          "word": "at",
+          "start": 92.153,
+          "end": 92.211
+        },
+        {
+          "word": "the",
+          "start": 92.222,
+          "end": 92.303
+        },
+        {
+          "word": "map",
+          "start": 92.315,
+          "end": 92.72
+        }
+      ]
+    },
+    {
+      "text": "The Iraqi flag appears on the western side.",
+      "start": 93.519,
+      "end": 96.632,
+      "words": [
+        {
+          "word": "The",
+          "start": 93.519,
+          "end": 93.623
+        },
+        {
+          "word": "Iraqi",
+          "start": 93.634,
+          "end": 94.074
+        },
+        {
+          "word": "flag",
+          "start": 94.086,
+          "end": 94.456
+        },
+        {
+          "word": "appears",
+          "start": 94.468,
+          "end": 94.838
+        },
+        {
+          "word": "on",
+          "start": 94.85,
+          "end": 94.931
+        },
+        {
+          "word": "the",
+          "start": 94.942,
+          "end": 95.0
+        },
+        {
+          "word": "western",
+          "start": 95.012,
+          "end": 95.37
+        },
+        {
+          "word": "side",
+          "start": 95.382,
+          "end": 95.833
+        }
+      ]
+    },
+    {
+      "text": "Then…",
+      "start": 96.632,
+      "end": 97.87,
+      "words": [
+        {
+          "word": "Then",
+          "start": 96.632,
+          "end": 97.083
+        }
+      ]
+    },
+    {
+      "text": "it starts moving east.",
+      "start": 97.87,
+      "end": 99.977,
+      "words": [
+        {
+          "word": "it",
+          "start": 97.87,
+          "end": 98.009
+        },
+        {
+          "word": "starts",
+          "start": 98.021,
+          "end": 98.38
+        },
+        {
+          "word": "moving",
+          "start": 98.391,
+          "end": 98.738
+        },
+        {
+          "word": "east",
+          "start": 98.75,
+          "end": 99.178
+        }
+      ]
+    },
+    {
+      "text": "Iraqi forces launched a large-scale invasion of Iran.",
+      "start": 99.977,
+      "end": 103.843,
+      "words": [
+        {
+          "word": "Iraqi",
+          "start": 99.977,
+          "end": 100.428
+        },
+        {
+          "word": "forces",
+          "start": 100.44,
+          "end": 100.903
+        },
+        {
+          "word": "launched",
+          "start": 100.914,
+          "end": 101.238
+        },
+        {
+          "word": "a",
+          "start": 101.25,
+          "end": 101.296
+        },
+        {
+          "word": "large-scale",
+          "start": 101.308,
+          "end": 101.956
+        },
+        {
+          "word": "invasion",
+          "start": 101.968,
+          "end": 102.465
+        },
+        {
+          "word": "of",
+          "start": 102.477,
+          "end": 102.569
+        },
+        {
+          "word": "Iran",
+          "start": 102.581,
+          "end": 103.044
+        }
+      ]
+    },
+    {
+      "text": "Multiple Iraqi units crossed the border.",
+      "start": 103.843,
+      "end": 106.782,
+      "words": [
+        {
+          "word": "Multiple",
+          "start": 103.843,
+          "end": 104.317
+        },
+        {
+          "word": "Iraqi",
+          "start": 104.329,
+          "end": 104.757
+        },
+        {
+          "word": "units",
+          "start": 104.769,
+          "end": 105.104
+        },
+        {
+          "word": "crossed",
+          "start": 105.116,
+          "end": 105.463
+        },
+        {
+          "word": "the",
+          "start": 105.475,
+          "end": 105.544
+        },
+        {
+          "word": "border",
+          "start": 105.556,
+          "end": 105.984
+        }
+      ]
+    },
+    {
+      "text": "Iraq attacked targets across western Iran and launched air strikes against Iranian military and infrastructure targets.",
+      "start": 106.782,
+      "end": 113.588,
+      "words": [
+        {
+          "word": "Iraq",
+          "start": 106.782,
+          "end": 107.153
+        },
+        {
+          "word": "attacked",
+          "start": 107.164,
+          "end": 107.558
+        },
+        {
+          "word": "targets",
+          "start": 107.569,
+          "end": 107.928
+        },
+        {
+          "word": "across",
+          "start": 107.94,
+          "end": 108.31
+        },
+        {
+          "word": "western",
+          "start": 108.322,
+          "end": 108.669
+        },
+        {
+          "word": "Iran",
+          "start": 108.681,
+          "end": 109.097
+        },
+        {
+          "word": "and",
+          "start": 109.109,
+          "end": 109.225
+        },
+        {
+          "word": "launched",
+          "start": 109.236,
+          "end": 109.583
+        },
+        {
+          "word": "air",
+          "start": 109.595,
+          "end": 109.745
+        },
+        {
+          "word": "strikes",
+          "start": 109.757,
+          "end": 110.093
+        },
+        {
+          "word": "against",
+          "start": 110.104,
+          "end": 110.428
+        },
+        {
+          "word": "Iranian",
+          "start": 110.44,
+          "end": 110.88
+        },
+        {
+          "word": "military",
+          "start": 110.891,
+          "end": 111.424
+        },
+        {
+          "word": "and",
+          "start": 111.435,
+          "end": 111.551
+        },
+        {
+          "word": "infrastructure",
+          "start": 111.562,
+          "end": 112.188
+        },
+        {
+          "word": "targets",
+          "start": 112.199,
+          "end": 112.789
+        }
+      ]
+    },
+    {
+      "text": "The expectation was that Iran's political turmoil and military problems would make it vulnerable.",
+      "start": 113.588,
+      "end": 119.039,
+      "words": [
+        {
+          "word": "The",
+          "start": 113.588,
+          "end": 113.704
+        },
+        {
+          "word": "expectation",
+          "start": 113.715,
+          "end": 114.479
+        },
+        {
+          "word": "was",
+          "start": 114.491,
+          "end": 114.618
+        },
+        {
+          "word": "that",
+          "start": 114.63,
+          "end": 114.757
+        },
+        {
+          "word": "Iran's",
+          "start": 114.769,
+          "end": 115.127
+        },
+        {
+          "word": "political",
+          "start": 115.139,
+          "end": 115.579
+        },
+        {
+          "word": "turmoil",
+          "start": 115.59,
+          "end": 116.123
+        },
+        {
+          "word": "and",
+          "start": 116.134,
+          "end": 116.238
+        },
+        {
+          "word": "military",
+          "start": 116.25,
+          "end": 116.701
+        },
+        {
+          "word": "problems",
+          "start": 116.713,
+          "end": 117.211
+        },
+        {
+          "word": "would",
+          "start": 117.222,
+          "end": 117.35
+        },
+        {
+          "word": "make",
+          "start": 117.361,
+          "end": 117.546
+        },
+        {
+          "word": "it",
+          "start": 117.558,
+          "end": 117.639
+        },
+        {
+          "word": "vulnerable",
+          "start": 117.65,
+          "end": 118.241
+        }
+      ]
+    },
+    {
+      "text": "Initially, Iraq made territorial gains.",
+      "start": 119.039,
+      "end": 122.581,
+      "words": [
+        {
+          "word": "Initially",
+          "start": 119.039,
+          "end": 119.653
+        },
+        {
+          "word": "Iraq",
+          "start": 119.85,
+          "end": 120.255
+        },
+        {
+          "word": "made",
+          "start": 120.266,
+          "end": 120.509
+        },
+        {
+          "word": "territorial",
+          "start": 120.521,
+          "end": 121.204
+        },
+        {
+          "word": "gains",
+          "start": 121.215,
+          "end": 121.782
+        }
+      ]
+    },
+    {
+      "text": "But the war did not go according to plan.",
+      "start": 122.581,
+      "end": 125.382,
+      "words": [
+        {
+          "word": "But",
+          "start": 122.581,
+          "end": 122.72
+        },
+        {
+          "word": "the",
+          "start": 122.731,
+          "end": 122.836
+        },
+        {
+          "word": "war",
+          "start": 122.847,
+          "end": 123.125
+        },
+        {
+          "word": "did",
+          "start": 123.137,
+          "end": 123.264
+        },
+        {
+          "word": "not",
+          "start": 123.275,
+          "end": 123.484
+        },
+        {
+          "word": "go",
+          "start": 123.495,
+          "end": 123.646
+        },
+        {
+          "word": "according",
+          "start": 123.657,
+          "end": 124.005
+        },
+        {
+          "word": "to",
+          "start": 124.016,
+          "end": 124.109
+        },
+        {
+          "word": "plan",
+          "start": 124.12,
+          "end": 124.583
+        }
+      ]
+    },
+    {
+      "text": "Iran began mobilizing its military and revolutionary forces.",
+      "start": 125.382,
+      "end": 129.757,
+      "words": [
+        {
+          "word": "Iran",
+          "start": 125.382,
+          "end": 125.775
+        },
+        {
+          "word": "began",
+          "start": 125.787,
+          "end": 126.134
+        },
+        {
+          "word": "mobilizing",
+          "start": 126.146,
+          "end": 126.725
+        },
+        {
+          "word": "its",
+          "start": 126.736,
+          "end": 126.852
+        },
+        {
+          "word": "military",
+          "start": 126.863,
+          "end": 127.488
+        },
+        {
+          "word": "and",
+          "start": 127.5,
+          "end": 127.639
+        },
+        {
+          "word": "revolutionary",
+          "start": 127.65,
+          "end": 128.333
+        },
+        {
+          "word": "forces",
+          "start": 128.345,
+          "end": 128.958
+        }
+      ]
+    },
+    {
+      "text": "And instead of collapsing…",
+      "start": 129.757,
+      "end": 131.829,
+      "words": [
+        {
+          "word": "And",
+          "start": 129.757,
+          "end": 129.919
+        },
+        {
+          "word": "instead",
+          "start": 129.931,
+          "end": 130.278
+        },
+        {
+          "word": "of",
+          "start": 130.289,
+          "end": 130.37
+        },
+        {
+          "word": "collapsing",
+          "start": 130.382,
+          "end": 131.03
+        }
+      ]
+    },
+    {
+      "text": "Iran fought back.",
+      "start": 131.829,
+      "end": 133.75,
+      "words": [
+        {
+          "word": "Iran",
+          "start": 131.829,
+          "end": 132.222
+        },
+        {
+          "word": "fought",
+          "start": 132.234,
+          "end": 132.512
+        },
+        {
+          "word": "back",
+          "start": 132.523,
+          "end": 132.951
+        }
+      ]
+    },
+    {
+      "text": "The Iraqi advance slowed.",
+      "start": 133.75,
+      "end": 136.065,
+      "words": [
+        {
+          "word": "The",
+          "start": 133.75,
+          "end": 133.866
+        },
+        {
+          "word": "Iraqi",
+          "start": 133.877,
+          "end": 134.363
+        },
+        {
+          "word": "advance",
+          "start": 134.375,
+          "end": 134.757
+        },
+        {
+          "word": "slowed",
+          "start": 134.768,
+          "end": 135.266
+        }
+      ]
+    },
+    {
+      "text": "Then it stopped.",
+      "start": 136.065,
+      "end": 137.755,
+      "words": [
+        {
+          "word": "Then",
+          "start": 136.065,
+          "end": 136.285
+        },
+        {
+          "word": "it",
+          "start": 136.296,
+          "end": 136.4
+        },
+        {
+          "word": "stopped",
+          "start": 136.412,
+          "end": 136.956
+        }
+      ]
+    },
+    {
+      "text": "And eventually…",
+      "start": 137.755,
+      "end": 139.421,
+      "words": [
+        {
+          "word": "And",
+          "start": 137.755,
+          "end": 137.94
+        },
+        {
+          "word": "eventually",
+          "start": 137.951,
+          "end": 138.623
+        }
+      ]
+    },
+    {
+      "text": "the direction of the war began to change.",
+      "start": 139.421,
+      "end": 142.222,
+      "words": [
+        {
+          "word": "the",
+          "start": 139.421,
+          "end": 139.549
+        },
+        {
+          "word": "direction",
+          "start": 139.56,
+          "end": 139.977
+        },
+        {
+          "word": "of",
+          "start": 139.988,
+          "end": 140.069
+        },
+        {
+          "word": "the",
+          "start": 140.081,
+          "end": 140.162
+        },
+        {
+          "word": "war",
+          "start": 140.174,
+          "end": 140.405
+        },
+        {
+          "word": "began",
+          "start": 140.417,
+          "end": 140.752
+        },
+        {
+          "word": "to",
+          "start": 140.764,
+          "end": 140.845
+        },
+        {
+          "word": "change",
+          "start": 140.856,
+          "end": 141.424
+        }
+      ]
+    },
+    {
+      "text": "The Iranian flag begins moving west.",
+      "start": 142.222,
+      "end": 145.266,
+      "words": [
+        {
+          "word": "The",
+          "start": 142.222,
+          "end": 142.326
+        },
+        {
+          "word": "Iranian",
+          "start": 142.338,
+          "end": 142.847
+        },
+        {
+          "word": "flag",
+          "start": 142.859,
+          "end": 143.264
+        },
+        {
+          "word": "begins",
+          "start": 143.275,
+          "end": 143.634
+        },
+        {
+          "word": "moving",
+          "start": 143.646,
+          "end": 143.97
+        },
+        {
+          "word": "west",
+          "start": 143.981,
+          "end": 144.468
+        }
+      ]
+    },
+    {
+      "text": "Iran launched counteroffensives and gradually recovered much of the territory Iraq had captured.",
+      "start": 145.266,
+      "end": 150.694,
+      "words": [
+        {
+          "word": "Iran",
+          "start": 145.266,
+          "end": 145.671
+        },
+        {
+          "word": "launched",
+          "start": 145.683,
+          "end": 146.019
+        },
+        {
+          "word": "counteroffensives",
+          "start": 146.03,
+          "end": 146.852
+        },
+        {
+          "word": "and",
+          "start": 146.863,
+          "end": 146.968
+        },
+        {
+          "word": "gradually",
+          "start": 146.979,
+          "end": 147.454
+        },
+        {
+          "word": "recovered",
+          "start": 147.465,
+          "end": 147.882
+        },
+        {
+          "word": "much",
+          "start": 147.893,
+          "end": 148.125
+        },
+        {
+          "word": "of",
+          "start": 148.137,
+          "end": 148.206
+        },
+        {
+          "word": "the",
+          "start": 148.218,
+          "end": 148.299
+        },
+        {
+          "word": "territory",
+          "start": 148.31,
+          "end": 148.843
+        },
+        {
+          "word": "Iraq",
+          "start": 148.854,
+          "end": 149.213
+        },
+        {
+          "word": "had",
+          "start": 149.225,
+          "end": 149.352
+        },
+        {
+          "word": "captured",
+          "start": 149.363,
+          "end": 149.896
+        }
+      ]
+    },
+    {
+      "text": "By 1982, Iranian forces had pushed Iraqi forces out of most of the Iranian territory they had occupied.",
+      "start": 150.694,
+      "end": 157.975,
+      "words": [
+        {
+          "word": "By 1982",
+          "start": 150.694,
+          "end": 151.84
+        },
+        {
+          "word": "Iranian",
+          "start": 152.072,
+          "end": 152.569
+        },
+        {
+          "word": "forces",
+          "start": 152.581,
+          "end": 153.044
+        },
+        {
+          "word": "had",
+          "start": 153.056,
+          "end": 153.218
+        },
+        {
+          "word": "pushed",
+          "start": 153.229,
+          "end": 153.53
+        },
+        {
+          "word": "Iraqi",
+          "start": 153.542,
+          "end": 153.924
+        },
+        {
+          "word": "forces",
+          "start": 153.935,
+          "end": 154.433
+        },
+        {
+          "word": "out",
+          "start": 154.444,
+          "end": 154.583
+        },
+        {
+          "word": "of",
+          "start": 154.595,
+          "end": 154.664
+        },
+        {
+          "word": "most",
+          "start": 154.676,
+          "end": 155.0
+        },
+        {
+          "word": "of",
+          "start": 155.012,
+          "end": 155.058
+        },
+        {
+          "word": "the",
+          "start": 155.069,
+          "end": 155.116
+        },
+        {
+          "word": "Iranian",
+          "start": 155.127,
+          "end": 155.613
+        },
+        {
+          "word": "territory",
+          "start": 155.625,
+          "end": 156.215
+        },
+        {
+          "word": "they",
+          "start": 156.227,
+          "end": 156.343
+        },
+        {
+          "word": "had",
+          "start": 156.354,
+          "end": 156.505
+        },
+        {
+          "word": "occupied",
+          "start": 156.516,
+          "end": 157.176
+        }
+      ]
+    },
+    {
+      "text": "At this point, Iraq had an opportunity to end the conflict.",
+      "start": 157.975,
+      "end": 162.176,
+      "words": [
+        {
+          "word": "At",
+          "start": 157.975,
+          "end": 158.148
+        },
+        {
+          "word": "this",
+          "start": 158.16,
+          "end": 158.345
+        },
+        {
+          "word": "point",
+          "start": 158.356,
+          "end": 158.727
+        },
+        {
+          "word": "Iraq",
+          "start": 158.958,
+          "end": 159.34
+        },
+        {
+          "word": "had",
+          "start": 159.352,
+          "end": 159.479
+        },
+        {
+          "word": "an",
+          "start": 159.491,
+          "end": 159.572
+        },
+        {
+          "word": "opportunity",
+          "start": 159.583,
+          "end": 160.22
+        },
+        {
+          "word": "to",
+          "start": 160.231,
+          "end": 160.382
+        },
+        {
+          "word": "end",
+          "start": 160.393,
+          "end": 160.637
+        },
+        {
+          "word": "the",
+          "start": 160.648,
+          "end": 160.706
+        },
+        {
+          "word": "conflict",
+          "start": 160.718,
+          "end": 161.377
+        }
+      ]
+    },
+    {
+      "text": "But the war continued.",
+      "start": 162.176,
+      "end": 164.155,
+      "words": [
+        {
+          "word": "But",
+          "start": 162.176,
+          "end": 162.315
+        },
+        {
+          "word": "the",
+          "start": 162.326,
+          "end": 162.431
+        },
+        {
+          "word": "war",
+          "start": 162.442,
+          "end": 162.685
+        },
+        {
+          "word": "continued",
+          "start": 162.697,
+          "end": 163.356
+        }
+      ]
+    },
+    {
+      "text": "Iran demanded that Iraq accept responsibility for the invasion and sought other conditions before a permanent settlement.",
+      "start": 164.155,
+      "end": 170.648,
+      "words": [
+        {
+          "word": "Iran",
+          "start": 164.155,
+          "end": 164.525
+        },
+        {
+          "word": "demanded",
+          "start": 164.537,
+          "end": 165.0
+        },
+        {
+          "word": "that",
+          "start": 165.012,
+          "end": 165.127
+        },
+        {
+          "word": "Iraq",
+          "start": 165.139,
+          "end": 165.486
+        },
+        {
+          "word": "accept",
+          "start": 165.498,
+          "end": 165.833
+        },
+        {
+          "word": "responsibility",
+          "start": 165.845,
+          "end": 166.632
+        },
+        {
+          "word": "for",
+          "start": 166.643,
+          "end": 166.771
+        },
+        {
+          "word": "the",
+          "start": 166.782,
+          "end": 166.829
+        },
+        {
+          "word": "invasion",
+          "start": 166.84,
+          "end": 167.407
+        },
+        {
+          "word": "and",
+          "start": 167.419,
+          "end": 167.535
+        },
+        {
+          "word": "sought",
+          "start": 167.546,
+          "end": 167.824
+        },
+        {
+          "word": "other",
+          "start": 167.836,
+          "end": 168.044
+        },
+        {
+          "word": "conditions",
+          "start": 168.056,
+          "end": 168.53
+        },
+        {
+          "word": "before",
+          "start": 168.542,
+          "end": 168.843
+        },
+        {
+          "word": "a",
+          "start": 168.854,
+          "end": 168.9
+        },
+        {
+          "word": "permanent",
+          "start": 168.912,
+          "end": 169.294
+        },
+        {
+          "word": "settlement",
+          "start": 169.306,
+          "end": 169.85
+        }
+      ]
+    },
+    {
+      "text": "Iranian forces then crossed into Iraqi territory.",
+      "start": 170.648,
+      "end": 174.352,
+      "words": [
+        {
+          "word": "Iranian",
+          "start": 170.648,
+          "end": 171.181
+        },
+        {
+          "word": "forces",
+          "start": 171.192,
+          "end": 171.667
+        },
+        {
+          "word": "then",
+          "start": 171.678,
+          "end": 171.84
+        },
+        {
+          "word": "crossed",
+          "start": 171.852,
+          "end": 172.222
+        },
+        {
+          "word": "into",
+          "start": 172.234,
+          "end": 172.419
+        },
+        {
+          "word": "Iraqi",
+          "start": 172.431,
+          "end": 172.859
+        },
+        {
+          "word": "territory",
+          "start": 172.87,
+          "end": 173.553
+        }
+      ]
+    },
+    {
+      "text": "And the war changed completely.",
+      "start": 174.352,
+      "end": 176.748,
+      "words": [
+        {
+          "word": "And",
+          "start": 174.352,
+          "end": 174.479
+        },
+        {
+          "word": "the",
+          "start": 174.491,
+          "end": 174.583
+        },
+        {
+          "word": "war",
+          "start": 174.595,
+          "end": 174.85
+        },
+        {
+          "word": "changed",
+          "start": 174.861,
+          "end": 175.278
+        },
+        {
+          "word": "completely",
+          "start": 175.289,
+          "end": 175.949
+        }
+      ]
+    },
+    {
+      "text": "Instead of a short invasion…",
+      "start": 176.748,
+      "end": 179.028,
+      "words": [
+        {
+          "word": "Instead",
+          "start": 176.748,
+          "end": 177.164
+        },
+        {
+          "word": "of",
+          "start": 177.176,
+          "end": 177.234
+        },
+        {
+          "word": "a",
+          "start": 177.245,
+          "end": 177.303
+        },
+        {
+          "word": "short",
+          "start": 177.315,
+          "end": 177.627
+        },
+        {
+          "word": "invasion",
+          "start": 177.639,
+          "end": 178.229
+        }
+      ]
+    },
+    {
+      "text": "it became a long war of attrition.",
+      "start": 179.028,
+      "end": 181.597,
+      "words": [
+        {
+          "word": "it",
+          "start": 179.028,
+          "end": 179.155
+        },
+        {
+          "word": "became",
+          "start": 179.167,
+          "end": 179.479
+        },
+        {
+          "word": "a",
+          "start": 179.491,
+          "end": 179.549
+        },
+        {
+          "word": "long",
+          "start": 179.56,
+          "end": 179.884
+        },
+        {
+          "word": "war",
+          "start": 179.896,
+          "end": 180.162
+        },
+        {
+          "word": "of",
+          "start": 180.174,
+          "end": 180.231
+        },
+        {
+          "word": "attrition",
+          "start": 180.243,
+          "end": 180.799
+        }
+      ]
+    },
+    {
+      "text": "Both sides were now trying to exhaust the other.",
+      "start": 181.597,
+      "end": 184.722,
+      "words": [
+        {
+          "word": "Both",
+          "start": 181.597,
+          "end": 181.863
+        },
+        {
+          "word": "sides",
+          "start": 181.875,
+          "end": 182.245
+        },
+        {
+          "word": "were",
+          "start": 182.257,
+          "end": 182.338
+        },
+        {
+          "word": "now",
+          "start": 182.35,
+          "end": 182.546
+        },
+        {
+          "word": "trying",
+          "start": 182.558,
+          "end": 182.87
+        },
+        {
+          "word": "to",
+          "start": 182.882,
+          "end": 182.986
+        },
+        {
+          "word": "exhaust",
+          "start": 182.998,
+          "end": 183.449
+        },
+        {
+          "word": "the",
+          "start": 183.461,
+          "end": 183.553
+        },
+        {
+          "word": "other",
+          "start": 183.565,
+          "end": 183.924
+        }
+      ]
+    },
+    {
+      "text": "And neither side could easily achieve a decisive victory.",
+      "start": 184.722,
+      "end": 188.449,
+      "words": [
+        {
+          "word": "And",
+          "start": 184.722,
+          "end": 184.919
+        },
+        {
+          "word": "neither",
+          "start": 184.931,
+          "end": 185.197
+        },
+        {
+          "word": "side",
+          "start": 185.208,
+          "end": 185.59
+        },
+        {
+          "word": "could",
+          "start": 185.602,
+          "end": 185.718
+        },
+        {
+          "word": "easily",
+          "start": 185.729,
+          "end": 186.157
+        },
+        {
+          "word": "achieve",
+          "start": 186.169,
+          "end": 186.505
+        },
+        {
+          "word": "a",
+          "start": 186.516,
+          "end": 186.586
+        },
+        {
+          "word": "decisive",
+          "start": 186.597,
+          "end": 187.118
+        },
+        {
+          "word": "victory",
+          "start": 187.13,
+          "end": 187.65
+        }
+      ]
+    },
+    {
+      "text": "1982.",
+      "start": 188.449,
+      "end": 190.359,
+      "words": [
+        {
+          "word": "1982",
+          "start": 188.449,
+          "end": 189.549
+        }
+      ]
+    },
+    {
+      "text": "1983.",
+      "start": 190.359,
+      "end": 192.315,
+      "words": [
+        {
+          "word": "1983",
+          "start": 190.359,
+          "end": 191.516
+        }
+      ]
+    },
+    {
+      "text": "1984.",
+      "start": 192.315,
+      "end": 194.259,
+      "words": [
+        {
+          "word": "1984",
+          "start": 192.315,
+          "end": 193.461
+        }
+      ]
+    },
+    {
+      "text": "1985.",
+      "start": 194.259,
+      "end": 196.262,
+      "words": [
+        {
+          "word": "1985",
+          "start": 194.259,
+          "end": 195.463
+        }
+      ]
+    },
+    {
+      "text": "The front line moves…",
+      "start": 196.262,
+      "end": 198.38,
+      "words": [
+        {
+          "word": "The",
+          "start": 196.262,
+          "end": 196.4
+        },
+        {
+          "word": "front",
+          "start": 196.412,
+          "end": 196.725
+        },
+        {
+          "word": "line",
+          "start": 196.736,
+          "end": 197.014
+        },
+        {
+          "word": "moves",
+          "start": 197.025,
+          "end": 197.581
+        }
+      ]
+    },
+    {
+      "text": "then moves back.",
+      "start": 198.38,
+      "end": 200.255,
+      "words": [
+        {
+          "word": "then",
+          "start": 198.38,
+          "end": 198.634
+        },
+        {
+          "word": "moves",
+          "start": 198.646,
+          "end": 198.981
+        },
+        {
+          "word": "back",
+          "start": 198.993,
+          "end": 199.456
+        }
+      ]
+    },
+    {
+      "text": "Neither side achieves a decisive breakthrough.",
+      "start": 200.255,
+      "end": 203.31,
+      "words": [
+        {
+          "word": "Neither",
+          "start": 200.255,
+          "end": 200.602
+        },
+        {
+          "word": "side",
+          "start": 200.613,
+          "end": 200.926
+        },
+        {
+          "word": "achieves",
+          "start": 200.938,
+          "end": 201.308
+        },
+        {
+          "word": "a",
+          "start": 201.319,
+          "end": 201.377
+        },
+        {
+          "word": "decisive",
+          "start": 201.389,
+          "end": 201.944
+        },
+        {
+          "word": "breakthrough",
+          "start": 201.956,
+          "end": 202.512
+        }
+      ]
+    },
+    {
+      "text": "The conflict increasingly became a war of attrition.",
+      "start": 203.31,
+      "end": 206.713,
+      "words": [
+        {
+          "word": "The",
+          "start": 203.31,
+          "end": 203.437
+        },
+        {
+          "word": "conflict",
+          "start": 203.449,
+          "end": 203.958
+        },
+        {
+          "word": "increasingly",
+          "start": 203.97,
+          "end": 204.583
+        },
+        {
+          "word": "became",
+          "start": 204.595,
+          "end": 204.907
+        },
+        {
+          "word": "a",
+          "start": 204.919,
+          "end": 204.988
+        },
+        {
+          "word": "war",
+          "start": 205.0,
+          "end": 205.278
+        },
+        {
+          "word": "of",
+          "start": 205.289,
+          "end": 205.347
+        },
+        {
+          "word": "attrition",
+          "start": 205.359,
+          "end": 205.914
+        }
+      ]
+    },
+    {
+      "text": "Both countries launched attacks against military positions.",
+      "start": 206.713,
+      "end": 210.486,
+      "words": [
+        {
+          "word": "Both",
+          "start": 206.713,
+          "end": 206.991
+        },
+        {
+          "word": "countries",
+          "start": 207.002,
+          "end": 207.419
+        },
+        {
+          "word": "launched",
+          "start": 207.431,
+          "end": 207.743
+        },
+        {
+          "word": "attacks",
+          "start": 207.755,
+          "end": 208.16
+        },
+        {
+          "word": "against",
+          "start": 208.171,
+          "end": 208.495
+        },
+        {
+          "word": "military",
+          "start": 208.507,
+          "end": 208.97
+        },
+        {
+          "word": "positions",
+          "start": 208.981,
+          "end": 209.687
+        }
+      ]
+    },
+    {
+      "text": "But the war wasn't limited to the battlefield.",
+      "start": 210.486,
+      "end": 213.414,
+      "words": [
+        {
+          "word": "But",
+          "start": 210.486,
+          "end": 210.625
+        },
+        {
+          "word": "the",
+          "start": 210.637,
+          "end": 210.741
+        },
+        {
+          "word": "war",
+          "start": 210.752,
+          "end": 211.03
+        },
+        {
+          "word": "wasn't",
+          "start": 211.042,
+          "end": 211.331
+        },
+        {
+          "word": "limited",
+          "start": 211.343,
+          "end": 211.667
+        },
+        {
+          "word": "to",
+          "start": 211.678,
+          "end": 211.759
+        },
+        {
+          "word": "the",
+          "start": 211.771,
+          "end": 211.863
+        },
+        {
+          "word": "battlefield",
+          "start": 211.875,
+          "end": 212.616
+        }
+      ]
+    },
+    {
+      "text": "Oil became extremely important.",
+      "start": 213.414,
+      "end": 216.065,
+      "words": [
+        {
+          "word": "Oil",
+          "start": 213.414,
+          "end": 213.715
+        },
+        {
+          "word": "became",
+          "start": 213.727,
+          "end": 214.051
+        },
+        {
+          "word": "extremely",
+          "start": 214.062,
+          "end": 214.641
+        },
+        {
+          "word": "important",
+          "start": 214.653,
+          "end": 215.266
+        }
+      ]
+    },
+    {
+      "text": "Iran and Iraq depended heavily on oil revenues.",
+      "start": 216.065,
+      "end": 219.792,
+      "words": [
+        {
+          "word": "Iran",
+          "start": 216.065,
+          "end": 216.47
+        },
+        {
+          "word": "and",
+          "start": 216.481,
+          "end": 216.586
+        },
+        {
+          "word": "Iraq",
+          "start": 216.597,
+          "end": 216.968
+        },
+        {
+          "word": "depended",
+          "start": 216.979,
+          "end": 217.361
+        },
+        {
+          "word": "heavily",
+          "start": 217.373,
+          "end": 217.824
+        },
+        {
+          "word": "on",
+          "start": 217.836,
+          "end": 217.998
+        },
+        {
+          "word": "oil",
+          "start": 218.009,
+          "end": 218.356
+        },
+        {
+          "word": "revenues",
+          "start": 218.368,
+          "end": 218.993
+        }
+      ]
+    },
+    {
+      "text": "So oil facilities and shipping became targets.",
+      "start": 219.792,
+      "end": 223.252,
+      "words": [
+        {
+          "word": "So",
+          "start": 219.792,
+          "end": 220.069
+        },
+        {
+          "word": "oil",
+          "start": 220.081,
+          "end": 220.359
+        },
+        {
+          "word": "facilities",
+          "start": 220.37,
+          "end": 220.972
+        },
+        {
+          "word": "and",
+          "start": 220.984,
+          "end": 221.088
+        },
+        {
+          "word": "shipping",
+          "start": 221.1,
+          "end": 221.493
+        },
+        {
+          "word": "became",
+          "start": 221.505,
+          "end": 221.829
+        },
+        {
+          "word": "targets",
+          "start": 221.84,
+          "end": 222.454
+        }
+      ]
+    },
+    {
+      "text": "This expanded the conflict into the Persian Gulf.",
+      "start": 223.252,
+      "end": 226.47,
+      "words": [
+        {
+          "word": "This",
+          "start": 223.252,
+          "end": 223.472
+        },
+        {
+          "word": "expanded",
+          "start": 223.484,
+          "end": 223.97
+        },
+        {
+          "word": "the",
+          "start": 223.981,
+          "end": 224.051
+        },
+        {
+          "word": "conflict",
+          "start": 224.062,
+          "end": 224.583
+        },
+        {
+          "word": "into",
+          "start": 224.595,
+          "end": 224.745
+        },
+        {
+          "word": "the",
+          "start": 224.757,
+          "end": 224.849
+        },
+        {
+          "word": "Persian",
+          "start": 224.861,
+          "end": 225.208
+        },
+        {
+          "word": "Gulf",
+          "start": 225.22,
+          "end": 225.671
+        }
+      ]
+    },
+    {
+      "text": "Commercial shipping was attacked.",
+      "start": 226.47,
+      "end": 228.843,
+      "words": [
+        {
+          "word": "Commercial",
+          "start": 226.47,
+          "end": 226.944
+        },
+        {
+          "word": "shipping",
+          "start": 226.956,
+          "end": 227.338
+        },
+        {
+          "word": "was",
+          "start": 227.35,
+          "end": 227.477
+        },
+        {
+          "word": "attacked",
+          "start": 227.488,
+          "end": 228.044
+        }
+      ]
+    },
+    {
+      "text": "Oil tankers came under threat.",
+      "start": 228.843,
+      "end": 231.227,
+      "words": [
+        {
+          "word": "Oil",
+          "start": 228.843,
+          "end": 229.132
+        },
+        {
+          "word": "tankers",
+          "start": 229.143,
+          "end": 229.572
+        },
+        {
+          "word": "came",
+          "start": 229.583,
+          "end": 229.792
+        },
+        {
+          "word": "under",
+          "start": 229.803,
+          "end": 230.012
+        },
+        {
+          "word": "threat",
+          "start": 230.023,
+          "end": 230.428
+        }
+      ]
+    },
+    {
+      "text": "And other countries became increasingly concerned about the security of the Gulf.",
+      "start": 231.227,
+      "end": 235.706,
+      "words": [
+        {
+          "word": "And",
+          "start": 231.227,
+          "end": 231.424
+        },
+        {
+          "word": "other",
+          "start": 231.435,
+          "end": 231.655
+        },
+        {
+          "word": "countries",
+          "start": 231.667,
+          "end": 232.072
+        },
+        {
+          "word": "became",
+          "start": 232.083,
+          "end": 232.419
+        },
+        {
+          "word": "increasingly",
+          "start": 232.431,
+          "end": 233.044
+        },
+        {
+          "word": "concerned",
+          "start": 233.056,
+          "end": 233.518
+        },
+        {
+          "word": "about",
+          "start": 233.53,
+          "end": 233.727
+        },
+        {
+          "word": "the",
+          "start": 233.738,
+          "end": 233.808
+        },
+        {
+          "word": "security",
+          "start": 233.819,
+          "end": 234.294
+        },
+        {
+          "word": "of",
+          "start": 234.306,
+          "end": 234.375
+        },
+        {
+          "word": "the",
+          "start": 234.387,
+          "end": 234.468
+        },
+        {
+          "word": "Gulf",
+          "start": 234.479,
+          "end": 234.907
+        }
+      ]
+    },
+    {
+      "text": "The war was no longer just an Iran-Iraq problem.",
+      "start": 235.706,
+      "end": 239.074,
+      "words": [
+        {
+          "word": "The",
+          "start": 235.706,
+          "end": 235.845
+        },
+        {
+          "word": "war",
+          "start": 235.856,
+          "end": 236.123
+        },
+        {
+          "word": "was",
+          "start": 236.134,
+          "end": 236.285
+        },
+        {
+          "word": "no",
+          "start": 236.296,
+          "end": 236.47
+        },
+        {
+          "word": "longer",
+          "start": 236.481,
+          "end": 236.806
+        },
+        {
+          "word": "just",
+          "start": 236.817,
+          "end": 237.083
+        },
+        {
+          "word": "an",
+          "start": 237.095,
+          "end": 237.153
+        },
+        {
+          "word": "Iran-Iraq",
+          "start": 237.164,
+          "end": 237.778
+        },
+        {
+          "word": "problem",
+          "start": 237.789,
+          "end": 238.275
+        }
+      ]
+    },
+    {
+      "text": "It was becoming an international crisis.",
+      "start": 239.074,
+      "end": 241.933,
+      "words": [
+        {
+          "word": "It",
+          "start": 239.074,
+          "end": 239.201
+        },
+        {
+          "word": "was",
+          "start": 239.213,
+          "end": 239.352
+        },
+        {
+          "word": "becoming",
+          "start": 239.363,
+          "end": 239.78
+        },
+        {
+          "word": "an",
+          "start": 239.792,
+          "end": 239.861
+        },
+        {
+          "word": "international",
+          "start": 239.873,
+          "end": 240.463
+        },
+        {
+          "word": "crisis",
+          "start": 240.475,
+          "end": 241.134
+        }
+      ]
+    },
+    {
+      "text": "One of the darkest aspects of the Iran-Iraq War was the use of chemical weapons.",
+      "start": 241.933,
+      "end": 246.829,
+      "words": [
+        {
+          "word": "One",
+          "start": 241.933,
+          "end": 242.141
+        },
+        {
+          "word": "of",
+          "start": 242.153,
+          "end": 242.222
+        },
+        {
+          "word": "the",
+          "start": 242.234,
+          "end": 242.326
+        },
+        {
+          "word": "darkest",
+          "start": 242.338,
+          "end": 242.766
+        },
+        {
+          "word": "aspects",
+          "start": 242.778,
+          "end": 243.252
+        },
+        {
+          "word": "of",
+          "start": 243.264,
+          "end": 243.356
+        },
+        {
+          "word": "the",
+          "start": 243.368,
+          "end": 243.414
+        },
+        {
+          "word": "Iran-Iraq",
+          "start": 243.426,
+          "end": 244.097
+        },
+        {
+          "word": "War",
+          "start": 244.109,
+          "end": 244.421
+        },
+        {
+          "word": "was",
+          "start": 244.433,
+          "end": 244.595
+        },
+        {
+          "word": "the",
+          "start": 244.606,
+          "end": 244.664
+        },
+        {
+          "word": "use",
+          "start": 244.676,
+          "end": 244.965
+        },
+        {
+          "word": "of",
+          "start": 244.977,
+          "end": 245.069
+        },
+        {
+          "word": "chemical",
+          "start": 245.081,
+          "end": 245.463
+        },
+        {
+          "word": "weapons",
+          "start": 245.475,
+          "end": 246.03
+        }
+      ]
+    },
+    {
+      "text": "Chemical weapons were used during the conflict, and Iraq's use became particularly significant.",
+      "start": 246.829,
+      "end": 252.35,
+      "words": [
+        {
+          "word": "Chemical",
+          "start": 246.829,
+          "end": 247.222
+        },
+        {
+          "word": "weapons",
+          "start": 247.234,
+          "end": 247.604
+        },
+        {
+          "word": "were",
+          "start": 247.616,
+          "end": 247.732
+        },
+        {
+          "word": "used",
+          "start": 247.743,
+          "end": 248.056
+        },
+        {
+          "word": "during",
+          "start": 248.067,
+          "end": 248.252
+        },
+        {
+          "word": "the",
+          "start": 248.264,
+          "end": 248.333
+        },
+        {
+          "word": "conflict",
+          "start": 248.345,
+          "end": 248.924
+        },
+        {
+          "word": "and",
+          "start": 249.132,
+          "end": 249.248
+        },
+        {
+          "word": "Iraq's",
+          "start": 249.259,
+          "end": 249.688
+        },
+        {
+          "word": "use",
+          "start": 249.699,
+          "end": 249.919
+        },
+        {
+          "word": "became",
+          "start": 249.931,
+          "end": 250.243
+        },
+        {
+          "word": "particularly",
+          "start": 250.255,
+          "end": 250.833
+        },
+        {
+          "word": "significant",
+          "start": 250.845,
+          "end": 251.551
+        }
+      ]
+    },
+    {
+      "text": "The attacks caused severe injuries and deaths.",
+      "start": 252.35,
+      "end": 255.613,
+      "words": [
+        {
+          "word": "The",
+          "start": 252.35,
+          "end": 252.477
+        },
+        {
+          "word": "attacks",
+          "start": 252.488,
+          "end": 252.951
+        },
+        {
+          "word": "caused",
+          "start": 252.963,
+          "end": 253.287
+        },
+        {
+          "word": "severe",
+          "start": 253.299,
+          "end": 253.692
+        },
+        {
+          "word": "injuries",
+          "start": 253.704,
+          "end": 254.167
+        },
+        {
+          "word": "and",
+          "start": 254.178,
+          "end": 254.282
+        },
+        {
+          "word": "deaths",
+          "start": 254.294,
+          "end": 254.815
+        }
+      ]
+    },
+    {
+      "text": "One of the most notorious examples came in 1988, when the Kurdish town of Halabja was attacked with chemical agents during the final phase of the war.",
+      "start": 255.613,
+      "end": 263.958,
+      "words": [
+        {
+          "word": "One",
+          "start": 255.613,
+          "end": 255.822
+        },
+        {
+          "word": "of",
+          "start": 255.833,
+          "end": 255.903
+        },
+        {
+          "word": "the",
+          "start": 255.914,
+          "end": 255.972
+        },
+        {
+          "word": "most",
+          "start": 255.984,
+          "end": 256.227
+        },
+        {
+          "word": "notorious",
+          "start": 256.238,
+          "end": 256.794
+        },
+        {
+          "word": "examples",
+          "start": 256.806,
+          "end": 257.315
+        },
+        {
+          "word": "came",
+          "start": 257.326,
+          "end": 257.546
+        },
+        {
+          "word": "in 1988",
+          "start": 257.558,
+          "end": 258.472
+        },
+        {
+          "word": "when",
+          "start": 258.738,
+          "end": 258.854
+        },
+        {
+          "word": "the",
+          "start": 258.866,
+          "end": 258.947
+        },
+        {
+          "word": "Kurdish",
+          "start": 258.958,
+          "end": 259.306
+        },
+        {
+          "word": "town",
+          "start": 259.317,
+          "end": 259.56
+        },
+        {
+          "word": "of",
+          "start": 259.572,
+          "end": 259.641
+        },
+        {
+          "word": "Halabja",
+          "start": 259.653,
+          "end": 260.15
+        },
+        {
+          "word": "was",
+          "start": 260.162,
+          "end": 260.289
+        },
+        {
+          "word": "attacked",
+          "start": 260.301,
+          "end": 260.718
+        },
+        {
+          "word": "with",
+          "start": 260.729,
+          "end": 260.833
+        },
+        {
+          "word": "chemical",
+          "start": 260.845,
+          "end": 261.25
+        },
+        {
+          "word": "agents",
+          "start": 261.262,
+          "end": 261.597
+        },
+        {
+          "word": "during",
+          "start": 261.609,
+          "end": 261.794
+        },
+        {
+          "word": "the",
+          "start": 261.806,
+          "end": 261.875
+        },
+        {
+          "word": "final",
+          "start": 261.887,
+          "end": 262.222
+        },
+        {
+          "word": "phase",
+          "start": 262.234,
+          "end": 262.604
+        },
+        {
+          "word": "of",
+          "start": 262.616,
+          "end": 262.685
+        },
+        {
+          "word": "the",
+          "start": 262.697,
+          "end": 262.778
+        },
+        {
+          "word": "war",
+          "start": 262.789,
+          "end": 263.16
+        }
+      ]
+    },
+    {
+      "text": "This period demonstrated how devastating the conflict had become.",
+      "start": 263.958,
+      "end": 267.951,
+      "words": [
+        {
+          "word": "This",
+          "start": 263.958,
+          "end": 264.19
+        },
+        {
+          "word": "period",
+          "start": 264.201,
+          "end": 264.618
+        },
+        {
+          "word": "demonstrated",
+          "start": 264.63,
+          "end": 265.22
+        },
+        {
+          "word": "how",
+          "start": 265.231,
+          "end": 265.382
+        },
+        {
+          "word": "devastating",
+          "start": 265.394,
+          "end": 265.984
+        },
+        {
+          "word": "the",
+          "start": 265.995,
+          "end": 266.076
+        },
+        {
+          "word": "conflict",
+          "start": 266.088,
+          "end": 266.574
+        },
+        {
+          "word": "had",
+          "start": 266.586,
+          "end": 266.69
+        },
+        {
+          "word": "become",
+          "start": 266.701,
+          "end": 267.153
+        }
+      ]
+    },
+    {
+      "text": "The war was no longer about quickly capturing territory.",
+      "start": 267.951,
+      "end": 271.69,
+      "words": [
+        {
+          "word": "The",
+          "start": 267.951,
+          "end": 268.09
+        },
+        {
+          "word": "war",
+          "start": 268.102,
+          "end": 268.391
+        },
+        {
+          "word": "was",
+          "start": 268.403,
+          "end": 268.553
+        },
+        {
+          "word": "no",
+          "start": 268.565,
+          "end": 268.738
+        },
+        {
+          "word": "longer",
+          "start": 268.75,
+          "end": 269.074
+        },
+        {
+          "word": "about",
+          "start": 269.086,
+          "end": 269.329
+        },
+        {
+          "word": "quickly",
+          "start": 269.34,
+          "end": 269.687
+        },
+        {
+          "word": "capturing",
+          "start": 269.699,
+          "end": 270.185
+        },
+        {
+          "word": "territory",
+          "start": 270.197,
+          "end": 270.891
+        }
+      ]
+    },
+    {
+      "text": "It had become a prolonged struggle with enormous human costs.",
+      "start": 271.69,
+      "end": 275.498,
+      "words": [
+        {
+          "word": "It",
+          "start": 271.69,
+          "end": 271.806
+        },
+        {
+          "word": "had",
+          "start": 271.817,
+          "end": 271.921
+        },
+        {
+          "word": "become",
+          "start": 271.933,
+          "end": 272.234
+        },
+        {
+          "word": "a",
+          "start": 272.245,
+          "end": 272.326
+        },
+        {
+          "word": "prolonged",
+          "start": 272.338,
+          "end": 272.766
+        },
+        {
+          "word": "struggle",
+          "start": 272.778,
+          "end": 273.171
+        },
+        {
+          "word": "with",
+          "start": 273.183,
+          "end": 273.31
+        },
+        {
+          "word": "enormous",
+          "start": 273.322,
+          "end": 273.785
+        },
+        {
+          "word": "human",
+          "start": 273.796,
+          "end": 274.074
+        },
+        {
+          "word": "costs",
+          "start": 274.086,
+          "end": 274.699
+        }
+      ]
+    },
+    {
+      "text": "Meanwhile…",
+      "start": 275.498,
+      "end": 277.08,
+      "words": [
+        {
+          "word": "Meanwhile",
+          "start": 275.498,
+          "end": 276.215
+        }
+      ]
+    },
+    {
+      "text": "neither Iran nor Iraq was able to secure a decisive victory.",
+      "start": 277.08,
+      "end": 281.232,
+      "words": [
+        {
+          "word": "neither",
+          "start": 277.08,
+          "end": 277.451
+        },
+        {
+          "word": "Iran",
+          "start": 277.462,
+          "end": 277.844
+        },
+        {
+          "word": "nor",
+          "start": 277.856,
+          "end": 278.029
+        },
+        {
+          "word": "Iraq",
+          "start": 278.041,
+          "end": 278.446
+        },
+        {
+          "word": "was",
+          "start": 278.458,
+          "end": 278.62
+        },
+        {
+          "word": "able",
+          "start": 278.631,
+          "end": 278.805
+        },
+        {
+          "word": "to",
+          "start": 278.816,
+          "end": 278.897
+        },
+        {
+          "word": "secure",
+          "start": 278.909,
+          "end": 279.337
+        },
+        {
+          "word": "a",
+          "start": 279.349,
+          "end": 279.395
+        },
+        {
+          "word": "decisive",
+          "start": 279.407,
+          "end": 279.927
+        },
+        {
+          "word": "victory",
+          "start": 279.939,
+          "end": 280.437
+        }
+      ]
+    },
+    {
+      "text": "By the late 1980s, both countries were exhausted.",
+      "start": 281.232,
+      "end": 285.051,
+      "words": [
+        {
+          "word": "By",
+          "start": 281.232,
+          "end": 281.405
+        },
+        {
+          "word": "the",
+          "start": 281.417,
+          "end": 281.544
+        },
+        {
+          "word": "late",
+          "start": 281.556,
+          "end": 281.776
+        },
+        {
+          "word": "1980s",
+          "start": 281.787,
+          "end": 282.586
+        },
+        {
+          "word": "both",
+          "start": 282.783,
+          "end": 283.026
+        },
+        {
+          "word": "countries",
+          "start": 283.037,
+          "end": 283.442
+        },
+        {
+          "word": "were",
+          "start": 283.454,
+          "end": 283.57
+        },
+        {
+          "word": "exhausted",
+          "start": 283.581,
+          "end": 284.252
+        }
+      ]
+    },
+    {
+      "text": "The war had lasted for years.",
+      "start": 285.051,
+      "end": 287.621,
+      "words": [
+        {
+          "word": "The",
+          "start": 285.051,
+          "end": 285.19
+        },
+        {
+          "word": "war",
+          "start": 285.202,
+          "end": 285.479
+        },
+        {
+          "word": "had",
+          "start": 285.491,
+          "end": 285.676
+        },
+        {
+          "word": "lasted",
+          "start": 285.688,
+          "end": 286.104
+        },
+        {
+          "word": "for",
+          "start": 286.116,
+          "end": 286.29
+        },
+        {
+          "word": "years",
+          "start": 286.301,
+          "end": 286.822
+        }
+      ]
+    },
+    {
+      "text": "The economy of both countries had suffered.",
+      "start": 287.621,
+      "end": 290.537,
+      "words": [
+        {
+          "word": "The",
+          "start": 287.621,
+          "end": 287.725
+        },
+        {
+          "word": "economy",
+          "start": 287.736,
+          "end": 288.28
+        },
+        {
+          "word": "of",
+          "start": 288.292,
+          "end": 288.408
+        },
+        {
+          "word": "both",
+          "start": 288.419,
+          "end": 288.639
+        },
+        {
+          "word": "countries",
+          "start": 288.651,
+          "end": 289.044
+        },
+        {
+          "word": "had",
+          "start": 289.056,
+          "end": 289.229
+        },
+        {
+          "word": "suffered",
+          "start": 289.241,
+          "end": 289.739
+        }
+      ]
+    },
+    {
+      "text": "Cities and infrastructure had been damaged.",
+      "start": 290.537,
+      "end": 293.477,
+      "words": [
+        {
+          "word": "Cities",
+          "start": 290.537,
+          "end": 291.012
+        },
+        {
+          "word": "and",
+          "start": 291.023,
+          "end": 291.127
+        },
+        {
+          "word": "infrastructure",
+          "start": 291.139,
+          "end": 291.81
+        },
+        {
+          "word": "had",
+          "start": 291.822,
+          "end": 291.949
+        },
+        {
+          "word": "been",
+          "start": 291.961,
+          "end": 292.1
+        },
+        {
+          "word": "damaged",
+          "start": 292.111,
+          "end": 292.678
+        }
+      ]
+    },
+    {
+      "text": "And huge numbers of people had been killed, wounded, displaced, or otherwise affected.",
+      "start": 293.477,
+      "end": 299.067,
+      "words": [
+        {
+          "word": "And",
+          "start": 293.477,
+          "end": 293.674
+        },
+        {
+          "word": "huge",
+          "start": 293.685,
+          "end": 294.056
+        },
+        {
+          "word": "numbers",
+          "start": 294.067,
+          "end": 294.415
+        },
+        {
+          "word": "of",
+          "start": 294.426,
+          "end": 294.519
+        },
+        {
+          "word": "people",
+          "start": 294.53,
+          "end": 294.854
+        },
+        {
+          "word": "had",
+          "start": 294.866,
+          "end": 294.993
+        },
+        {
+          "word": "been",
+          "start": 295.005,
+          "end": 295.155
+        },
+        {
+          "word": "killed",
+          "start": 295.167,
+          "end": 295.549
+        },
+        {
+          "word": "wounded",
+          "start": 295.769,
+          "end": 296.174
+        },
+        {
+          "word": "displaced",
+          "start": 296.382,
+          "end": 296.949
+        },
+        {
+          "word": "or",
+          "start": 297.088,
+          "end": 297.25
+        },
+        {
+          "word": "otherwise",
+          "start": 297.262,
+          "end": 297.69
+        },
+        {
+          "word": "affected",
+          "start": 297.702,
+          "end": 298.269
+        }
+      ]
+    },
+    {
+      "text": "The United Nations pushed for a ceasefire.",
+      "start": 299.067,
+      "end": 302.134,
+      "words": [
+        {
+          "word": "The",
+          "start": 299.067,
+          "end": 299.148
+        },
+        {
+          "word": "United",
+          "start": 299.16,
+          "end": 299.6
+        },
+        {
+          "word": "Nations",
+          "start": 299.611,
+          "end": 300.028
+        },
+        {
+          "word": "pushed",
+          "start": 300.04,
+          "end": 300.387
+        },
+        {
+          "word": "for",
+          "start": 300.398,
+          "end": 300.537
+        },
+        {
+          "word": "a",
+          "start": 300.549,
+          "end": 300.607
+        },
+        {
+          "word": "ceasefire",
+          "start": 300.618,
+          "end": 301.336
+        }
+      ]
+    },
+    {
+      "text": "The UN Security Council adopted Resolution 598, calling for a ceasefire and other steps toward ending the conflict.",
+      "start": 302.134,
+      "end": 309.796,
+      "words": [
+        {
+          "word": "The",
+          "start": 302.134,
+          "end": 302.227
+        },
+        {
+          "word": "UN",
+          "start": 302.239,
+          "end": 302.632
+        },
+        {
+          "word": "Security",
+          "start": 302.644,
+          "end": 303.107
+        },
+        {
+          "word": "Council",
+          "start": 303.118,
+          "end": 303.512
+        },
+        {
+          "word": "adopted",
+          "start": 303.523,
+          "end": 303.94
+        },
+        {
+          "word": "Resolution",
+          "start": 303.952,
+          "end": 304.519
+        },
+        {
+          "word": "598",
+          "start": 304.53,
+          "end": 305.456
+        },
+        {
+          "word": "calling",
+          "start": 305.711,
+          "end": 306.035
+        },
+        {
+          "word": "for",
+          "start": 306.046,
+          "end": 306.197
+        },
+        {
+          "word": "a",
+          "start": 306.209,
+          "end": 306.266
+        },
+        {
+          "word": "ceasefire",
+          "start": 306.278,
+          "end": 306.961
+        },
+        {
+          "word": "and",
+          "start": 306.972,
+          "end": 307.1
+        },
+        {
+          "word": "other",
+          "start": 307.111,
+          "end": 307.331
+        },
+        {
+          "word": "steps",
+          "start": 307.343,
+          "end": 307.713
+        },
+        {
+          "word": "toward",
+          "start": 307.725,
+          "end": 308.014
+        },
+        {
+          "word": "ending",
+          "start": 308.026,
+          "end": 308.269
+        },
+        {
+          "word": "the",
+          "start": 308.28,
+          "end": 308.35
+        },
+        {
+          "word": "conflict",
+          "start": 308.361,
+          "end": 308.998
+        }
+      ]
+    },
+    {
+      "text": "Eventually, Iran accepted the resolution.",
+      "start": 309.796,
+      "end": 313.165,
+      "words": [
+        {
+          "word": "Eventually",
+          "start": 309.796,
+          "end": 310.433
+        },
+        {
+          "word": "Iran",
+          "start": 310.653,
+          "end": 311.104
+        },
+        {
+          "word": "accepted",
+          "start": 311.116,
+          "end": 311.579
+        },
+        {
+          "word": "the",
+          "start": 311.591,
+          "end": 311.648
+        },
+        {
+          "word": "resolution",
+          "start": 311.66,
+          "end": 312.366
+        }
+      ]
+    },
+    {
+      "text": "Iraq also accepted it.",
+      "start": 313.165,
+      "end": 315.375,
+      "words": [
+        {
+          "word": "Iraq",
+          "start": 313.165,
+          "end": 313.581
+        },
+        {
+          "word": "also",
+          "start": 313.593,
+          "end": 313.917
+        },
+        {
+          "word": "accepted",
+          "start": 313.928,
+          "end": 314.368
+        },
+        {
+          "word": "it",
+          "start": 314.38,
+          "end": 314.577
+        }
+      ]
+    },
+    {
+      "text": "And after eight years of war…",
+      "start": 315.375,
+      "end": 317.702,
+      "words": [
+        {
+          "word": "And",
+          "start": 315.375,
+          "end": 315.537
+        },
+        {
+          "word": "after",
+          "start": 315.549,
+          "end": 315.873
+        },
+        {
+          "word": "eight",
+          "start": 315.884,
+          "end": 316.058
+        },
+        {
+          "word": "years",
+          "start": 316.07,
+          "end": 316.371
+        },
+        {
+          "word": "of",
+          "start": 316.382,
+          "end": 316.475
+        },
+        {
+          "word": "war",
+          "start": 316.486,
+          "end": 316.903
+        }
+      ]
+    },
+    {
+      "text": "the fighting finally stopped.",
+      "start": 317.702,
+      "end": 320.005,
+      "words": [
+        {
+          "word": "the",
+          "start": 317.702,
+          "end": 317.829
+        },
+        {
+          "word": "fighting",
+          "start": 317.841,
+          "end": 318.211
+        },
+        {
+          "word": "finally",
+          "start": 318.222,
+          "end": 318.662
+        },
+        {
+          "word": "stopped",
+          "start": 318.674,
+          "end": 319.206
+        }
+      ]
+    },
+    {
+      "text": "August 20, 1988.",
+      "start": 320.005,
+      "end": 322.864,
+      "words": [
+        {
+          "word": "August 20, 1988",
+          "start": 320.005,
+          "end": 322.065
+        }
+      ]
+    },
+    {
+      "text": "The ceasefire came into effect.",
+      "start": 322.864,
+      "end": 325.421,
+      "words": [
+        {
+          "word": "The",
+          "start": 322.864,
+          "end": 322.991
+        },
+        {
+          "word": "ceasefire",
+          "start": 323.002,
+          "end": 323.627
+        },
+        {
+          "word": "came",
+          "start": 323.639,
+          "end": 323.859
+        },
+        {
+          "word": "into",
+          "start": 323.871,
+          "end": 324.09
+        },
+        {
+          "word": "effect",
+          "start": 324.102,
+          "end": 324.623
+        }
+      ]
+    },
+    {
+      "text": "On the map…",
+      "start": 325.421,
+      "end": 326.891,
+      "words": [
+        {
+          "word": "On",
+          "start": 325.421,
+          "end": 325.584
+        },
+        {
+          "word": "the",
+          "start": 325.595,
+          "end": 325.653
+        },
+        {
+          "word": "map",
+          "start": 325.665,
+          "end": 326.093
+        }
+      ]
+    },
+    {
+      "text": "the Iraqi flag stops.",
+      "start": 326.891,
+      "end": 329.264,
+      "words": [
+        {
+          "word": "the",
+          "start": 326.891,
+          "end": 327.007
+        },
+        {
+          "word": "Iraqi",
+          "start": 327.019,
+          "end": 327.493
+        },
+        {
+          "word": "flag",
+          "start": 327.505,
+          "end": 327.864
+        },
+        {
+          "word": "stops",
+          "start": 327.875,
+          "end": 328.465
+        }
+      ]
+    },
+    {
+      "text": "The Iranian flag stops.",
+      "start": 329.264,
+      "end": 331.695,
+      "words": [
+        {
+          "word": "The",
+          "start": 329.264,
+          "end": 329.38
+        },
+        {
+          "word": "Iranian",
+          "start": 329.391,
+          "end": 329.924
+        },
+        {
+          "word": "flag",
+          "start": 329.935,
+          "end": 330.294
+        },
+        {
+          "word": "stops",
+          "start": 330.306,
+          "end": 330.896
+        }
+      ]
+    },
+    {
+      "text": "The front line freezes.",
+      "start": 331.695,
+      "end": 333.847,
+      "words": [
+        {
+          "word": "The",
+          "start": 331.695,
+          "end": 331.822
+        },
+        {
+          "word": "front",
+          "start": 331.834,
+          "end": 332.123
+        },
+        {
+          "word": "line",
+          "start": 332.134,
+          "end": 332.389
+        },
+        {
+          "word": "freezes",
+          "start": 332.401,
+          "end": 333.049
+        }
+      ]
+    },
+    {
+      "text": "After nearly eight years of fighting…",
+      "start": 333.847,
+      "end": 336.417,
+      "words": [
+        {
+          "word": "After",
+          "start": 333.847,
+          "end": 334.16
+        },
+        {
+          "word": "nearly",
+          "start": 334.171,
+          "end": 334.53
+        },
+        {
+          "word": "eight",
+          "start": 334.542,
+          "end": 334.75
+        },
+        {
+          "word": "years",
+          "start": 334.762,
+          "end": 335.063
+        },
+        {
+          "word": "of",
+          "start": 335.074,
+          "end": 335.155
+        },
+        {
+          "word": "fighting",
+          "start": 335.167,
+          "end": 335.618
+        }
+      ]
+    },
+    {
+      "text": "the guns finally became silent.",
+      "start": 336.417,
+      "end": 339.021,
+      "words": [
+        {
+          "word": "the",
+          "start": 336.417,
+          "end": 336.556
+        },
+        {
+          "word": "guns",
+          "start": 336.567,
+          "end": 336.868
+        },
+        {
+          "word": "finally",
+          "start": 336.88,
+          "end": 337.285
+        },
+        {
+          "word": "became",
+          "start": 337.296,
+          "end": 337.632
+        },
+        {
+          "word": "silent",
+          "start": 337.644,
+          "end": 338.222
+        }
+      ]
+    },
+    {
+      "text": "There was no dramatic conquest of Iran.",
+      "start": 339.021,
+      "end": 341.857,
+      "words": [
+        {
+          "word": "There",
+          "start": 339.021,
+          "end": 339.183
+        },
+        {
+          "word": "was",
+          "start": 339.195,
+          "end": 339.322
+        },
+        {
+          "word": "no",
+          "start": 339.334,
+          "end": 339.519
+        },
+        {
+          "word": "dramatic",
+          "start": 339.53,
+          "end": 339.947
+        },
+        {
+          "word": "conquest",
+          "start": 339.959,
+          "end": 340.514
+        },
+        {
+          "word": "of",
+          "start": 340.526,
+          "end": 340.584
+        },
+        {
+          "word": "Iran",
+          "start": 340.595,
+          "end": 341.058
+        }
+      ]
+    },
+    {
+      "text": "There was no decisive Iraqi victory.",
+      "start": 341.857,
+      "end": 344.681,
+      "words": [
+        {
+          "word": "There",
+          "start": 341.857,
+          "end": 342.019
+        },
+        {
+          "word": "was",
+          "start": 342.03,
+          "end": 342.158
+        },
+        {
+          "word": "no",
+          "start": 342.169,
+          "end": 342.366
+        },
+        {
+          "word": "decisive",
+          "start": 342.377,
+          "end": 342.898
+        },
+        {
+          "word": "Iraqi",
+          "start": 342.91,
+          "end": 343.327
+        },
+        {
+          "word": "victory",
+          "start": 343.338,
+          "end": 343.882
+        }
+      ]
+    },
+    {
+      "text": "And Iran did not conquer Iraq.",
+      "start": 344.681,
+      "end": 347.32,
+      "words": [
+        {
+          "word": "And",
+          "start": 344.681,
+          "end": 344.843
+        },
+        {
+          "word": "Iran",
+          "start": 344.854,
+          "end": 345.248
+        },
+        {
+          "word": "did",
+          "start": 345.259,
+          "end": 345.387
+        },
+        {
+          "word": "not",
+          "start": 345.398,
+          "end": 345.618
+        },
+        {
+          "word": "conquer",
+          "start": 345.63,
+          "end": 346.0
+        },
+        {
+          "word": "Iraq",
+          "start": 346.012,
+          "end": 346.521
+        }
+      ]
+    },
+    {
+      "text": "The war ended through a ceasefire rather than a clear military victory for either side.",
+      "start": 347.32,
+      "end": 352.273,
+      "words": [
+        {
+          "word": "The",
+          "start": 347.32,
+          "end": 347.459
+        },
+        {
+          "word": "war",
+          "start": 347.47,
+          "end": 347.794
+        },
+        {
+          "word": "ended",
+          "start": 347.806,
+          "end": 348.049
+        },
+        {
+          "word": "through",
+          "start": 348.06,
+          "end": 348.222
+        },
+        {
+          "word": "a",
+          "start": 348.234,
+          "end": 348.292
+        },
+        {
+          "word": "ceasefire",
+          "start": 348.303,
+          "end": 348.94
+        },
+        {
+          "word": "rather",
+          "start": 348.952,
+          "end": 349.218
+        },
+        {
+          "word": "than",
+          "start": 349.229,
+          "end": 349.345
+        },
+        {
+          "word": "a",
+          "start": 349.357,
+          "end": 349.415
+        },
+        {
+          "word": "clear",
+          "start": 349.426,
+          "end": 349.715
+        },
+        {
+          "word": "military",
+          "start": 349.727,
+          "end": 350.202
+        },
+        {
+          "word": "victory",
+          "start": 350.213,
+          "end": 350.63
+        },
+        {
+          "word": "for",
+          "start": 350.641,
+          "end": 350.815
+        },
+        {
+          "word": "either",
+          "start": 350.827,
+          "end": 351.023
+        },
+        {
+          "word": "side",
+          "start": 351.035,
+          "end": 351.475
+        }
+      ]
+    },
+    {
+      "text": "The two countries had fought for years…",
+      "start": 352.273,
+      "end": 355.016,
+      "words": [
+        {
+          "word": "The",
+          "start": 352.273,
+          "end": 352.412
+        },
+        {
+          "word": "two",
+          "start": 352.424,
+          "end": 352.632
+        },
+        {
+          "word": "countries",
+          "start": 352.644,
+          "end": 353.06
+        },
+        {
+          "word": "had",
+          "start": 353.072,
+          "end": 353.211
+        },
+        {
+          "word": "fought",
+          "start": 353.222,
+          "end": 353.5
+        },
+        {
+          "word": "for",
+          "start": 353.512,
+          "end": 353.697
+        },
+        {
+          "word": "years",
+          "start": 353.709,
+          "end": 354.218
+        }
+      ]
+    },
+    {
+      "text": "only to return broadly to the pre-war international border framework.",
+      "start": 355.016,
+      "end": 359.299,
+      "words": [
+        {
+          "word": "only",
+          "start": 355.016,
+          "end": 355.34
+        },
+        {
+          "word": "to",
+          "start": 355.352,
+          "end": 355.468
+        },
+        {
+          "word": "return",
+          "start": 355.479,
+          "end": 355.884
+        },
+        {
+          "word": "broadly",
+          "start": 355.896,
+          "end": 356.29
+        },
+        {
+          "word": "to",
+          "start": 356.301,
+          "end": 356.394
+        },
+        {
+          "word": "the",
+          "start": 356.405,
+          "end": 356.498
+        },
+        {
+          "word": "pre-war",
+          "start": 356.509,
+          "end": 356.949
+        },
+        {
+          "word": "international",
+          "start": 356.961,
+          "end": 357.563
+        },
+        {
+          "word": "border",
+          "start": 357.574,
+          "end": 357.852
+        },
+        {
+          "word": "framework",
+          "start": 357.864,
+          "end": 358.5
+        }
+      ]
+    },
+    {
+      "text": "The Iran-Iraq War changed the Middle East permanently.",
+      "start": 359.299,
+      "end": 362.817,
+      "words": [
+        {
+          "word": "The",
+          "start": 359.299,
+          "end": 359.403
+        },
+        {
+          "word": "Iran-Iraq",
+          "start": 359.415,
+          "end": 360.132
+        },
+        {
+          "word": "War",
+          "start": 360.144,
+          "end": 360.375
+        },
+        {
+          "word": "changed",
+          "start": 360.387,
+          "end": 360.78
+        },
+        {
+          "word": "the",
+          "start": 360.792,
+          "end": 360.861
+        },
+        {
+          "word": "Middle",
+          "start": 360.873,
+          "end": 361.162
+        },
+        {
+          "word": "East",
+          "start": 361.174,
+          "end": 361.405
+        },
+        {
+          "word": "permanently",
+          "start": 361.417,
+          "end": 362.019
+        }
+      ]
+    },
+    {
+      "text": "It showed how quickly a regional dispute could become an enormous international crisis.",
+      "start": 362.817,
+      "end": 367.817,
+      "words": [
+        {
+          "word": "It",
+          "start": 362.817,
+          "end": 362.956
+        },
+        {
+          "word": "showed",
+          "start": 362.968,
+          "end": 363.269
+        },
+        {
+          "word": "how",
+          "start": 363.28,
+          "end": 363.431
+        },
+        {
+          "word": "quickly",
+          "start": 363.442,
+          "end": 363.813
+        },
+        {
+          "word": "a",
+          "start": 363.824,
+          "end": 363.882
+        },
+        {
+          "word": "regional",
+          "start": 363.894,
+          "end": 364.287
+        },
+        {
+          "word": "dispute",
+          "start": 364.299,
+          "end": 364.762
+        },
+        {
+          "word": "could",
+          "start": 364.773,
+          "end": 364.924
+        },
+        {
+          "word": "become",
+          "start": 364.935,
+          "end": 365.213
+        },
+        {
+          "word": "an",
+          "start": 365.225,
+          "end": 365.317
+        },
+        {
+          "word": "enormous",
+          "start": 365.329,
+          "end": 365.769
+        },
+        {
+          "word": "international",
+          "start": 365.78,
+          "end": 366.371
+        },
+        {
+          "word": "crisis",
+          "start": 366.382,
+          "end": 367.019
+        }
+      ]
+    },
+    {
+      "text": "It devastated both countries.",
+      "start": 367.817,
+      "end": 370.283,
+      "words": [
+        {
+          "word": "It",
+          "start": 367.817,
+          "end": 368.002
+        },
+        {
+          "word": "devastated",
+          "start": 368.014,
+          "end": 368.651
+        },
+        {
+          "word": "both",
+          "start": 368.662,
+          "end": 368.894
+        },
+        {
+          "word": "countries",
+          "start": 368.905,
+          "end": 369.484
+        }
+      ]
+    },
+    {
+      "text": "It drew in outside powers.",
+      "start": 370.283,
+      "end": 372.736,
+      "words": [
+        {
+          "word": "It",
+          "start": 370.283,
+          "end": 370.421
+        },
+        {
+          "word": "drew",
+          "start": 370.433,
+          "end": 370.699
+        },
+        {
+          "word": "in",
+          "start": 370.711,
+          "end": 370.85
+        },
+        {
+          "word": "outside",
+          "start": 370.861,
+          "end": 371.336
+        },
+        {
+          "word": "powers",
+          "start": 371.347,
+          "end": 371.938
+        }
+      ]
+    },
+    {
+      "text": "It threatened one of the world's most important oil-producing regions.",
+      "start": 372.736,
+      "end": 376.706,
+      "words": [
+        {
+          "word": "It",
+          "start": 372.736,
+          "end": 372.887
+        },
+        {
+          "word": "threatened",
+          "start": 372.898,
+          "end": 373.28
+        },
+        {
+          "word": "one",
+          "start": 373.292,
+          "end": 373.442
+        },
+        {
+          "word": "of",
+          "start": 373.454,
+          "end": 373.523
+        },
+        {
+          "word": "the",
+          "start": 373.535,
+          "end": 373.616
+        },
+        {
+          "word": "world's",
+          "start": 373.627,
+          "end": 373.94
+        },
+        {
+          "word": "most",
+          "start": 373.952,
+          "end": 374.218
+        },
+        {
+          "word": "important",
+          "start": 374.229,
+          "end": 374.658
+        },
+        {
+          "word": "oil-producing",
+          "start": 374.669,
+          "end": 375.329
+        },
+        {
+          "word": "regions",
+          "start": 375.34,
+          "end": 375.908
+        }
+      ]
+    },
+    {
+      "text": "And it left behind millions of people affected by the conflict.",
+      "start": 376.706,
+      "end": 380.595,
+      "words": [
+        {
+          "word": "And",
+          "start": 376.706,
+          "end": 376.845
+        },
+        {
+          "word": "it",
+          "start": 376.857,
+          "end": 376.961
+        },
+        {
+          "word": "left",
+          "start": 376.972,
+          "end": 377.215
+        },
+        {
+          "word": "behind",
+          "start": 377.227,
+          "end": 377.597
+        },
+        {
+          "word": "millions",
+          "start": 377.609,
+          "end": 378.002
+        },
+        {
+          "word": "of",
+          "start": 378.014,
+          "end": 378.107
+        },
+        {
+          "word": "people",
+          "start": 378.118,
+          "end": 378.431
+        },
+        {
+          "word": "affected",
+          "start": 378.442,
+          "end": 378.871
+        },
+        {
+          "word": "by",
+          "start": 378.882,
+          "end": 379.009
+        },
+        {
+          "word": "the",
+          "start": 379.021,
+          "end": 379.125
+        },
+        {
+          "word": "conflict",
+          "start": 379.137,
+          "end": 379.796
+        }
+      ]
+    },
+    {
+      "text": "The war began with an Iraqi invasion in 1980…",
+      "start": 380.595,
+      "end": 384.195,
+      "words": [
+        {
+          "word": "The",
+          "start": 380.595,
+          "end": 380.734
+        },
+        {
+          "word": "war",
+          "start": 380.746,
+          "end": 381.0
+        },
+        {
+          "word": "began",
+          "start": 381.012,
+          "end": 381.359
+        },
+        {
+          "word": "with",
+          "start": 381.371,
+          "end": 381.486
+        },
+        {
+          "word": "an",
+          "start": 381.498,
+          "end": 381.556
+        },
+        {
+          "word": "Iraqi",
+          "start": 381.567,
+          "end": 381.996
+        },
+        {
+          "word": "invasion",
+          "start": 382.007,
+          "end": 382.516
+        },
+        {
+          "word": "in 1980",
+          "start": 382.528,
+          "end": 383.396
+        }
+      ]
+    },
+    {
+      "text": "and ended with a ceasefire in 1988.",
+      "start": 384.195,
+      "end": 387.424,
+      "words": [
+        {
+          "word": "and",
+          "start": 384.195,
+          "end": 384.415
+        },
+        {
+          "word": "ended",
+          "start": 384.426,
+          "end": 384.692
+        },
+        {
+          "word": "with",
+          "start": 384.704,
+          "end": 384.808
+        },
+        {
+          "word": "a",
+          "start": 384.82,
+          "end": 384.877
+        },
+        {
+          "word": "ceasefire",
+          "start": 384.889,
+          "end": 385.549
+        },
+        {
+          "word": "in 1988",
+          "start": 385.56,
+          "end": 386.625
+        }
+      ]
+    },
+    {
+      "text": "Eight years.",
+      "start": 387.424,
+      "end": 389.009,
+      "words": [
+        {
+          "word": "Eight",
+          "start": 387.424,
+          "end": 387.655
+        },
+        {
+          "word": "years",
+          "start": 387.667,
+          "end": 388.211
+        }
+      ]
+    },
+    {
+      "text": "Two countries.",
+      "start": 389.009,
+      "end": 390.665,
+      "words": [
+        {
+          "word": "Two",
+          "start": 389.009,
+          "end": 389.229
+        },
+        {
+          "word": "countries",
+          "start": 389.241,
+          "end": 389.866
+        }
+      ]
+    },
+    {
+      "text": "One devastating war.",
+      "start": 390.665,
+      "end": 392.783,
+      "words": [
+        {
+          "word": "One",
+          "start": 390.665,
+          "end": 390.931
+        },
+        {
+          "word": "devastating",
+          "start": 390.942,
+          "end": 391.579
+        },
+        {
+          "word": "war",
+          "start": 391.59,
+          "end": 391.984
+        }
+      ]
+    },
+    {
+      "text": "And no clear winner.",
+      "start": 392.783,
+      "end": 394.692,
+      "words": [
+        {
+          "word": "And",
+          "start": 392.783,
+          "end": 392.956
+        },
+        {
+          "word": "no",
+          "start": 392.968,
+          "end": 393.141
+        },
+        {
+          "word": "clear",
+          "start": 393.153,
+          "end": 393.5
+        },
+        {
+          "word": "winner",
+          "start": 393.512,
+          "end": 393.894
+        }
+      ]
+    },
+    {
+      "text": "This was the Iran–Iraq War.",
+      "start": 394.692,
+      "end": 397.354,
+      "words": [
+        {
+          "word": "This",
+          "start": 394.692,
+          "end": 394.935
+        },
+        {
+          "word": "was",
+          "start": 394.947,
+          "end": 395.121
+        },
+        {
+          "word": "the",
+          "start": 395.132,
+          "end": 395.202
+        },
+        {
+          "word": "Iran",
+          "start": 395.213,
+          "end": 395.653
+        },
+        {
+          "word": "Iraq",
+          "start": 395.78,
+          "end": 396.151
+        },
+        {
+          "word": "War",
+          "start": 396.162,
+          "end": 396.556
+        }
+      ]
+    },
+    {
+      "text": "Please like, share and subscribe to my YouTube channel.",
+      "start": 397.354,
+      "end": 400.178,
+      "words": [
+        {
+          "word": "Please",
+          "start": 397.354,
+          "end": 397.667
+        },
+        {
+          "word": "like",
+          "start": 397.678,
+          "end": 397.91
+        },
+        {
+          "word": "share",
+          "start": 398.13,
+          "end": 398.465
+        },
+        {
+          "word": "and",
+          "start": 398.477,
+          "end": 398.581
+        },
+        {
+          "word": "subscribe",
+          "start": 398.593,
+          "end": 399.102
+        },
+        {
+          "word": "to",
+          "start": 399.114,
+          "end": 399.195
+        },
+        {
+          "word": "my",
+          "start": 399.206,
+          "end": 399.299
+        },
+        {
+          "word": "YouTube",
+          "start": 399.31,
+          "end": 399.727
+        },
+        {
+          "word": "channel",
+          "start": 399.739,
+          "end": 400.178
         }
       ]
     }

@@ -79,7 +79,7 @@ designed to spark debate/replies. Write it in the audience's language.
 Recommend the most appropriate:
 - **Category** (e.g. News & Politics, Education, Science & Technology).
 - **Video language & caption language.**
-- **Format** — Short (`#Shorts`, vertical, <60s) vs long-form (16:9); if it's a
+- **Format** — Short (`#Shorts`, vertical, up to 3 minutes) vs long-form (16:9); if it's a
   Short, note adding `#Shorts` to the title/description.
 - **Playlist** suggestion (name a fitting playlist to add it to).
 - **Audience** — typically "No, it's not made for kids."

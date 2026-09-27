@@ -1,13 +1,13 @@
 [
-  { "bg": "#ffe9c9", "label": "HOOK", "title": "Kashmir → Kanyakumari", "map": "india", "caption": "~3,500 km apart", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "pop" },
-  { "bg": "#cfe8ff", "label": "BY CAR", "title": "44 HOURS", "titleColor": "#2b7fff", "route": "car", "caption": "80–90 km/h", "chars": { "expr": "neutral", "skin": "#ffffff" } },
-  { "bg": "#cdeede", "label": "BY TRAIN", "title": "35 HOURS", "titleColor": "#159e86", "route": "train", "caption": "100–120 km/h", "chars": { "expr": "neutral", "skin": "#ffffff" } },
-  { "bg": "#e6ddff", "label": "BY FLIGHT", "title": "4 HOURS", "titleColor": "#7c4dff", "route": "plane", "caption": "850–900 km/h", "chars": { "expr": "happy", "skin": "#ffffff" } },
-  { "bg": "#ffe0b0", "label": "NOW…", "title": "Things get CRAZY!", "big": true, "titleColor": "#e85d04", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "riser" },
-  { "bg": "#ffedcc", "label": "SU-30MKI", "title": "1 hr 20 min", "titleColor": "#ff8a00", "route": "jet", "caption": "Mach 2 • ~2,350 km/h", "chars": { "expr": "happy", "skin": "#ffffff" } },
-  { "bg": "#ffe0cc", "label": "BRAHMOS", "title": "~1 HOUR!", "titleColor": "#ff5a1f", "route": "rocket", "caption": "Mach 3 • ~3,500 km/h", "chars": { "expr": "happy", "skin": "#ffffff" }, "sfx": "boom" },
-  { "bg": "#ffd6d6", "label": "THE MONSTER", "title": "And then…", "big": true, "titleColor": "#c1121f", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "riser" },
-  { "bg": "#ffcccc", "label": "AGNI-V", "title": "A FEW MINUTES", "titleColor": "#e63946", "route": "rocket", "caption": "Mach 20+", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "boom" },
-  { "bg": "#e8f0ff", "label": "THE JUMP", "title": "2 DAYS → MINUTES", "chart": "speeds", "caption": "speed ranked (km/h)", "sfx": "boom" },
-  { "bg": "#ffe9c9", "label": "OUTRO", "title": "Another LEVEL!", "big": true, "titleColor": "#ff5a1f", "chars": { "expr": "happy", "skin": "#ffffff" }, "button": "FOLLOW", "caption": "India's speed game", "sfx": "boom" }
+  { "bg": "#ffe9c9", "label": "3,500 KM", "title": "Kashmir → Kanyakumari", "map": "india", "caption": "How fast can you get there?", "enter": "zoom", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "pop" },
+  { "bg": "#cfe8ff", "label": "ROUND 1 / 6", "title": "BY CAR", "titleColor": "#2b7fff", "route": "car", "enter": "whip", "hud": { "hours": 44, "speed": 85, "speedLabel": "80–90 km/h" }, "chars": { "expr": "neutral", "skin": "#ffffff" } },
+  { "bg": "#cdeede", "label": "ROUND 2 / 6", "title": "BY TRAIN", "titleColor": "#159e86", "route": "train", "enter": "whip", "hud": { "hours": 35, "speed": 110, "speedLabel": "100–120 km/h" }, "chars": { "expr": "neutral", "skin": "#ffffff" } },
+  { "bg": "#e6ddff", "label": "ROUND 3 / 6", "title": "BY FLIGHT", "titleColor": "#7c4dff", "route": "plane", "enter": "whip", "hud": { "hours": 4, "speed": 875, "speedLabel": "850–900 km/h" }, "chars": { "expr": "happy", "skin": "#ffffff" } },
+  { "bg": "#ffe0b0", "label": "WARNING", "darkLabel": true, "title": "Things get CRAZY!", "titleColor": "#e85d04", "slam": true, "shake": 14, "enter": "whip", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "riser" },
+  { "bg": "#ffedcc", "label": "ROUND 4 / 6", "title": "SU-30 MKI", "titleColor": "#ff8a00", "route": "jet", "enter": "whip", "hud": { "hours": 1.3333, "speed": 2350, "speedLabel": "Mach 2" }, "chars": { "expr": "happy", "skin": "#ffffff" }, "sfx": "whoosh" },
+  { "bg": "#ffe0cc", "label": "ROUND 5 / 6", "title": "BRAHMOS", "titleColor": "#ff5a1f", "route": "rocket", "enter": "whip", "hud": { "hours": 1, "speed": 3500, "speedLabel": "Mach 3" }, "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "boom" },
+  { "bg": "#141a2e", "label": "THE MONSTER", "darkLabel": true, "title": "And then…", "titleColor": "#ffc93c", "launch": true, "shake": 6, "enter": "drop", "sfx": "riser" },
+  { "bg": "#ffcccc", "label": "ROUND 6 / 6", "title": "AGNI-V", "titleColor": "#e63946", "route": "rocket", "arc": true, "enter": "whip", "hud": { "hours": 0.1417, "speed": 24700, "speedLabel": "Mach 20+" }, "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "boom" },
+  { "bg": "#e8f0ff", "label": "THE RACE", "title": "2 DAYS → MINUTES", "race": true, "enter": "zoom", "chars": { "expr": "surprised", "skin": "#ffffff" }, "sfx": "whoosh" },
+  { "bg": "#ffe9c9", "label": "OUTRO", "title": "Another LEVEL!", "big": true, "titleColor": "#ff5a1f", "chart": "speeds", "button": "FOLLOW", "enter": "whip", "sfx": "boom" }
 ]

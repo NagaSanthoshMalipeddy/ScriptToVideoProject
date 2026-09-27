@@ -9,7 +9,7 @@ import { GEO, INDIA_FILL, NEIGHBOURS, SOUTH_ASIA } from "./data";
 // Static 9:16 (1080x1920) thumbnail for the India Borders video, cartoon theme.
 export const IndiaThumbnailV: React.FC = () => {
   const mapW = 940;
-  const mapH = 760;
+  const mapH = 620;
   const countries = Object.entries(NEIGHBOURS).map(([key, nb]) => ({
     geom: GEO[key],
     fill: nb.color,
@@ -34,13 +34,13 @@ export const IndiaThumbnailV: React.FC = () => {
       </svg>
 
       {/* Title */}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 90, textAlign: "center" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 300, textAlign: "center" }}>
         <div style={{ fontFamily: TE_DISPLAY, fontSize: 150, fontWeight: 800, color: INK, lineHeight: 0.95 }}>INDIA's</div>
         <div style={{ fontFamily: TE_DISPLAY, fontSize: 170, fontWeight: 800, color: "#fff", WebkitTextStroke: `12px ${INK}`, textShadow: "0 10px 0 #ff5a1f", lineHeight: 0.95 }}>7 BORDERS</div>
       </div>
 
       {/* Map */}
-      <div style={{ position: "absolute", left: (1080 - mapW) / 2, top: 430, width: mapW, height: mapH, background: "#eef5ff", border: `6px solid ${INK}`, borderRadius: 34, overflow: "hidden", boxShadow: `0 14px 0 ${INK}` }}>
+      <div style={{ position: "absolute", left: (1080 - mapW) / 2, top: 625, width: mapW, height: mapH, background: "#eef5ff", border: `6px solid ${INK}`, borderRadius: 34, overflow: "hidden", boxShadow: `0 14px 0 ${INK}` }}>
         <MapView width={mapW} height={mapH} region={SOUTH_ASIA} countries={countries} markers={markers} />
       </div>
 
@@ -49,7 +49,7 @@ export const IndiaThumbnailV: React.FC = () => {
         style={{
           position: "absolute",
           left: 40,
-          top: 1230,
+          top: 1275,
           transform: "rotate(-4deg)",
           background: "#e63946",
           color: "#fff",
@@ -57,7 +57,7 @@ export const IndiaThumbnailV: React.FC = () => {
           borderRadius: 22,
           padding: "14px 36px",
           fontFamily: TE_DISPLAY,
-          fontSize: 84,
+          fontSize: 76,
           fontWeight: 800,
           whiteSpace: "nowrap",
           boxShadow: `0 14px 0 ${INK}`,
@@ -67,13 +67,13 @@ export const IndiaThumbnailV: React.FC = () => {
       </div>
 
       {/* Coastline tag */}
-      <div style={{ position: "absolute", left: 60, top: 1500, background: "#1e88e5", color: "#fff", fontFamily: TE_DISPLAY, fontSize: 60, fontWeight: 800, border: `6px solid ${INK}`, borderRadius: 18, padding: "8px 28px", transform: "rotate(-5deg)" }}>
+      <div style={{ position: "absolute", left: 60, top: 1475, background: "#1e88e5", color: "#fff", fontFamily: TE_DISPLAY, fontSize: 60, fontWeight: 800, border: `6px solid ${INK}`, borderRadius: 18, padding: "8px 28px", transform: "rotate(-5deg)" }}>
         COAST 7,516 km
       </div>
 
       {/* Character */}
-      <div style={{ position: "absolute", right: 10, bottom: -30 }}>
-        <Character expr="surprised" mouth="o" blink={0} armRaise={0.85} bob={0} skin="#ffffff" width={430} />
+      <div style={{ position: "absolute", right: 0, top: 1340 }}>
+        <Character expr="surprised" mouth="o" blink={0} armRaise={0.85} bob={0} skin="#ffffff" width={260} />
       </div>
     </AbsoluteFill>
   );

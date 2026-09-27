@@ -16,6 +16,7 @@ import asyncio
 import json
 import os
 import sys
+import unicodedata
 
 import edge_tts
 
@@ -65,38 +66,61 @@ async def synthesize(text, voice, rate, pitch, out_path):
     return words
 
 
+def _norm(s):
+    # Letters, digits and combining marks only (keeps Telugu/Hindi vowel signs).
+    return "".join(
+        ch.lower() for ch in s if ch.isalnum() or unicodedata.category(ch).startswith("M")
+    )
+
+
 def assign_sections(section_texts, words):
-    """Split the flat word stream into sections by character proportion."""
+    """Split the word stream into sections by locating each spoken word in the script.
+
+    Falls back to character proportion for words that can't be matched.
+    """
     if not words:
         return [
             {"text": s, "start": 0.0, "end": 0.0, "words": []} for s in section_texts
         ]
 
-    total_end = words[-1]["end"]
-    total_chars = sum(len(s) for s in section_texts) or 1
-
-    # Time range for each section based on cumulative character share.
-    ranges = []
+    normed = [_norm(s) for s in section_texts]
+    bounds = []
     acc = 0
-    for s in section_texts:
-        start_frac = acc / total_chars
-        acc += len(s)
-        end_frac = acc / total_chars
-        ranges.append((start_frac * total_end, end_frac * total_end))
+    for n in normed:
+        bounds.append((acc, acc + len(n)))
+        acc += len(n)
+    full = "".join(normed)
+    total_end = words[-1]["end"] or 1
+
+    def section_of(pos):
+        for i, (a, b) in enumerate(bounds):
+            if pos < b:
+                return i
+        return len(bounds) - 1
+
+    buckets = [[] for _ in section_texts]
+    ptr = 0
+    last = 0
+    for w in words:
+        token = _norm(w["word"])
+        idx = full.find(token, ptr) if token else -1
+        if idx != -1 and idx - ptr <= 120:
+            ptr = idx + len(token)
+            sec = section_of(idx)
+        else:
+            sec = section_of(int(len(full) * w["start"] / total_end))
+        sec = max(sec, last)
+        last = sec
+        buckets[sec].append(w)
 
     sections = []
-    for i, (r_start, r_end) in enumerate(ranges):
-        is_last = i == len(ranges) - 1
-        bucket = [
-            w
-            for w in words
-            if w["start"] >= r_start - 1e-6 and (w["start"] < r_end or is_last)
-        ]
+    prev_end = 0.0
+    for i, bucket in enumerate(buckets):
         if bucket:
-            s_start = bucket[0]["start"]
-            s_end = bucket[-1]["end"]
+            s_start, s_end = bucket[0]["start"], bucket[-1]["end"]
         else:
-            s_start, s_end = r_start, r_end
+            s_start = s_end = prev_end
+        prev_end = s_end
         sections.append(
             {
                 "text": section_texts[i],
@@ -106,9 +130,9 @@ def assign_sections(section_texts, words):
             }
         )
 
-    # Guarantee contiguous, non-overlapping board switch times.
+    # Switch boards at the first word of each section; the gap before it belongs to the previous board.
     for i in range(1, len(sections)):
-        sections[i]["start"] = sections[i - 1]["end"]
+        sections[i - 1]["end"] = sections[i]["start"]
     return sections
 
 

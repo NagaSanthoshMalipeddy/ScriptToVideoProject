@@ -1,6 +1,6 @@
 ---
 name: cartoon-explainer
-description: DEFAULT style for making videos. Turn any script/topic into a narrated flat-cartoon "storytime explainer" MP4 — pastel backgrounds, a rounded storytime character that acts out the story (expressions, crowds, lip-sync), bold rounded titles, section pills, captions, buttons, arrows, optional country map cards, real company logos, 3D bar charts, synced sound effects, full-screen VS comparison cards, vehicles moving on the (official) India map, and matching cartoon thumbnails + subtitle tracks — synced to a text-to-speech (or custom) voiceover. Given a script, it delivers the full package by default: MP4 + 9:16 clickbait thumbnail + Telugu .srt + YouTube upload package. Use this whenever the user asks to create/make/generate a video, short, reel, explainer, or animation from a script, text, topic, or paragraphs, UNLESS they explicitly ask for a different style (whiteboard, plain motion-graphics, etc.). Supports any language/voice (edge-tts) and vertical / landscape / square output.
+description: DEFAULT style for making videos. Turn any script/topic into a narrated flat-cartoon "storytime explainer" MP4 — pastel backgrounds, a rounded storytime character that acts out the story (expressions, crowds, lip-sync), bold rounded titles, section pills, captions, buttons, arrows, optional country map cards, real company logos, 3D bar charts, synced sound effects, full-screen VS comparison cards, vehicles moving on the (official) India map, and matching cartoon thumbnails + subtitle tracks — synced to a text-to-speech (or custom) voiceover. Given a script, it delivers the full package by default: MP4 (always ending with a like/share/subscribe CTA and showing a subscribe nudge every 20s) + 9:16 clickbait thumbnail + Telugu .srt + YouTube upload package. Use this whenever the user asks to create/make/generate a video, short, reel, explainer, or animation from a script, text, topic, or paragraphs, UNLESS they explicitly ask for a different style (whiteboard, plain motion-graphics, etc.). Supports any language/voice (edge-tts) and vertical / landscape / square output.
 ---
 
 # Cartoon Explainer Video (default video style)
@@ -30,6 +30,11 @@ short slug for file names (e.g. `speed-india`, `kashmir`, `hyd-vs-blr`):
 | 4 | YouTube upload package (titles, description with chapters, tags, thumbnail concepts, pinned comment, settings) | in the chat reply |
 
 Workflow:
+0. **Direct it first.** Read the **shorts-animation-director** skill
+   (`.github/skills/shorts-animation-director/SKILL.md`) and produce its Director's
+   Plan: visual language, storyboard with camera, transitions and metaphors, the
+   hook, assets and SFX cues. Build from that plan so the result doesn't look like
+   a slideshow. When a scene needs a component that doesn't exist yet, add it.
 1. Save the script as `<slug>-script.txt`, one beat per paragraph. Remove emoji and
    markdown (`**`) from the spoken text.
 2. Pick the right visual for each beat: **every beat must fill the screen**. Don't
@@ -49,8 +54,28 @@ Workflow:
    Timestamps use the `HH:MM:SS,mmm` format.
 7. Write the YouTube package by following the **youtube-upload-package** skill.
    Set the chapter timestamps from `timing.json` section starts. If the video is
-   over 60s, point out that it won't get the Shorts shelf unless it's trimmed.
+   over 3 minutes, point out that it's too long to be a Short (the limit is 3 min,
+   vertical).
 8. Open the video (`Invoke-Item out/<slug>.mp4`) and list every output path.
+
+## Channel call-to-action (DEFAULT on every video)
+This applies to **every** video in every style (cartoon, map journey, documentary
+map, whiteboard) without the user asking.
+- **End line:** add a final paragraph to the script:
+  "Please like, share and subscribe to my YouTube channel."
+  - Show `CtaCard` (`src/cartoon/Nudge.tsx`) for that section: LIKE, SHARE and
+    SUBSCRIBE (with a bell) pop in on each spoken word, via the word timings
+    `at(n, "like" | "share" | "subscribe")`.
+  - The Subscribe button turns into "SUBSCRIBED ✓" and the bell rings.
+- **Nudge every 20s:** render `<SubscribeNudge T={T} until={ctaStart} />`. A bell and
+  a Subscribe button slide in at the top-right for about 2.6s at 20s, 40s and so on,
+  stopping before the CTA.
+  - Add a `ding` at `t + 1.1` for each start time from `nudgeTimes(ctaStart)`.
+  - Set `top` so the nudge clears the headline (about 330 under HUD titles).
+- **Subtitles:** add a Telugu cue for the CTA line.
+- **Length:** check the video still fits the Shorts limit (3 minutes) after adding the
+  line.
+- Reference implementation: `src/korea/KoreaWar.tsx`.
 
 ## India map rules (IMPORTANT)
 - Always use the **official Indian boundary**, which includes PoK/PoJK,
@@ -114,6 +139,19 @@ Each beat renders on a pastel background with:
    Which visual to use: `compare` for any "A vs B" script, `route` for travel or
    distance scripts, a map for geography, `chart` for rankings, and `logos` for
    companies.
+
+   Motion fields (reusable, in `src/cartoon/Motion.tsx`):
+   ```jsonc
+   "enter": "whip",          // entrance transition: whip | zoom | drop
+   "shake": 12,              // screen shake intensity (impacts, launches, warnings)
+   "hud": { "hours": 44, "speed": 85, "speedLabel": "80–90 km/h" }, // with "route": spinning trip clock + log speedometer
+   "arc": true,              // with "route": ballistic arc path (bigger at apex)
+   "slam": true,             // giant speedometer slamming into the red + warning stripes
+   "launch": true,           // night-sky missile launch with smoke
+   "race": true              // all vehicles race in lanes; finish times pop in (edit RACERS)
+   ```
+   Scene cuts are synced by matching each spoken word to the script text
+   (`pipeline/tts.py`), so each beat starts exactly on its first spoken word.
    Guidance: vary `bg` per section for rhythm; use `big:true` for punchlines;
    give two characters different `skin`/`label` for dialogue; use `count>1` for
    crowds; only use `map` for Russia/Ukraine geography (other topics: omit it).
@@ -143,13 +181,37 @@ Each beat renders on a pastel background with:
 6. **Report** the output path to the user.
 
 ## Using the user's own recorded voiceover (no TTS)
+**Preferred: word-synced transcription.** Their voice becomes the soundtrack and
+scenes cut on the words they actually say.
+```powershell
+$env:WHISPER_PROMPT = '<key names/terms in the spoken language>'   # optional vocabulary hint
+python pipeline/transcribe.py "C:\path\to\voice.mp3" <slug>-transcript.txt large-v3-turbo te
+```
+- `transcribe.py` (faster-whisper, local CPU) copies the audio to `public/audio.mp3`
+  and writes `public/timing.json`, with one section per sentence plus word timings.
+  The last argument is the language: `te`, `hi`, `en`, and so on. Leave it out to
+  auto-detect.
+- It uses anti-looping settings (no conditioning on previous text, sensitive VAD,
+  repetition penalty). Still, **mixed Telugu–English speech transcribes only
+  partly**.
+  - Always print the words with their times and check what came through.
+  - If sentences are garbled, ask the user for the exact script. If they aren't
+    available, rebuild the script from the recognisable words plus verified history,
+    and key the visuals to the **audio timestamps** instead of the transcript text.
+    Reference: `src/iraniraq/IranIraqWar.tsx`, where the `KEYS` and HUD blocks are
+    in seconds.
+  - Write the Telugu `.srt` from the rebuilt script, timed to the sections.
+- **Channel CTA with a user voiceover:** don't mix a TTS line into their voice. Add
+  a visual-only end card (`CtaCard`) for about 5s after the audio ends. Make the
+  composition longer (`CTA_T + END_PAD`) and keep the 20s `SubscribeNudge`.
+
+Fallback (no transcription, sync approximate):
 ```powershell
 node pipeline/use_audio.mjs "C:\path\to\voice.m4a" my-script.txt
 npx remotion render src/index.ts Cartoon out/video.mp4 --overwrite
 ```
 `use_audio.mjs` converts the audio to `public/audio.mp3` and writes
 `public/timing.json` with one section per paragraph (length ≈ paragraph length).
-Scene sync is approximate; nudge paragraph splits if a beat drifts.
 
 ## Extras — logos, 3D charts, sound effects
 - **Company logos:** add `"logos": [slug, ...]` to a beat. Real glyphs for
@@ -164,6 +226,15 @@ Scene sync is approximate; nudge paragraph splits if a beat drifts.
   set `"sfx"` per beat to choose. Kept at low volume so narration stays clear.
 
 ## Thumbnails (cartoon theme)
+
+**Shorts safe area (required for 9:16 thumbnails):** the Shorts feed shows only the
+middle **~1080×1560** of a 1080×1920 thumbnail, cutting about 180px from the top and
+bottom.
+- Keep every title, banner, number and key image inside **y 300–1620**. Use the top
+  and bottom edges for background only.
+- Check it before delivering. Crop the image the way the feed does, then look at
+  the result with `view_image`:
+  `& (node -e "console.log(require('ffmpeg-static'))") -y -i out/<thumb>.png -vf "crop=1080:1560:0:180" out/_feed-preview.png`
 Still compositions render a matching thumbnail:
 ```powershell
 npx remotion still src/index.ts Thumbnail  out/thumb-16x9.png --frame=0 --overwrite   # 1280x720
@@ -198,6 +269,22 @@ inside the file, focuses different zones per beat, and draws the India base map
 with a locator inset and a legend. `MapView` accepts `lines` (dashed borders) and
 `movers` (animated icons).
 
+For **world / multi-country place videos** (landmarks, cities, trips, rankings),
+follow the **map-journey-animation** skill
+(`.github/skills/map-journey-animation/SKILL.md`), which uses `Wonders`
+(`src/wonders/`) as the pattern. The whole screen is a live world map
+(`world.json`, Natural Earth 110m, with India swapped for the official outline) and
+a **camera** flies between places:
+- `camRegion` turns a camera (`lon`, `lat`, `span`, `anchor`) into a `Region` that
+  uses `refLat` and `noWrap`.
+- The zoom is exponential, with a zoom-out bump in mid-flight.
+- A plane follows a curved route. Pins drop at the exact coordinates.
+- A card slides up with a landmark drawing (`Art.tsx`), the flag, the coordinates
+  and fact chips.
+
+To add places, put their real coordinates in `data.ts` along with a camera `span`
+(smaller for small countries).
+
 ## Existing videos (slug -> composition, beats, thumbnail)
 | Slug | Composition | Beats | Thumbnail |
 |---|---|---|---|
@@ -205,6 +292,9 @@ with a locator inset and a legend. `MapView` accepts `lines` (dashed borders) an
 | hyd-vs-blr(-en) | `Cartoon` | `public/beats.hyd-en.json` (compare) | none yet |
 | india-borders | `IndiaBorders` | in-file | `IndiaThumbnailV` |
 | kashmir | `Kashmir` | in-file | `KashmirThumbnailV` |
+| wonders | `Wonders` | in-file (`src/wonders/data.ts`) | `WondersThumbnailV` |
+| russia-ukraine | `WarMap` | word-synced keyframes (`src/warmap/`) | `WarMapThumbnailV` |
+| korean-war | `KoreaWar` | word-synced keyframes + front lines (`src/korea/`) | `KoreaThumbnailV` |
 | ai-jobs | `Cartoon` | logos + layoffs chart | `ThumbnailV` |
 
 `public/timing.json` and `public/audio.mp3` are shared by all videos. To re-render

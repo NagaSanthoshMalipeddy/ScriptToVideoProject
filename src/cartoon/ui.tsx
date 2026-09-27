@@ -75,6 +75,7 @@ export const Title: React.FC<{ text: string; frame: number; delay?: number; size
         color,
         textAlign: "center",
         lineHeight: 1.08,
+        maxWidth: "100%",
         transform: `scale(${0.7 + p * 0.3})`,
         opacity: p,
       }}
