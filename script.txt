@@ -1,249 +1,214 @@
-Imagine a war that lasts…
+# HOOK
+[MAP: zoom from space to the Bering Strait] [TEXT POP: "ONLY 4 KM?!"] [SFX: boom]
+USA and Russia are only 4 km apart?!
 
-eight years.
+[PIN: Big Diomede Russia / Little Diomede USA]
+That sounds impossible on a normal world map. But it is true.
 
-Two neighboring countries.
+[ROUTE: distance line between the islands] [TEXT POP: "3.8 KM"]
+Two rocky islands in the Bering Strait sit about 3.8 km apart.
 
-Millions of people affected.
+# SETUP
+[MAP: North Pacific with Alaska and Russia highlighted]
+Look at the North Pacific. Alaska reaches west while Russia reaches east.
 
-Cities bombed.
+[CAMERA: zoom through the 180th meridian]
+Flat maps split this area at the edge. Therefore, the neighbours look far apart.
 
-Oil facilities attacked.
+[MAP: wrap the globe and bring both coasts together]
+Wrap that map into a globe, and the illusion disappears.
 
-And a conflict that eventually became one of the longest and bloodiest conventional wars of the 20th century.
+[TEXT POP: "DIOMEDE ISLANDS"]
+The closest dramatic meeting point is the Diomede Islands.
 
-This was the Iran–Iraq War.
+[FLAG: Russia over Big Diomede] [FLAG: USA over Little Diomede]
+Big Diomede belongs to Russia. Little Diomede belongs to the United States.
 
-But why did Iraq invade Iran?
+[TEXT POP: "3.8 KM"]
+The water between their nearest shores is only about 3.8 km.
 
-Why did the war continue for eight years?
+[VS CARD: 3.8 km vs an Indian city commute]
+That is shorter than many daily commutes in an Indian city.
 
-And how did it finally end?
+# BODY
+[MAP: zoom out to mainland capes]
+But do not confuse the islands with the continents themselves.
 
-Let's go back to 1980.
+[PIN: Cape Dezhnev Russia / Cape Prince of Wales Alaska]
+The nearest mainland points are Cape Dezhnev and Cape Prince of Wales.
 
-To understand the war, look at the map.
+[ROUTE: mainland distance line] [TEXT POP: "ABOUT 82 KM"]
+They are about 82 km apart across the Bering Strait.
 
-Here is Iraq.
+[MAP: islands centered between the capes]
+The Diomedes sit roughly in the middle of that crossing.
 
-And directly to its east…
+[BORDER GLOW: US–Russia maritime boundary]
+An international boundary runs between the two islands.
 
-Iran.
+[TIMELINE: 1867] [MAP: Alaska changes from Russia to USA]
+That line became crucial after the United States bought Alaska from Russia in 1867.
 
-The two countries shared a long and strategically important border.
+[TEXT POP: "$7.2 MILLION"]
+The price was 7.2 million dollars.
 
-One particularly important area was the Shatt al-Arab waterway, where the Tigris and Euphrates rivers meet before flowing toward the Persian Gulf.
+[MAP: old treaty line follows between the islands]
+Therefore, yesterday's internal Russian waters became a border between two countries.
 
-The border and control of this waterway had been disputed for years.
+[CLOCK: 23:59 → 00:00] [SPLIT SCREEN: today / tomorrow]
+But geography adds an even stranger twist: the International Date Line.
 
-But there was another major development.
+[BORDER GLOW: date line between Big and Little Diomede]
+It also passes between Big Diomede and Little Diomede.
 
-In 1979, Iran experienced the Islamic Revolution.
+[CLOCK: Alaska time / Anadyr time]
+The islands use the official time zones of Alaska and Russia's far east.
 
-The monarchy was overthrown, and a new Islamic Republic was established under Ayatollah Ruhollah Khomeini.
+[TEXT POP: "21 HOURS"]
+Therefore, their clocks normally differ by 21 hours.
 
-The revolution dramatically changed Iran's government and its relationship with neighboring countries.
+[SPLIT SCREEN: Monday on Little / Tuesday on Big]
+Stand on Little Diomede on Monday, and Big Diomede can already be on Tuesday.
 
-Iraq's leader, Saddam Hussein, saw Iran as being politically unsettled.
+[PIN: Yesterday Isle]
+That is why Little Diomede is often called Yesterday Isle.
 
-He also saw an opportunity to strengthen Iraq's position in the region.
+[PIN: Tomorrow Island]
+And Big Diomede is often called Tomorrow Island.
 
-Tensions rapidly increased.
+[CAMERA: sunrise sweeps across both islands]
+But the Sun does not suddenly move 21 hours in 3.8 km.
 
-And then…
+[CLOCK: solar noon comparison]
+The huge jump comes from human time zones and the chosen date line.
 
-Iraq made its move.
+[MAP: close-up of Little Diomede village]
+Little Diomede has a small Alaska Native community.
 
-September 22, 1980.
+[TEXT POP: "IÑUPIAT HOME"]
+Its village is home to Iñupiat people with deep roots in the region.
 
-Look at the map.
+[MAP: close-up of Big Diomede]
+Big Diomede, however, has no permanent civilian population today.
 
-The Iraqi flag appears on the western side.
+[TIMELINE: 1948]
+Its residents were moved to the Soviet mainland in 1948.
 
-Then…
+[MAP: Cold War border shutters closed]
+Soon the Cold War turned this narrow waterway into the Ice Curtain.
 
-it starts moving east.
+[BORDER GLOW: closed crossing]
+Families and neighbours who had moved across the strait were separated.
 
-Iraqi forces launched a large-scale invasion of Iran.
+[MAP: village lights glow on the dark Arctic coast]
+For people living here, this is not a map puzzle. It is home.
 
-Multiple Iraqi units crossed the border.
+[ICE: sea ice grows across the channel]
+In winter, sea ice may form between the islands.
 
-Iraq attacked targets across western Iran and launched air strikes against Iranian military and infrastructure targets.
+[CHARACTER: walking figure fades behind warning]
+But that does not create a public footpath.
 
-The expectation was that Iran's political turmoil and military problems would make it vulnerable.
+[SPLIT SCREEN: thin ice / strong current]
+Ice shifts. Currents are powerful. Fog and extreme cold arrive quickly.
 
-Initially, Iraq made territorial gains.
+[BORDER GLOW: restricted international boundary]
+Most importantly, this is a controlled international border.
 
-But the war did not go according to plan.
+[TEXT POP: "NOT A TOURIST CROSSING"]
+Therefore, trying to cross without permission is illegal and dangerous.
 
-Iran began mobilizing its military and revolutionary forces.
+[TIMELINE: 1987] [ROUTE: swimmer Little Diomede → Big Diomede]
+One famous crossing did happen in 1987.
 
-And instead of collapsing…
+[CHARACTER: Lynne Cox swimming]
+American swimmer Lynne Cox swam from Little Diomede to Big Diomede.
 
-Iran fought back.
+[FLAG: USA and USSR officials]
+But this was no secret stunt. Both governments gave permission.
 
-The Iraqi advance slowed.
+[TEXT POP: "2 HOURS 6 MINUTES"]
+She completed the cold-water swim in 2 hours and 6 minutes.
 
-Then it stopped.
+[CROWD: people greeting swimmer] [SFX: ding]
+Her arrival became a small symbol of warming relations near the Cold War's end.
 
-And eventually…
+[TIMELINE: 1991]
+Four years later, the Soviet Union ended.
 
-the direction of the war began to change.
+[MAP: route options appear then lock]
+So why is there no simple ferry or bridge today?
 
-The Iranian flag begins moving west.
+[MAP: storm waves and drifting ice]
+First, the weather is severe and the sea is unpredictable.
 
-Iran launched counteroffensives and gradually recovered much of the territory Iraq had captured.
+[MAP: tiny village and empty island]
+Second, one island has a tiny community and the other has no permanent town.
 
-By 1982, Iranian forces had pushed Iraqi forces out of most of the Iranian territory they had occupied.
+[BORDER GLOW: visa and security icons]
+Third, travel would require immigration, customs, security, and diplomatic agreement.
 
-At this point, Iraq had an opportunity to end the conflict.
+[BRIDGE: concept line stretches across Bering Strait]
+People have proposed a much larger Bering Strait bridge or tunnel.
 
-But the war continued.
+[ROUTE: Alaska mainland → Diomedes → Russia mainland]
+The islands seem like stepping stones.
 
-Iran demanded that Iraq accept responsibility for the invasion and sought other conditions before a permanent settlement.
+[TEXT POP: "82 KM OF STRAIT"]
+But the full mainland crossing is about 82 km, not 4 km.
 
-Iranian forces then crossed into Iraqi territory.
+[MAP: roads fade far from both capes]
+And both ends are extremely remote, far from major road networks.
 
-And the war changed completely.
+[COUNTER: costs and infrastructure rise]
+Therefore, the real project would include vast roads, railways, power, and support systems.
 
-Instead of a short invasion…
+[MAP: wildlife and community icons]
+It would also need careful protection for local communities and Arctic ecosystems.
 
-it became a long war of attrition.
+[VS CARD: close on map / hard in reality]
+So the map makes connection look easy. Reality makes it enormous.
 
-Both sides were now trying to exhaust the other.
+[CAMERA: pull back to the Arctic]
+This tiny gap also explains why Asia and North America feel almost joined.
 
-And neither side could easily achieve a decisive victory.
+[MAP: Bering land bridge appears]
+During the last Ice Age, sea levels were much lower.
 
-1982.
+[TEXT POP: "BERINGIA"]
+A broad land area called Beringia connected the continents.
 
-1983.
+[ROUTE: people and animals move across Beringia]
+Therefore, people, animals, and plants could move through the wider region.
 
-1984.
+[MAP: sea levels rise and land bridge disappears]
+But rising seas later covered that land.
 
-1985.
+[PIN: Diomede Islands remain]
+The Diomedes remained above water like clues to the old connection.
 
-The front line moves…
+# AHA
+[CAMERA: fast zoom from globe to islands] [TEXT POP: "3.8 KM"]
+Now the answer is clear. The United States and Russia really are about 3.8 km apart at these islands.
 
-then moves back.
+[SPLIT SCREEN: distance line / date line]
+But the same gap carries a national border and the International Date Line.
 
-Neither side achieves a decisive breakthrough.
+[CLOCK: Monday → Tuesday] [TEXT POP: "21 HOURS"]
+Therefore, a neighbour visible across the water can be 21 hours ahead.
 
-The conflict increasingly became a war of attrition.
+[MAP: mainland line appears] [TEXT POP: "82 KM"]
+And remember the final twist: the mainlands are about 82 km apart.
 
-Both countries launched attacks against military positions.
+[TEXT POP: "CLOSEST SHORES · BIGGEST TIME JUMP"]
+The 4 km claim is true because islands count as national territory.
 
-But the war wasn't limited to the battlefield.
+[MAP: glowing Diomede pair against dark Arctic]
+Two tiny rocks make two giant countries look close enough to touch.
 
-Oil became extremely important.
+# CTA
+[LOGO: GlobeTales] [MAP: globe rotates]
+Every edge of the map hides a story, and GlobeTales brings it closer.
 
-Iran and Iraq depended heavily on oil revenues.
-
-So oil facilities and shipping became targets.
-
-This expanded the conflict into the Persian Gulf.
-
-Commercial shipping was attacked.
-
-Oil tankers came under threat.
-
-And other countries became increasingly concerned about the security of the Gulf.
-
-The war was no longer just an Iran-Iraq problem.
-
-It was becoming an international crisis.
-
-One of the darkest aspects of the Iran-Iraq War was the use of chemical weapons.
-
-Chemical weapons were used during the conflict, and Iraq's use became particularly significant.
-
-The attacks caused severe injuries and deaths.
-
-One of the most notorious examples came in 1988, when the Kurdish town of Halabja was attacked with chemical agents during the final phase of the war.
-
-This period demonstrated how devastating the conflict had become.
-
-The war was no longer about quickly capturing territory.
-
-It had become a prolonged struggle with enormous human costs.
-
-Meanwhile…
-
-neither Iran nor Iraq was able to secure a decisive victory.
-
-By the late 1980s, both countries were exhausted.
-
-The war had lasted for years.
-
-The economy of both countries had suffered.
-
-Cities and infrastructure had been damaged.
-
-And huge numbers of people had been killed, wounded, displaced, or otherwise affected.
-
-The United Nations pushed for a ceasefire.
-
-The UN Security Council adopted Resolution 598, calling for a ceasefire and other steps toward ending the conflict.
-
-Eventually, Iran accepted the resolution.
-
-Iraq also accepted it.
-
-And after eight years of war…
-
-the fighting finally stopped.
-
-August 20, 1988.
-
-The ceasefire came into effect.
-
-On the map…
-
-the Iraqi flag stops.
-
-The Iranian flag stops.
-
-The front line freezes.
-
-After nearly eight years of fighting…
-
-the guns finally became silent.
-
-There was no dramatic conquest of Iran.
-
-There was no decisive Iraqi victory.
-
-And Iran did not conquer Iraq.
-
-The war ended through a ceasefire rather than a clear military victory for either side.
-
-The two countries had fought for years…
-
-only to return broadly to the pre-war international border framework.
-
-The Iran-Iraq War changed the Middle East permanently.
-
-It showed how quickly a regional dispute could become an enormous international crisis.
-
-It devastated both countries.
-
-It drew in outside powers.
-
-It threatened one of the world's most important oil-producing regions.
-
-And it left behind millions of people affected by the conflict.
-
-The war began with an Iraqi invasion in 1980…
-
-and ended with a ceasefire in 1988.
-
-Eight years.
-
-Two countries.
-
-One devastating war.
-
-And no clear winner.
-
-This was the Iran–Iraq War.
-
+[CTA: like share subscribe]
 Please like, share and subscribe to my YouTube channel.

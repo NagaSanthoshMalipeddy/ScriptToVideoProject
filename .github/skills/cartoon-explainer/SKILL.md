@@ -105,6 +105,9 @@ Each beat renders on a pastel background with:
 1. **Write the script** → save to a file (e.g. `my-script.txt`), **one beat per
    paragraph**, separated by blank lines. Keep each paragraph short and spoken.
    Match the user's language. This is what the voice reads.
+   If the user gives only a **topic or title**, write it with the
+   **viral-script-writer** skill (5-part formula, [visual cues]). `tts.py` skips
+   `[cues]` and `# headings`, so the file can be voiced as-is.
 
 2. **Author the beats** → `public/beats.json` is an **array with one object per
    paragraph** (same count/order as the script). Each beat:

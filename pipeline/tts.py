@@ -15,6 +15,7 @@ edge-tts timestamp for the on-screen writing sync.
 import asyncio
 import json
 import os
+import re
 import sys
 import unicodedata
 
@@ -33,11 +34,13 @@ def load_config():
 
 
 def load_sections():
-    with open(SCRIPT_PATH, "r", encoding="utf-8") as f:
+    """Paragraphs = sections. `# heading` lines and `[visual cue]` text are not spoken."""
+    with open(SCRIPT_PATH, "r", encoding="utf-8-sig") as f:
         raw = f.read().replace("\r\n", "\n").replace("\r", "\n")
     blocks = []
     for block in raw.split("\n\n"):
-        text = " ".join(line.strip() for line in block.split("\n") if line.strip())
+        lines = [line.strip() for line in block.split("\n") if line.strip() and not line.strip().startswith("#")]
+        text = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", " ", " ".join(lines))).strip()
         if text:
             blocks.append(text)
     return blocks

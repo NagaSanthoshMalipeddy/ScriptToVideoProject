@@ -3,3 +3,4 @@ out/
 public/audio.mp3
 render.log
 *.log
+__pycache__/

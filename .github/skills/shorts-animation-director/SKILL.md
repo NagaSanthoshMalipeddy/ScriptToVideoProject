@@ -87,6 +87,12 @@ Possible visual:
 
 Do not simply display the sentence as text.
 
+If the user gives only a **topic or title**, write the script first with the
+**viral-script-writer** skill. Scripts from that skill already carry `[visual cues]`
+and `# HOOK / SETUP / BODY / AHA / CTA` headings. Treat the cues as the writer's
+intent: honour them, build on them, and fill the gaps. Keep the Hook scene within
+the first 3 s.
+
 ---
 
 # Default Video Format

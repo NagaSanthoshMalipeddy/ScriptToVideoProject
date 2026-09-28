@@ -26,6 +26,13 @@ import { IranIraqWar, CTA_T as IRAQ_CTA_T, END_PAD as IRAQ_END_PAD } from "./ira
 import { IranIraqThumbnailV } from "./iraniraq/IranIraqThumbnailV";
 import { IraqLong, IraqShort } from "./iraniraq/IraqDoc";
 import { IraqLongThumb, IraqShortThumb } from "./iraniraq/IraqThumbs";
+import { GlobeTalesBanner, GlobeTalesLogo } from "./brand/GlobeTales";
+import { WalkWorld, WalkWorldThumb } from "./daily/WalkWorld";
+import { DarienGapThumb, DarienGapVideo } from "./daily/DarienGap";
+import { SpainBordersThumb, SpainBordersVideo } from "./daily/SpainBorders";
+import { PopulationDistributionThumb, PopulationDistributionVideo } from "./daily/PopulationDistribution";
+import { DiomedeThumb, DiomedeVideo } from "./daily/DiomedeIslands";
+import { TibetFlightsThumb, TibetFlightsVideo } from "./daily/TibetFlights";
 import { IndiaThumbnailV } from "./india/IndiaThumbnailV";
 import timingJson from "../public/timing.json";
 import beatsJson from "../public/beats.json";
@@ -173,6 +180,30 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
         defaultProps={{ timing }}
       />
+      <Composition id="WalkWorld" component={WalkWorld} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="WalkWorldThumb" component={WalkWorldThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="DarienGapShort" component={DarienGapVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="DarienGapLong" component={DarienGapVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="DarienGapShortThumb" component={DarienGapThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="DarienGapLongThumb" component={DarienGapThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="SpainBordersShort" component={SpainBordersVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="SpainBordersLong" component={SpainBordersVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="SpainBordersShortThumb" component={SpainBordersThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="SpainBordersLongThumb" component={SpainBordersThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="PopulationDistributionShort" component={PopulationDistributionVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="PopulationDistributionLong" component={PopulationDistributionVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="PopulationDistributionShortThumb" component={PopulationDistributionThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="PopulationDistributionLongThumb" component={PopulationDistributionThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="DiomedeShort" component={DiomedeVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="DiomedeLong" component={DiomedeVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="DiomedeShortThumb" component={DiomedeThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="DiomedeLongThumb" component={DiomedeThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="TibetFlightsShort" component={TibetFlightsVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="TibetFlightsLong" component={TibetFlightsVideo} durationInFrames={durationInFrames + 3 * config.fps} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="TibetFlightsShortThumb" component={TibetFlightsThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
+      <Composition id="TibetFlightsLongThumb" component={TibetFlightsThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
+      <Composition id="GlobeTalesLogo" component={GlobeTalesLogo} durationInFrames={1} fps={config.fps} width={800} height={800} />
+      <Composition id="GlobeTalesBanner" component={GlobeTalesBanner} durationInFrames={1} fps={config.fps} width={2560} height={1440} />
       <Composition id="IraqShortThumb" component={IraqShortThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
       <Composition id="IraqLongThumb" component={IraqLongThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} defaultProps={{ timing }} />
       <Composition
