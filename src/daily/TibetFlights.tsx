@@ -11,6 +11,7 @@ import {
 } from "remotion";
 import { BODY, DISPLAY } from "../airace/fonts";
 import { CtaCard, nudgeTimes, SubscribeNudge } from "../cartoon/Nudge";
+import { CoverTitle } from "../cartoon/CoverTitle";
 import type { Section, Timing } from "../types";
 import { geomPath } from "../ukraine/GeoMap";
 import { COUNTRIES } from "../wonders/data";
@@ -304,6 +305,7 @@ export const TibetFlightsVideo: React.FC<{ timing: Timing }> = ({ timing }) => {
       {cues.map(([time, name, volume]) => cue(time, name, volume))}
       {nudgeTimes(ctaT).map((time) => cue(time + 1.1, "ding", 0.14))}
       <TibetFlightsScene timing={timing} />
+      <CoverTitle lines={["WHY PILOTS", "AVOID TIBET"]} sub="The Himalayan danger" accent="#ff9933" />
     </AbsoluteFill>
   );
 };

@@ -15,6 +15,7 @@ import { COUNTRIES } from "../wonders/data";
 import { BODY } from "../airace/fonts";
 import { TE_DISPLAY } from "../story/fonts";
 import { CtaCard, nudgeTimes, SubscribeNudge } from "../cartoon/Nudge";
+import { CoverTitle } from "../cartoon/CoverTitle";
 
 type Pt = [number, number];
 type View = { lon: number; lat: number; span: number };
@@ -361,6 +362,7 @@ export const DarienGapVideo: React.FC<{ timing: Timing }> = ({ timing }) => {
       {sfx.map(([t, n, v]) => cue(t, n, v))}
       {nudgeTimes(ctaT).map((t) => cue(t + 1.1, "ding", 0.18))}
       <DarienScene timing={timing} />
+      <CoverTitle lines={["THE ROAD", "THAT JUST ENDS"]} sub="Why no one can cross the Darién Gap" accent="#2fbf71" />
     </AbsoluteFill>
   );
 };

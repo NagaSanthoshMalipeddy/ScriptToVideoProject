@@ -11,6 +11,7 @@ import {
 } from "remotion";
 import { BODY, DISPLAY } from "../airace/fonts";
 import { CtaCard, nudgeTimes, SubscribeNudge } from "../cartoon/Nudge";
+import { CoverTitle } from "../cartoon/CoverTitle";
 import type { Section, Timing } from "../types";
 import { geomPath } from "../ukraine/GeoMap";
 import { COUNTRIES } from "../wonders/data";
@@ -338,6 +339,7 @@ export const SpainBordersVideo: React.FC<{ timing: Timing }> = ({ timing }) => {
       {sfx.map(([t, name, volume]) => cue(t, name, volume))}
       {nudgeTimes(ctaT).map((t) => cue(t + 1.1, "ding", 0.15))}
       <SpainBordersScene timing={timing} />
+      <CoverTitle lines={["SPAIN'S BORDERS", "ARE CRAZY!"]} sub="A Spanish town inside France?!" accent="#ffc93c" />
     </AbsoluteFill>
   );
 };

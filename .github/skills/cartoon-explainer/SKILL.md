@@ -98,7 +98,17 @@ Each beat renders on a pastel background with:
 - **Gray caption**, **button**, **big arrow**
 - Optional **map card** (light card, thick outlines) for geography topics
 - Optional **company logo row** (real brand glyphs) and a **3D bar chart** (WebGL)
-- **Sound effects** auto-played per beat (whoosh / ding / pop / riser / boom)
+- **Sound effects** auto-played per beat (whoosh / ding / pop / boom). No riser: it's removed from the channel sound.
+- **Background beat (default):** `public/music/slow-motion-beat.mp3`, looped at about 5%
+  under the voice. `withCover` adds it automatically. For other videos, render
+  `<BackgroundBeat />` from `src/cartoon/WithCover.tsx`.
+- **The user's own voiceover:** run
+  `ALIGN_SCRIPT=<script.txt> python pipeline/transcribe.py <voice.mp3> _tmp.txt large-v3-turbo en`.
+  This keeps the script's paragraphs as sections, so existing cues still work.
+  - If the recording doesn't follow the script word for word (for example, it's
+    translated or paraphrased), set each paragraph's start time by hand from the
+    Whisper word timestamps.
+  - Turn off word-by-word captions in that case.
 
 ## How to make one (steps)
 
@@ -126,7 +136,7 @@ Each beat renders on a pastel background with:
      "chars": { "expr": "happy", "skin": "#ffffff", "label": "NAME", "count": 1 },
      "logos": ["oracle", "amazon", "dell", "meta", "microsoft"], // optional brand logo row
      "chart": "layoffs",           // optional 3D bar chart (see Chart3D data)
-     "sfx": "boom",                // optional: pop | whoosh | ding | riser | boom
+     "sfx": "boom",                // optional: pop | whoosh | ding | boom (no riser)
      "map": "intro",                // optional: "intro" | "crimea" | "invasion" | "india"
      "route": "car",                // optional: vehicle drives Kashmir -> Kanyakumari on the India map
                                     //   car | train | plane | jet | rocket (faster ones launch harder)
@@ -163,7 +173,10 @@ Each beat renders on a pastel background with:
    `logos`/`chart` reveals — set `sfx` to override.
 
 3. **Pick voice / size** from the user's intent:
-   - Telugu `te-IN-MohanNeural` (M) / `te-IN-ShrutiNeural` (F),
+   - **Default narrator for GlobeTales (all English videos):** `en-US-ChristopherNeural`
+     at rate `+0%`, the voice from the Russia–Ukraine video. Use it unless the user asks
+     for another language or voice.
+   - Other voices: Telugu `te-IN-MohanNeural` (M) / `te-IN-ShrutiNeural` (F),
      Hindi `hi-IN-MadhurNeural`, Indian-English `en-IN-PrabhatNeural`,
      US-English `en-US-AndrewNeural`. List all: `python -m edge_tts --list-voices`.
    - Shorts/Reels → `vertical`; YouTube → `landscape`.
@@ -229,6 +242,26 @@ npx remotion render src/index.ts Cartoon out/video.mp4 --overwrite
   set `"sfx"` per beat to choose. Kept at low volume so narration stays clear.
 
 ## Thumbnails (cartoon theme)
+
+**Instagram cover frame (required for every 9:16 video):** Instagram Reels ignore
+uploaded thumbnails and use **frame 0** as the cover. They crop it to 4:5 in the feed
+(y 285–1635) or 3:4 on the profile grid (y 240–1680), and put their own views and
+username overlay over the bottom.
+- Wrap every 9:16 video with its thumbnail in `src/Root.tsx`:
+  `const XIG = withCover(XVideo, XThumb)` from `src/cartoon/WithCover.tsx`. Register
+  `XIG` with `durationInFrames + pad + coverLeadFrames(config.fps)`.
+  - The video then **opens on the full thumbnail design** (title, scene, detail tags,
+    banner) frozen at frame 0.
+  - It holds for 1.2 s with a slight push-in, then cross-fades into the hook while the
+    audio starts.
+  - So the thumbnail PNG and the Instagram cover are the same image.
+  - `CoverTitle` switches itself off inside `withCover`, so the title never appears
+    twice.
+- The thumbnail must keep its title and key detail inside **y 300–1480**. That fits
+  both the Shorts crop and Instagram's 4:5 crop, clear of Instagram's bottom overlay.
+- Nothing important above y 380 or below y 1480 in the first seconds. Never let the
+  hook text fade in from 0 on frame 0, or the cover will be blank.
+- Check it: render `--frame=0` and look at the middle `crop=1080:1350:0:285`.
 
 **Shorts safe area (required for 9:16 thumbnails):** the Shorts feed shows only the
 middle **~1080×1560** of a 1080×1920 thumbnail, cutting about 180px from the top and

@@ -1,4174 +1,510 @@
 {
   "audio": "audio.mp3",
-  "durationSec": 387.883,
+  "durationSec": 98.46,
   "sections": [
     {
-      "text": "USA and Russia are only 4 km apart?!",
-      "start": 0.1,
-      "end": 4.65,
+      "text": "ఉక పైలట్ని మధ్య ఆకాసం లోనే కత్తితో పఊడుచేయారు.",
+      "start": 0.0,
+      "end": 3.8,
       "words": [
         {
-          "word": "USA",
-          "start": 0.1,
-          "end": 0.6
+          "word": "ఉక",
+          "start": 0.0,
+          "end": 0.22
         },
         {
-          "word": "and",
-          "start": 0.7,
-          "end": 0.95
+          "word": "పైలట్ని",
+          "start": 0.22,
+          "end": 0.84
         },
         {
-          "word": "Russia",
-          "start": 0.95,
-          "end": 1.438
+          "word": "మధ్య",
+          "start": 0.84,
+          "end": 1.16
         },
         {
-          "word": "are",
-          "start": 1.525,
-          "end": 1.75
+          "word": "ఆకాసం",
+          "start": 1.16,
+          "end": 2.12
         },
         {
-          "word": "only",
-          "start": 1.837,
-          "end": 2.2
+          "word": "లోనే",
+          "start": 2.12,
+          "end": 2.38
         },
         {
-          "word": "4 km",
-          "start": 2.212,
-          "end": 3.225
+          "word": "కత్తితో",
+          "start": 2.38,
+          "end": 2.98
         },
         {
-          "word": "apart",
-          "start": 3.275,
-          "end": 3.75
+          "word": "పఊడుచేయారు.",
+          "start": 2.98,
+          "end": 3.48
         }
       ]
     },
     {
-      "text": "That sounds impossible on a normal world map. But it is true.",
-      "start": 4.65,
-      "end": 10.675,
+      "text": "విమానం జాదాపు 14 గు వేలా అడూగూలు జీందిక్ బడిపొయిండే.",
+      "start": 3.8,
+      "end": 7.64,
       "words": [
         {
-          "word": "That",
-          "start": 4.65,
-          "end": 4.925
+          "word": "విమానం",
+          "start": 3.8,
+          "end": 4.6
         },
         {
-          "word": "sounds",
-          "start": 4.925,
-          "end": 5.412
+          "word": "జాదాపు",
+          "start": 4.6,
+          "end": 5.2
         },
         {
-          "word": "impossible",
-          "start": 5.487,
-          "end": 6.237
+          "word": "14",
+          "start": 5.2,
+          "end": 5.58
         },
         {
-          "word": "on",
+          "word": "గు",
+          "start": 5.58,
+          "end": 5.98
+        },
+        {
+          "word": "వేలా",
+          "start": 5.98,
+          "end": 6.3
+        },
+        {
+          "word": "అడూగూలు",
           "start": 6.3,
-          "end": 6.487
+          "end": 6.68
         },
         {
-          "word": "a",
-          "start": 6.525,
-          "end": 6.6
+          "word": "జీందిక్",
+          "start": 6.68,
+          "end": 7.14
         },
         {
-          "word": "normal",
-          "start": 6.6,
-          "end": 7.075
-        },
-        {
-          "word": "world",
-          "start": 7.075,
-          "end": 7.45
-        },
-        {
-          "word": "map",
-          "start": 7.45,
-          "end": 7.888
-        },
-        {
-          "word": "But",
-          "start": 8.762,
-          "end": 8.988
-        },
-        {
-          "word": "it",
-          "start": 9.062,
-          "end": 9.2
-        },
-        {
-          "word": "is",
-          "start": 9.225,
-          "end": 9.387
-        },
-        {
-          "word": "true",
-          "start": 9.387,
-          "end": 9.738
-        }
-      ]
-    },
-    {
-      "text": "Two rocky islands in the Bering Strait sit about 3.8 km apart.",
-      "start": 10.675,
-      "end": 16.688,
-      "words": [
-        {
-          "word": "Two",
-          "start": 10.675,
-          "end": 10.775
-        },
-        {
-          "word": "rocky",
-          "start": 10.8,
-          "end": 11.213
-        },
-        {
-          "word": "islands",
-          "start": 11.262,
-          "end": 11.787
-        },
-        {
-          "word": "in",
-          "start": 11.863,
-          "end": 11.963
-        },
-        {
-          "word": "the",
-          "start": 11.975,
-          "end": 12.1
-        },
-        {
-          "word": "Bering",
-          "start": 12.1,
-          "end": 12.463
-        },
-        {
-          "word": "Strait",
-          "start": 12.463,
-          "end": 12.887
-        },
-        {
-          "word": "sit",
-          "start": 12.9,
-          "end": 13.15
-        },
-        {
-          "word": "about",
-          "start": 13.2,
-          "end": 13.575
-        },
-        {
-          "word": "3.8 km",
-          "start": 13.637,
-          "end": 15.275
-        },
-        {
-          "word": "apart",
-          "start": 15.325,
-          "end": 15.8
-        }
-      ]
-    },
-    {
-      "text": "Look at the North Pacific. Alaska reaches west while Russia reaches east.",
-      "start": 16.688,
-      "end": 23.3,
-      "words": [
-        {
-          "word": "Look",
-          "start": 16.688,
-          "end": 16.925
-        },
-        {
-          "word": "at",
-          "start": 17.012,
-          "end": 17.25
-        },
-        {
-          "word": "the",
-          "start": 17.25,
-          "end": 17.4
-        },
-        {
-          "word": "North",
-          "start": 17.4,
-          "end": 17.762
-        },
-        {
-          "word": "Pacific",
-          "start": 17.837,
-          "end": 18.438
-        },
-        {
-          "word": "Alaska",
-          "start": 19.35,
-          "end": 19.863
-        },
-        {
-          "word": "reaches",
-          "start": 19.863,
-          "end": 20.325
-        },
-        {
-          "word": "west",
-          "start": 20.325,
-          "end": 20.663
-        },
-        {
-          "word": "while",
-          "start": 20.663,
-          "end": 21.038
-        },
-        {
-          "word": "Russia",
-          "start": 21.038,
-          "end": 21.512
-        },
-        {
-          "word": "reaches",
-          "start": 21.512,
-          "end": 21.975
-        },
-        {
-          "word": "east",
-          "start": 22.062,
-          "end": 22.413
-        }
-      ]
-    },
-    {
-      "text": "Flat maps split this area at the edge. Therefore, the neighbours look far apart.",
-      "start": 23.3,
-      "end": 30.575,
-      "words": [
-        {
-          "word": "Flat",
-          "start": 23.3,
-          "end": 23.637
-        },
-        {
-          "word": "maps",
-          "start": 23.637,
-          "end": 24.062
-        },
-        {
-          "word": "split",
-          "start": 24.113,
-          "end": 24.488
-        },
-        {
-          "word": "this",
-          "start": 24.538,
-          "end": 24.812
-        },
-        {
-          "word": "area",
-          "start": 24.887,
-          "end": 25.288
-        },
-        {
-          "word": "at",
-          "start": 25.375,
-          "end": 25.6
-        },
-        {
-          "word": "the",
-          "start": 25.6,
-          "end": 25.825
-        },
-        {
-          "word": "edge",
-          "start": 25.825,
-          "end": 26.125
-        },
-        {
-          "word": "Therefore",
-          "start": 27.062,
-          "end": 27.637
-        },
-        {
-          "word": "the",
-          "start": 27.913,
-          "end": 28.025
-        },
-        {
-          "word": "neighbours",
-          "start": 28.025,
-          "end": 28.562
-        },
-        {
-          "word": "look",
-          "start": 28.575,
-          "end": 28.837
-        },
-        {
-          "word": "far",
-          "start": 28.837,
-          "end": 29.15
-        },
-        {
-          "word": "apart",
-          "start": 29.212,
-          "end": 29.675
-        }
-      ]
-    },
-    {
-      "text": "Wrap that map into a globe, and the illusion disappears.",
-      "start": 30.575,
-      "end": 35.263,
-      "words": [
-        {
-          "word": "Wrap",
-          "start": 30.575,
-          "end": 30.887
-        },
-        {
-          "word": "that",
-          "start": 30.9,
-          "end": 31.2
-        },
-        {
-          "word": "map",
-          "start": 31.2,
-          "end": 31.575
-        },
-        {
-          "word": "into",
-          "start": 31.637,
-          "end": 31.887
-        },
-        {
-          "word": "a",
-          "start": 31.938,
-          "end": 32.013
-        },
-        {
-          "word": "globe",
-          "start": 32.013,
-          "end": 32.462
-        },
-        {
-          "word": "and",
-          "start": 32.737,
-          "end": 32.888
-        },
-        {
-          "word": "the",
-          "start": 32.888,
-          "end": 33.087
-        },
-        {
-          "word": "illusion",
-          "start": 33.1,
-          "end": 33.638
-        },
-        {
-          "word": "disappears",
-          "start": 33.638,
-          "end": 34.388
-        }
-      ]
-    },
-    {
-      "text": "The closest dramatic meeting point is the Diomede Islands.",
-      "start": 35.263,
-      "end": 39.888,
-      "words": [
-        {
-          "word": "The",
-          "start": 35.263,
-          "end": 35.35
-        },
-        {
-          "word": "closest",
-          "start": 35.35,
-          "end": 36.0
-        },
-        {
-          "word": "dramatic",
-          "start": 36.062,
-          "end": 36.638
-        },
-        {
-          "word": "meeting",
-          "start": 36.65,
-          "end": 37.112
-        },
-        {
-          "word": "point",
-          "start": 37.112,
-          "end": 37.525
-        },
-        {
-          "word": "is",
-          "start": 37.6,
-          "end": 37.75
-        },
-        {
-          "word": "the",
-          "start": 37.763,
-          "end": 37.888
-        },
-        {
-          "word": "Diomede",
-          "start": 37.888,
-          "end": 38.413
-        },
-        {
-          "word": "Islands",
-          "start": 38.487,
-          "end": 39.025
-        }
-      ]
-    },
-    {
-      "text": "Big Diomede belongs to Russia. Little Diomede belongs to the United States.",
-      "start": 39.888,
-      "end": 46.475,
-      "words": [
-        {
-          "word": "Big",
-          "start": 39.888,
-          "end": 40.125
-        },
-        {
-          "word": "Diomede",
-          "start": 40.163,
-          "end": 40.737
-        },
-        {
-          "word": "belongs",
-          "start": 40.737,
-          "end": 41.288
-        },
-        {
-          "word": "to",
-          "start": 41.288,
-          "end": 41.425
-        },
-        {
-          "word": "Russia",
-          "start": 41.425,
-          "end": 41.9
-        },
-        {
-          "word": "Little",
-          "start": 42.763,
-          "end": 43.163
-        },
-        {
-          "word": "Diomede",
-          "start": 43.163,
-          "end": 43.712
-        },
-        {
-          "word": "belongs",
-          "start": 43.712,
-          "end": 44.263
-        },
-        {
-          "word": "to",
-          "start": 44.263,
-          "end": 44.375
-        },
-        {
-          "word": "the",
-          "start": 44.375,
-          "end": 44.513
-        },
-        {
-          "word": "United",
-          "start": 44.513,
-          "end": 45.087
-        },
-        {
-          "word": "States",
-          "start": 45.087,
-          "end": 45.6
-        }
-      ]
-    },
-    {
-      "text": "The water between their nearest shores is only about 3.8 km.",
-      "start": 46.475,
-      "end": 52.875,
-      "words": [
-        {
-          "word": "The",
-          "start": 46.475,
-          "end": 46.575
-        },
-        {
-          "word": "water",
-          "start": 46.575,
-          "end": 47.038
-        },
-        {
-          "word": "between",
-          "start": 47.038,
-          "end": 47.525
-        },
-        {
-          "word": "their",
-          "start": 47.525,
-          "end": 47.85
-        },
-        {
-          "word": "nearest",
-          "start": 47.85,
-          "end": 48.337
-        },
-        {
-          "word": "shores",
-          "start": 48.362,
-          "end": 48.888
-        },
-        {
-          "word": "is",
-          "start": 49.075,
-          "end": 49.25
-        },
-        {
-          "word": "only",
-          "start": 49.337,
-          "end": 49.75
-        },
-        {
-          "word": "about",
-          "start": 49.825,
-          "end": 50.225
-        },
-        {
-          "word": "3.8 km",
-          "start": 50.288,
-          "end": 52.013
-        }
-      ]
-    },
-    {
-      "text": "That is shorter than many daily commutes in an Indian city.",
-      "start": 52.875,
-      "end": 57.75,
-      "words": [
-        {
-          "word": "That",
-          "start": 52.875,
-          "end": 53.15
-        },
-        {
-          "word": "is",
-          "start": 53.15,
-          "end": 53.362
-        },
-        {
-          "word": "shorter",
-          "start": 53.388,
-          "end": 53.888
-        },
-        {
-          "word": "than",
-          "start": 53.888,
-          "end": 54.15
-        },
-        {
-          "word": "many",
-          "start": 54.15,
-          "end": 54.513
-        },
-        {
-          "word": "daily",
-          "start": 54.513,
-          "end": 54.837
-        },
-        {
-          "word": "commutes",
-          "start": 54.837,
-          "end": 55.462
-        },
-        {
-          "word": "in",
-          "start": 55.538,
-          "end": 55.725
-        },
-        {
-          "word": "an",
-          "start": 55.788,
-          "end": 56.013
-        },
-        {
-          "word": "Indian",
-          "start": 56.087,
-          "end": 56.487
-        },
-        {
-          "word": "city",
-          "start": 56.487,
-          "end": 56.888
-        }
-      ]
-    },
-    {
-      "text": "But do not confuse the islands with the continents themselves.",
-      "start": 57.75,
-      "end": 62.438,
-      "words": [
-        {
-          "word": "But",
-          "start": 57.75,
-          "end": 57.987
-        },
-        {
-          "word": "do",
-          "start": 58.013,
-          "end": 58.15
-        },
-        {
-          "word": "not",
-          "start": 58.212,
-          "end": 58.5
-        },
-        {
-          "word": "confuse",
-          "start": 58.525,
-          "end": 59.075
-        },
-        {
-          "word": "the",
-          "start": 59.075,
-          "end": 59.25
-        },
-        {
-          "word": "islands",
-          "start": 59.3,
-          "end": 59.837
-        },
-        {
-          "word": "with",
-          "start": 59.925,
-          "end": 60.175
-        },
-        {
-          "word": "the",
-          "start": 60.175,
-          "end": 60.275
-        },
-        {
-          "word": "continents",
-          "start": 60.275,
-          "end": 60.888
-        },
-        {
-          "word": "themselves",
-          "start": 60.888,
-          "end": 61.562
-        }
-      ]
-    },
-    {
-      "text": "The nearest mainland points are Cape Dezhnev and Cape Prince of Wales.",
-      "start": 62.438,
-      "end": 68.25,
-      "words": [
-        {
-          "word": "The",
-          "start": 62.438,
-          "end": 62.538
-        },
-        {
-          "word": "nearest",
-          "start": 62.538,
-          "end": 63.038
-        },
-        {
-          "word": "mainland",
-          "start": 63.062,
-          "end": 63.587
-        },
-        {
-          "word": "points",
-          "start": 63.587,
-          "end": 64.05
-        },
-        {
-          "word": "are",
-          "start": 64.112,
-          "end": 64.338
-        },
-        {
-          "word": "Cape",
-          "start": 64.338,
-          "end": 64.7
-        },
-        {
-          "word": "Dezhnev",
-          "start": 64.7,
-          "end": 65.412
-        },
-        {
-          "word": "and",
-          "start": 65.588,
-          "end": 65.85
-        },
-        {
-          "word": "Cape",
-          "start": 65.862,
-          "end": 66.175
-        },
-        {
-          "word": "Prince",
-          "start": 66.213,
-          "end": 66.562
-        },
-        {
-          "word": "of",
-          "start": 66.625,
-          "end": 66.825
-        },
-        {
-          "word": "Wales",
-          "start": 66.825,
-          "end": 67.362
-        }
-      ]
-    },
-    {
-      "text": "They are about 82 km apart across the Bering Strait.",
-      "start": 68.25,
-      "end": 73.325,
-      "words": [
-        {
-          "word": "They",
-          "start": 68.25,
-          "end": 68.388
-        },
-        {
-          "word": "are",
-          "start": 68.438,
-          "end": 68.65
-        },
-        {
-          "word": "about",
-          "start": 68.725,
-          "end": 69.112
-        },
-        {
-          "word": "82 km",
-          "start": 69.188,
-          "end": 70.425
-        },
-        {
-          "word": "apart",
-          "start": 70.513,
-          "end": 70.95
-        },
-        {
-          "word": "across",
-          "start": 71.025,
-          "end": 71.463
-        },
-        {
-          "word": "the",
-          "start": 71.463,
-          "end": 71.612
-        },
-        {
-          "word": "Bering",
-          "start": 71.612,
-          "end": 71.963
-        },
-        {
-          "word": "Strait",
-          "start": 71.963,
-          "end": 72.425
-        }
-      ]
-    },
-    {
-      "text": "The Diomedes sit roughly in the middle of that crossing.",
-      "start": 73.325,
-      "end": 77.612,
-      "words": [
-        {
-          "word": "The",
-          "start": 73.325,
-          "end": 73.412
-        },
-        {
-          "word": "Diomedes",
-          "start": 73.425,
-          "end": 74.088
-        },
-        {
-          "word": "sit",
-          "start": 74.138,
-          "end": 74.425
-        },
-        {
-          "word": "roughly",
-          "start": 74.463,
-          "end": 74.975
-        },
-        {
-          "word": "in",
-          "start": 75.037,
-          "end": 75.138
-        },
-        {
-          "word": "the",
-          "start": 75.15,
-          "end": 75.275
-        },
-        {
-          "word": "middle",
-          "start": 75.275,
-          "end": 75.638
-        },
-        {
-          "word": "of",
-          "start": 75.713,
-          "end": 75.9
-        },
-        {
-          "word": "that",
-          "start": 75.9,
-          "end": 76.188
-        },
-        {
-          "word": "crossing",
-          "start": 76.2,
-          "end": 76.725
-        }
-      ]
-    },
-    {
-      "text": "An international boundary runs between the two islands.",
-      "start": 77.612,
-      "end": 82.0,
-      "words": [
-        {
-          "word": "An",
-          "start": 77.612,
-          "end": 77.862
-        },
-        {
-          "word": "international",
-          "start": 77.938,
-          "end": 78.737
-        },
-        {
-          "word": "boundary",
-          "start": 78.737,
-          "end": 79.25
-        },
-        {
-          "word": "runs",
-          "start": 79.25,
-          "end": 79.662
-        },
-        {
-          "word": "between",
-          "start": 79.763,
-          "end": 80.237
-        },
-        {
-          "word": "the",
-          "start": 80.237,
-          "end": 80.35
-        },
-        {
-          "word": "two",
-          "start": 80.35,
-          "end": 80.537
-        },
-        {
-          "word": "islands",
-          "start": 80.6,
-          "end": 81.138
-        }
-      ]
-    },
-    {
-      "text": "That line became crucial after the United States bought Alaska from Russia in 1867.",
-      "start": 82.0,
-      "end": 89.688,
-      "words": [
-        {
-          "word": "That",
-          "start": 82.0,
-          "end": 82.275
-        },
-        {
-          "word": "line",
-          "start": 82.275,
-          "end": 82.612
-        },
-        {
-          "word": "became",
-          "start": 82.612,
-          "end": 83.088
-        },
-        {
-          "word": "crucial",
-          "start": 83.088,
-          "end": 83.562
-        },
-        {
-          "word": "after",
-          "start": 83.625,
-          "end": 84.05
-        },
-        {
-          "word": "the",
-          "start": 84.05,
-          "end": 84.188
-        },
-        {
-          "word": "United",
-          "start": 84.188,
-          "end": 84.812
-        },
-        {
-          "word": "States",
-          "start": 84.812,
-          "end": 85.312
-        },
-        {
-          "word": "bought",
-          "start": 85.487,
-          "end": 85.787
-        },
-        {
-          "word": "Alaska",
-          "start": 85.85,
-          "end": 86.388
-        },
-        {
-          "word": "from",
-          "start": 86.4,
-          "end": 86.713
-        },
-        {
-          "word": "Russia",
-          "start": 86.713,
-          "end": 87.225
-        },
-        {
-          "word": "in 1867",
-          "start": 87.338,
-          "end": 88.812
-        }
-      ]
-    },
-    {
-      "text": "The price was 7.2 million dollars.",
-      "start": 89.688,
-      "end": 93.362,
-      "words": [
-        {
-          "word": "The",
-          "start": 89.688,
-          "end": 89.775
-        },
-        {
-          "word": "price",
-          "start": 89.775,
-          "end": 90.188
-        },
-        {
-          "word": "was",
-          "start": 90.188,
-          "end": 90.487
-        },
-        {
-          "word": "7.2 million dollars",
-          "start": 90.537,
-          "end": 92.487
-        }
-      ]
-    },
-    {
-      "text": "Therefore, yesterday's internal Russian waters became a border between two countries.",
-      "start": 93.362,
-      "end": 99.963,
-      "words": [
-        {
-          "word": "Therefore",
-          "start": 93.362,
-          "end": 93.912
-        },
-        {
-          "word": "yesterday's",
-          "start": 94.15,
-          "end": 94.85
-        },
-        {
-          "word": "internal",
-          "start": 94.912,
-          "end": 95.5
-        },
-        {
-          "word": "Russian",
-          "start": 95.5,
-          "end": 95.975
-        },
-        {
-          "word": "waters",
-          "start": 95.975,
-          "end": 96.562
-        },
-        {
-          "word": "became",
-          "start": 96.737,
-          "end": 97.237
-        },
-        {
-          "word": "a",
-          "start": 97.287,
-          "end": 97.375
-        },
-        {
-          "word": "border",
-          "start": 97.375,
-          "end": 97.838
-        },
-        {
-          "word": "between",
-          "start": 97.838,
-          "end": 98.338
-        },
-        {
-          "word": "two",
-          "start": 98.338,
-          "end": 98.475
-        },
-        {
-          "word": "countries",
-          "start": 98.475,
-          "end": 99.112
-        }
-      ]
-    },
-    {
-      "text": "But geography adds an even stranger twist: the International Date Line.",
-      "start": 99.963,
-      "end": 105.9,
-      "words": [
-        {
-          "word": "But",
-          "start": 99.963,
-          "end": 100.2
-        },
-        {
-          "word": "geography",
-          "start": 100.237,
-          "end": 100.888
-        },
-        {
-          "word": "adds",
-          "start": 100.95,
-          "end": 101.3
-        },
-        {
-          "word": "an",
-          "start": 101.3,
-          "end": 101.537
-        },
-        {
-          "word": "even",
-          "start": 101.612,
-          "end": 101.963
-        },
-        {
-          "word": "stranger",
-          "start": 101.963,
-          "end": 102.575
-        },
-        {
-          "word": "twist",
-          "start": 102.575,
-          "end": 102.95
-        },
-        {
-          "word": "the",
-          "start": 103.237,
-          "end": 103.412
-        },
-        {
-          "word": "International",
-          "start": 103.475,
-          "end": 104.312
-        },
-        {
-          "word": "Date",
-          "start": 104.312,
-          "end": 104.6
-        },
-        {
-          "word": "Line",
-          "start": 104.6,
-          "end": 105.025
-        }
-      ]
-    },
-    {
-      "text": "It also passes between Big Diomede and Little Diomede.",
-      "start": 105.9,
-      "end": 110.638,
-      "words": [
-        {
-          "word": "It",
-          "start": 105.9,
-          "end": 106.025
-        },
-        {
-          "word": "also",
-          "start": 106.112,
-          "end": 106.463
-        },
-        {
-          "word": "passes",
-          "start": 106.463,
-          "end": 106.963
-        },
-        {
-          "word": "between",
-          "start": 106.963,
-          "end": 107.412
-        },
-        {
-          "word": "Big",
-          "start": 107.412,
-          "end": 107.688
-        },
-        {
-          "word": "Diomede",
-          "start": 107.725,
-          "end": 108.375
-        },
-        {
-          "word": "and",
-          "start": 108.487,
-          "end": 108.775
-        },
-        {
-          "word": "Little",
-          "start": 108.775,
-          "end": 109.15
-        },
-        {
-          "word": "Diomede",
-          "start": 109.15,
-          "end": 109.725
-        }
-      ]
-    },
-    {
-      "text": "The islands use the official time zones of Alaska and Russia's far east.",
-      "start": 110.638,
-      "end": 116.675,
-      "words": [
-        {
-          "word": "The",
-          "start": 110.638,
-          "end": 110.8
-        },
-        {
-          "word": "islands",
-          "start": 110.875,
-          "end": 111.362
-        },
-        {
-          "word": "use",
-          "start": 111.362,
-          "end": 111.662
-        },
-        {
-          "word": "the",
-          "start": 111.662,
-          "end": 111.825
-        },
-        {
-          "word": "official",
-          "start": 111.838,
-          "end": 112.388
-        },
-        {
-          "word": "time",
-          "start": 112.388,
-          "end": 112.713
-        },
-        {
-          "word": "zones",
-          "start": 112.713,
-          "end": 113.162
-        },
-        {
-          "word": "of",
-          "start": 113.237,
-          "end": 113.438
-        },
-        {
-          "word": "Alaska",
-          "start": 113.487,
-          "end": 114.075
-        },
-        {
-          "word": "and",
-          "start": 114.188,
-          "end": 114.438
-        },
-        {
-          "word": "Russia's",
-          "start": 114.438,
-          "end": 115.062
-        },
-        {
-          "word": "far",
-          "start": 115.062,
-          "end": 115.325
-        },
-        {
-          "word": "east",
-          "start": 115.412,
-          "end": 115.775
-        }
-      ]
-    },
-    {
-      "text": "Therefore, their clocks normally differ by 21 hours.",
-      "start": 116.675,
-      "end": 121.7,
-      "words": [
-        {
-          "word": "Therefore",
-          "start": 116.675,
-          "end": 117.275
-        },
-        {
-          "word": "their",
-          "start": 117.575,
-          "end": 117.888
-        },
-        {
-          "word": "clocks",
-          "start": 117.888,
-          "end": 118.338
-        },
-        {
-          "word": "normally",
-          "start": 118.375,
-          "end": 118.95
-        },
-        {
-          "word": "differ",
-          "start": 118.95,
-          "end": 119.388
-        },
-        {
-          "word": "by",
-          "start": 119.388,
-          "end": 119.612
-        },
-        {
-          "word": "21 hours",
-          "start": 119.625,
-          "end": 120.812
-        }
-      ]
-    },
-    {
-      "text": "Stand on Little Diomede on Monday, and Big Diomede can already be on Tuesday.",
-      "start": 121.7,
-      "end": 128.65,
-      "words": [
-        {
-          "word": "Stand",
-          "start": 121.7,
-          "end": 122.112
-        },
-        {
-          "word": "on",
-          "start": 122.175,
-          "end": 122.4
-        },
-        {
-          "word": "Little",
-          "start": 122.4,
-          "end": 122.8
-        },
-        {
-          "word": "Diomede",
-          "start": 122.8,
-          "end": 123.375
-        },
-        {
-          "word": "on",
-          "start": 123.463,
-          "end": 123.638
-        },
-        {
-          "word": "Monday",
-          "start": 123.638,
-          "end": 124.162
-        },
-        {
-          "word": "and",
-          "start": 124.65,
-          "end": 124.888
-        },
-        {
-          "word": "Big",
-          "start": 124.888,
-          "end": 125.162
-        },
-        {
-          "word": "Diomede",
-          "start": 125.175,
-          "end": 125.75
-        },
-        {
-          "word": "can",
-          "start": 125.812,
-          "end": 126.075
-        },
-        {
-          "word": "already",
-          "start": 126.162,
-          "end": 126.7
-        },
-        {
-          "word": "be",
-          "start": 126.7,
-          "end": 126.925
-        },
-        {
-          "word": "on",
-          "start": 126.987,
-          "end": 127.237
-        },
-        {
-          "word": "Tuesday",
-          "start": 127.237,
-          "end": 127.737
-        }
-      ]
-    },
-    {
-      "text": "That is why Little Diomede is often called Yesterday Isle.",
-      "start": 128.65,
-      "end": 133.512,
-      "words": [
-        {
-          "word": "That",
-          "start": 128.65,
-          "end": 128.925
-        },
-        {
-          "word": "is",
-          "start": 128.925,
-          "end": 129.125
-        },
-        {
-          "word": "why",
-          "start": 129.125,
-          "end": 129.412
-        },
-        {
-          "word": "Little",
-          "start": 129.412,
-          "end": 129.812
-        },
-        {
-          "word": "Diomede",
-          "start": 129.812,
-          "end": 130.45
-        },
-        {
-          "word": "is",
-          "start": 130.562,
-          "end": 130.75
-        },
-        {
-          "word": "often",
-          "start": 130.812,
-          "end": 131.175
-        },
-        {
-          "word": "called",
-          "start": 131.213,
-          "end": 131.588
-        },
-        {
-          "word": "Yesterday",
-          "start": 131.588,
-          "end": 132.15
-        },
-        {
-          "word": "Isle",
-          "start": 132.213,
-          "end": 132.675
-        }
-      ]
-    },
-    {
-      "text": "And Big Diomede is often called Tomorrow Island.",
-      "start": 133.512,
-      "end": 137.825,
-      "words": [
-        {
-          "word": "And",
-          "start": 133.512,
-          "end": 133.762
-        },
-        {
-          "word": "Big",
-          "start": 133.762,
-          "end": 134.037
-        },
-        {
-          "word": "Diomede",
-          "start": 134.088,
-          "end": 134.713
-        },
-        {
-          "word": "is",
-          "start": 134.8,
-          "end": 134.988
-        },
-        {
-          "word": "often",
-          "start": 135.05,
-          "end": 135.4
-        },
-        {
-          "word": "called",
-          "start": 135.438,
-          "end": 135.812
-        },
-        {
-          "word": "Tomorrow",
-          "start": 135.887,
-          "end": 136.4
-        },
-        {
-          "word": "Island",
-          "start": 136.45,
-          "end": 136.925
-        }
-      ]
-    },
-    {
-      "text": "But the Sun does not suddenly move 21 hours in 3.8 km.",
-      "start": 137.825,
-      "end": 144.175,
-      "words": [
-        {
-          "word": "But",
-          "start": 137.825,
-          "end": 138.062
-        },
-        {
-          "word": "the",
-          "start": 138.113,
-          "end": 138.25
-        },
-        {
-          "word": "Sun",
-          "start": 138.25,
-          "end": 138.6
-        },
-        {
-          "word": "does",
-          "start": 138.6,
-          "end": 138.825
-        },
-        {
-          "word": "not",
-          "start": 138.825,
-          "end": 139.113
-        },
-        {
-          "word": "suddenly",
-          "start": 139.113,
-          "end": 139.662
-        },
-        {
-          "word": "move",
-          "start": 139.662,
-          "end": 140.05
-        },
-        {
-          "word": "21 hours",
-          "start": 140.062,
-          "end": 141.213
-        },
-        {
-          "word": "in",
-          "start": 141.35,
-          "end": 141.512
-        },
-        {
-          "word": "3.8 km",
-          "start": 141.537,
-          "end": 143.325
-        }
-      ]
-    },
-    {
-      "text": "The huge jump comes from human time zones and the chosen date line.",
-      "start": 144.175,
-      "end": 149.7,
-      "words": [
-        {
-          "word": "The",
-          "start": 144.175,
-          "end": 144.275
-        },
-        {
-          "word": "huge",
-          "start": 144.275,
-          "end": 144.688
-        },
-        {
-          "word": "jump",
-          "start": 144.738,
-          "end": 145.113
-        },
-        {
-          "word": "comes",
-          "start": 145.125,
-          "end": 145.525
-        },
-        {
-          "word": "from",
-          "start": 145.537,
-          "end": 145.812
-        },
-        {
-          "word": "human",
-          "start": 145.812,
-          "end": 146.213
-        },
-        {
-          "word": "time",
-          "start": 146.213,
-          "end": 146.562
-        },
-        {
-          "word": "zones",
-          "start": 146.562,
-          "end": 147.025
-        },
-        {
-          "word": "and",
-          "start": 147.225,
-          "end": 147.438
-        },
-        {
-          "word": "the",
-          "start": 147.438,
-          "end": 147.588
-        },
-        {
-          "word": "chosen",
-          "start": 147.588,
-          "end": 148.1
-        },
-        {
-          "word": "date",
-          "start": 148.125,
-          "end": 148.412
-        },
-        {
-          "word": "line",
-          "start": 148.412,
-          "end": 148.838
-        }
-      ]
-    },
-    {
-      "text": "Little Diomede has a small Alaska Native community.",
-      "start": 149.7,
-      "end": 154.037,
-      "words": [
-        {
-          "word": "Little",
-          "start": 149.7,
-          "end": 150.088
-        },
-        {
-          "word": "Diomede",
-          "start": 150.088,
-          "end": 150.662
-        },
-        {
-          "word": "has",
-          "start": 150.662,
-          "end": 151.012
-        },
-        {
-          "word": "a",
-          "start": 151.075,
-          "end": 151.162
-        },
-        {
-          "word": "small",
-          "start": 151.162,
-          "end": 151.588
-        },
-        {
-          "word": "Alaska",
-          "start": 151.588,
-          "end": 152.088
-        },
-        {
-          "word": "Native",
-          "start": 152.088,
-          "end": 152.537
-        },
-        {
-          "word": "community",
-          "start": 152.562,
-          "end": 153.162
-        }
-      ]
-    },
-    {
-      "text": "Its village is home to Iñupiat people with deep roots in the region.",
-      "start": 154.037,
-      "end": 159.25,
-      "words": [
-        {
-          "word": "Its",
-          "start": 154.037,
-          "end": 154.262
-        },
-        {
-          "word": "village",
-          "start": 154.312,
-          "end": 154.7
-        },
-        {
-          "word": "is",
-          "start": 154.787,
-          "end": 154.988
-        },
-        {
-          "word": "home",
-          "start": 154.988,
-          "end": 155.35
-        },
-        {
-          "word": "to",
-          "start": 155.35,
-          "end": 155.475
-        },
-        {
-          "word": "Iñupiat",
-          "start": 155.537,
-          "end": 156.088
-        },
-        {
-          "word": "people",
-          "start": 156.088,
-          "end": 156.562
-        },
-        {
-          "word": "with",
-          "start": 156.562,
-          "end": 156.812
-        },
-        {
-          "word": "deep",
-          "start": 156.875,
-          "end": 157.213
-        },
-        {
-          "word": "roots",
-          "start": 157.225,
-          "end": 157.613
-        },
-        {
-          "word": "in",
-          "start": 157.688,
-          "end": 157.787
-        },
-        {
-          "word": "the",
-          "start": 157.812,
-          "end": 157.938
-        },
-        {
-          "word": "region",
-          "start": 157.938,
-          "end": 158.35
-        }
-      ]
-    },
-    {
-      "text": "Big Diomede, however, has no permanent civilian population today.",
-      "start": 159.25,
-      "end": 164.7,
-      "words": [
-        {
-          "word": "Big",
-          "start": 159.25,
-          "end": 159.488
-        },
-        {
-          "word": "Diomede",
-          "start": 159.525,
-          "end": 160.113
-        },
-        {
-          "word": "however",
-          "start": 160.35,
-          "end": 160.9
-        },
-        {
-          "word": "has",
-          "start": 161.2,
-          "end": 161.45
-        },
-        {
-          "word": "no",
-          "start": 161.45,
-          "end": 161.65
-        },
-        {
-          "word": "permanent",
-          "start": 161.688,
-          "end": 162.162
-        },
-        {
-          "word": "civilian",
-          "start": 162.162,
-          "end": 162.725
-        },
-        {
-          "word": "population",
-          "start": 162.725,
-          "end": 163.45
-        },
-        {
-          "word": "today",
-          "start": 163.45,
-          "end": 163.812
-        }
-      ]
-    },
-    {
-      "text": "Its residents were moved to the Soviet mainland in 1948.",
-      "start": 164.7,
-      "end": 170.25,
-      "words": [
-        {
-          "word": "Its",
-          "start": 164.7,
-          "end": 164.912
-        },
-        {
-          "word": "residents",
-          "start": 164.963,
-          "end": 165.575
-        },
-        {
-          "word": "were",
-          "start": 165.65,
-          "end": 165.912
-        },
-        {
-          "word": "moved",
-          "start": 165.912,
-          "end": 166.325
-        },
-        {
-          "word": "to",
-          "start": 166.4,
-          "end": 166.512
-        },
-        {
-          "word": "the",
-          "start": 166.512,
-          "end": 166.637
-        },
-        {
-          "word": "Soviet",
-          "start": 166.637,
-          "end": 167.15
-        },
-        {
-          "word": "mainland",
-          "start": 167.2,
-          "end": 167.812
-        },
-        {
-          "word": "in 1948",
-          "start": 167.9,
-          "end": 169.338
-        }
-      ]
-    },
-    {
-      "text": "Soon the Cold War turned this narrow waterway into the Ice Curtain.",
-      "start": 170.25,
-      "end": 175.512,
-      "words": [
-        {
-          "word": "Soon",
-          "start": 170.25,
-          "end": 170.625
-        },
-        {
-          "word": "the",
-          "start": 170.625,
-          "end": 170.713
-        },
-        {
-          "word": "Cold",
-          "start": 170.713,
-          "end": 171.113
-        },
-        {
-          "word": "War",
-          "start": 171.113,
-          "end": 171.45
-        },
-        {
-          "word": "turned",
-          "start": 171.45,
-          "end": 171.85
-        },
-        {
-          "word": "this",
-          "start": 171.85,
-          "end": 172.15
-        },
-        {
-          "word": "narrow",
-          "start": 172.188,
-          "end": 172.613
-        },
-        {
-          "word": "waterway",
-          "start": 172.613,
-          "end": 173.262
-        },
-        {
-          "word": "into",
-          "start": 173.35,
-          "end": 173.637
-        },
-        {
-          "word": "the",
-          "start": 173.65,
-          "end": 173.812
-        },
-        {
-          "word": "Ice",
-          "start": 173.85,
-          "end": 174.137
-        },
-        {
-          "word": "Curtain",
-          "start": 174.137,
-          "end": 174.625
-        }
-      ]
-    },
-    {
-      "text": "Families and neighbours who had moved across the strait were separated.",
-      "start": 175.512,
-      "end": 180.938,
-      "words": [
-        {
-          "word": "Families",
-          "start": 175.512,
-          "end": 176.1
-        },
-        {
-          "word": "and",
-          "start": 176.162,
-          "end": 176.425
-        },
-        {
-          "word": "neighbours",
-          "start": 176.45,
-          "end": 177.075
-        },
-        {
-          "word": "who",
-          "start": 177.113,
-          "end": 177.25
-        },
-        {
-          "word": "had",
-          "start": 177.262,
-          "end": 177.55
-        },
-        {
-          "word": "moved",
-          "start": 177.55,
-          "end": 177.938
-        },
-        {
-          "word": "across",
-          "start": 178.012,
-          "end": 178.475
-        },
-        {
-          "word": "the",
-          "start": 178.475,
-          "end": 178.613
-        },
-        {
-          "word": "strait",
-          "start": 178.613,
-          "end": 179.037
-        },
-        {
-          "word": "were",
-          "start": 179.075,
-          "end": 179.363
-        },
-        {
-          "word": "separated",
-          "start": 179.363,
-          "end": 180.037
-        }
-      ]
-    },
-    {
-      "text": "For people living here, this is not a map puzzle. It is home.",
-      "start": 180.938,
-      "end": 186.625,
-      "words": [
-        {
-          "word": "For",
-          "start": 180.938,
-          "end": 181.225
-        },
-        {
-          "word": "people",
-          "start": 181.225,
-          "end": 181.662
-        },
-        {
-          "word": "living",
-          "start": 181.662,
-          "end": 182.012
-        },
-        {
-          "word": "here",
-          "start": 182.012,
-          "end": 182.375
-        },
-        {
-          "word": "this",
-          "start": 182.65,
-          "end": 182.887
-        },
-        {
-          "word": "is",
-          "start": 182.887,
-          "end": 183.037
-        },
-        {
-          "word": "not",
-          "start": 183.037,
-          "end": 183.338
-        },
-        {
-          "word": "a",
-          "start": 183.4,
-          "end": 183.45
-        },
-        {
-          "word": "map",
-          "start": 183.45,
-          "end": 183.762
-        },
-        {
-          "word": "puzzle",
-          "start": 183.762,
-          "end": 184.25
-        },
-        {
-          "word": "It",
-          "start": 185.088,
-          "end": 185.188
-        },
-        {
-          "word": "is",
-          "start": 185.188,
-          "end": 185.375
-        },
-        {
-          "word": "home",
-          "start": 185.375,
-          "end": 185.787
-        }
-      ]
-    },
-    {
-      "text": "In winter, sea ice may form between the islands.",
-      "start": 186.625,
-      "end": 191.088,
-      "words": [
-        {
-          "word": "In",
-          "start": 186.625,
-          "end": 186.787
-        },
-        {
-          "word": "winter",
-          "start": 186.787,
-          "end": 187.287
-        },
-        {
-          "word": "sea",
-          "start": 187.637,
-          "end": 187.875
-        },
-        {
-          "word": "ice",
-          "start": 187.925,
-          "end": 188.262
-        },
-        {
-          "word": "may",
-          "start": 188.262,
-          "end": 188.525
-        },
-        {
-          "word": "form",
-          "start": 188.537,
-          "end": 188.975
-        },
-        {
-          "word": "between",
-          "start": 188.975,
-          "end": 189.412
-        },
-        {
-          "word": "the",
-          "start": 189.412,
-          "end": 189.588
-        },
-        {
-          "word": "islands",
-          "start": 189.637,
-          "end": 190.2
-        }
-      ]
-    },
-    {
-      "text": "But that does not create a public footpath.",
-      "start": 191.088,
-      "end": 194.812,
-      "words": [
-        {
-          "word": "But",
-          "start": 191.088,
-          "end": 191.325
-        },
-        {
-          "word": "that",
-          "start": 191.325,
-          "end": 191.65
-        },
-        {
-          "word": "does",
-          "start": 191.7,
-          "end": 191.938
-        },
-        {
-          "word": "not",
-          "start": 191.938,
-          "end": 192.225
-        },
-        {
-          "word": "create",
-          "start": 192.262,
-          "end": 192.688
-        },
-        {
-          "word": "a",
-          "start": 192.762,
-          "end": 192.838
-        },
-        {
-          "word": "public",
-          "start": 192.838,
-          "end": 193.275
-        },
-        {
-          "word": "footpath",
-          "start": 193.275,
-          "end": 193.9
-        }
-      ]
-    },
-    {
-      "text": "Ice shifts. Currents are powerful. Fog and extreme cold arrive quickly.",
-      "start": 194.812,
-      "end": 202.325,
-      "words": [
-        {
-          "word": "Ice",
-          "start": 194.812,
-          "end": 195.088
-        },
-        {
-          "word": "shifts",
-          "start": 195.1,
-          "end": 195.637
-        },
-        {
-          "word": "Currents",
-          "start": 196.525,
-          "end": 196.912
-        },
-        {
-          "word": "are",
-          "start": 196.975,
-          "end": 197.213
-        },
-        {
-          "word": "powerful",
-          "start": 197.213,
-          "end": 197.925
-        },
-        {
-          "word": "Fog",
-          "start": 198.762,
-          "end": 199.125
-        },
-        {
-          "word": "and",
-          "start": 199.213,
-          "end": 199.475
-        },
-        {
-          "word": "extreme",
-          "start": 199.488,
-          "end": 200.075
-        },
-        {
-          "word": "cold",
-          "start": 200.075,
-          "end": 200.438
-        },
-        {
-          "word": "arrive",
-          "start": 200.512,
-          "end": 200.963
-        },
-        {
-          "word": "quickly",
-          "start": 200.988,
-          "end": 201.45
-        }
-      ]
-    },
-    {
-      "text": "Most importantly, this is a controlled international border.",
-      "start": 202.325,
-      "end": 207.175,
-      "words": [
-        {
-          "word": "Most",
-          "start": 202.325,
-          "end": 202.637
-        },
-        {
-          "word": "importantly",
-          "start": 202.713,
-          "end": 203.525
-        },
-        {
-          "word": "this",
-          "start": 203.85,
-          "end": 204.125
-        },
-        {
-          "word": "is",
-          "start": 204.125,
-          "end": 204.262
-        },
-        {
-          "word": "a",
-          "start": 204.3,
-          "end": 204.35
-        },
-        {
-          "word": "controlled",
-          "start": 204.375,
-          "end": 204.95
-        },
-        {
-          "word": "international",
-          "start": 205.025,
-          "end": 205.787
-        },
-        {
-          "word": "border",
-          "start": 205.787,
-          "end": 206.275
-        }
-      ]
-    },
-    {
-      "text": "Therefore, trying to cross without permission is illegal and dangerous.",
-      "start": 207.175,
-      "end": 212.713,
-      "words": [
-        {
-          "word": "Therefore",
-          "start": 207.175,
-          "end": 207.775
-        },
-        {
-          "word": "trying",
-          "start": 208.05,
-          "end": 208.338
-        },
-        {
-          "word": "to",
-          "start": 208.338,
-          "end": 208.45
-        },
-        {
-          "word": "cross",
-          "start": 208.463,
-          "end": 208.875
-        },
-        {
-          "word": "without",
-          "start": 208.887,
-          "end": 209.338
-        },
-        {
-          "word": "permission",
-          "start": 209.338,
-          "end": 209.988
-        },
-        {
-          "word": "is",
-          "start": 210.1,
-          "end": 210.312
-        },
-        {
-          "word": "illegal",
-          "start": 210.387,
-          "end": 210.875
-        },
-        {
-          "word": "and",
-          "start": 210.95,
-          "end": 211.213
-        },
-        {
-          "word": "dangerous",
-          "start": 211.213,
-          "end": 211.863
-        }
-      ]
-    },
-    {
-      "text": "One famous crossing did happen in 1987.",
-      "start": 212.713,
-      "end": 217.275,
-      "words": [
-        {
-          "word": "One",
-          "start": 212.713,
-          "end": 213.012
-        },
-        {
-          "word": "famous",
-          "start": 213.012,
-          "end": 213.525
-        },
-        {
-          "word": "crossing",
-          "start": 213.537,
-          "end": 214.025
-        },
-        {
-          "word": "did",
-          "start": 214.025,
-          "end": 214.25
-        },
-        {
-          "word": "happen",
-          "start": 214.25,
-          "end": 214.738
-        },
-        {
-          "word": "in 1987",
-          "start": 214.887,
-          "end": 216.4
-        }
-      ]
-    },
-    {
-      "text": "American swimmer Lynne Cox swam from Little Diomede to Big Diomede.",
-      "start": 217.275,
-      "end": 222.675,
-      "words": [
-        {
-          "word": "American",
-          "start": 217.275,
-          "end": 217.787
-        },
-        {
-          "word": "swimmer",
-          "start": 217.787,
-          "end": 218.238
-        },
-        {
-          "word": "Lynne",
-          "start": 218.238,
-          "end": 218.6
-        },
-        {
-          "word": "Cox",
-          "start": 218.6,
-          "end": 219.025
-        },
-        {
-          "word": "swam",
-          "start": 219.062,
-          "end": 219.488
-        },
-        {
-          "word": "from",
-          "start": 219.488,
-          "end": 219.787
-        },
-        {
-          "word": "Little",
-          "start": 219.787,
-          "end": 220.162
-        },
-        {
-          "word": "Diomede",
-          "start": 220.162,
-          "end": 220.662
-        },
-        {
-          "word": "to",
-          "start": 220.738,
-          "end": 220.875
-        },
-        {
-          "word": "Big",
-          "start": 220.875,
-          "end": 221.137
-        },
-        {
-          "word": "Diomede",
-          "start": 221.15,
-          "end": 221.762
-        }
-      ]
-    },
-    {
-      "text": "But this was no secret stunt. Both governments gave permission.",
-      "start": 222.675,
-      "end": 228.488,
-      "words": [
-        {
-          "word": "But",
-          "start": 222.675,
-          "end": 222.912
-        },
-        {
-          "word": "this",
-          "start": 222.912,
-          "end": 223.238
-        },
-        {
-          "word": "was",
-          "start": 223.238,
-          "end": 223.537
-        },
-        {
-          "word": "no",
-          "start": 223.537,
-          "end": 223.787
-        },
-        {
-          "word": "secret",
-          "start": 223.787,
-          "end": 224.287
-        },
-        {
-          "word": "stunt",
-          "start": 224.287,
-          "end": 224.762
-        },
-        {
-          "word": "Both",
-          "start": 225.65,
-          "end": 225.95
-        },
-        {
-          "word": "governments",
-          "start": 226.025,
-          "end": 226.637
-        },
-        {
-          "word": "gave",
-          "start": 226.637,
-          "end": 226.975
-        },
-        {
-          "word": "permission",
-          "start": 226.975,
-          "end": 227.6
-        }
-      ]
-    },
-    {
-      "text": "She completed the cold-water swim in 2 hours and 6 minutes.",
-      "start": 228.488,
-      "end": 233.463,
-      "words": [
-        {
-          "word": "She",
-          "start": 228.488,
-          "end": 228.7
-        },
-        {
-          "word": "completed",
-          "start": 228.7,
-          "end": 229.312
-        },
-        {
-          "word": "the",
-          "start": 229.325,
-          "end": 229.475
-        },
-        {
-          "word": "cold-water",
-          "start": 229.475,
-          "end": 230.225
-        },
-        {
-          "word": "swim",
-          "start": 230.225,
-          "end": 230.65
-        },
-        {
-          "word": "in",
-          "start": 230.725,
-          "end": 230.863
-        },
-        {
-          "word": "2 hours",
-          "start": 230.875,
-          "end": 231.45
-        },
-        {
-          "word": "and",
-          "start": 231.55,
-          "end": 231.775
-        },
-        {
-          "word": "6",
-          "start": 231.775,
-          "end": 232.088
-        },
-        {
-          "word": "minutes",
-          "start": 232.088,
-          "end": 232.588
-        }
-      ]
-    },
-    {
-      "text": "Her arrival became a small symbol of warming relations near the Cold War's end.",
-      "start": 233.463,
-      "end": 239.925,
-      "words": [
-        {
-          "word": "Her",
-          "start": 233.463,
-          "end": 233.675
-        },
-        {
-          "word": "arrival",
-          "start": 233.762,
-          "end": 234.287
-        },
-        {
-          "word": "became",
-          "start": 234.287,
-          "end": 234.8
-        },
-        {
-          "word": "a",
-          "start": 234.838,
-          "end": 234.95
-        },
-        {
-          "word": "small",
-          "start": 234.95,
-          "end": 235.375
-        },
-        {
-          "word": "symbol",
-          "start": 235.375,
-          "end": 235.825
-        },
-        {
-          "word": "of",
-          "start": 235.825,
-          "end": 236.012
-        },
-        {
-          "word": "warming",
-          "start": 236.05,
-          "end": 236.575
-        },
-        {
-          "word": "relations",
-          "start": 236.575,
-          "end": 237.225
-        },
-        {
-          "word": "near",
-          "start": 237.35,
-          "end": 237.725
-        },
-        {
-          "word": "the",
-          "start": 237.725,
-          "end": 237.863
-        },
-        {
-          "word": "Cold",
-          "start": 237.863,
-          "end": 238.25
-        },
-        {
-          "word": "War's",
-          "start": 238.25,
-          "end": 238.637
-        },
-        {
-          "word": "end",
-          "start": 238.713,
-          "end": 239.025
-        }
-      ]
-    },
-    {
-      "text": "Four years later, the Soviet Union ended.",
-      "start": 239.925,
-      "end": 243.887,
-      "words": [
-        {
-          "word": "Four",
-          "start": 239.925,
-          "end": 240.25
-        },
-        {
-          "word": "years",
-          "start": 240.262,
-          "end": 240.675
-        },
-        {
-          "word": "later",
-          "start": 240.675,
-          "end": 241.162
-        },
-        {
-          "word": "the",
-          "start": 241.463,
-          "end": 241.562
-        },
-        {
-          "word": "Soviet",
-          "start": 241.562,
-          "end": 242.05
-        },
-        {
-          "word": "Union",
-          "start": 242.05,
-          "end": 242.5
-        },
-        {
-          "word": "ended",
-          "start": 242.575,
-          "end": 242.988
-        }
-      ]
-    },
-    {
-      "text": "So why is there no simple ferry or bridge today?",
-      "start": 243.887,
-      "end": 248.025,
-      "words": [
-        {
-          "word": "So",
-          "start": 243.887,
-          "end": 244.088
-        },
-        {
-          "word": "why",
-          "start": 244.088,
-          "end": 244.425
-        },
-        {
-          "word": "is",
-          "start": 244.5,
-          "end": 244.688
-        },
-        {
-          "word": "there",
-          "start": 244.688,
-          "end": 245.025
-        },
-        {
-          "word": "no",
-          "start": 245.025,
-          "end": 245.25
-        },
-        {
-          "word": "simple",
-          "start": 245.25,
-          "end": 245.7
-        },
-        {
-          "word": "ferry",
-          "start": 245.7,
-          "end": 246.113
-        },
-        {
-          "word": "or",
-          "start": 246.2,
-          "end": 246.387
-        },
-        {
-          "word": "bridge",
-          "start": 246.387,
-          "end": 246.738
-        },
-        {
-          "word": "today",
-          "start": 246.738,
-          "end": 247.125
-        }
-      ]
-    },
-    {
-      "text": "First, the weather is severe and the sea is unpredictable.",
-      "start": 248.025,
-      "end": 253.113,
-      "words": [
-        {
-          "word": "First",
-          "start": 248.025,
-          "end": 248.45
-        },
-        {
-          "word": "the",
-          "start": 248.725,
-          "end": 248.838
-        },
-        {
-          "word": "weather",
-          "start": 248.838,
-          "end": 249.262
-        },
-        {
-          "word": "is",
-          "start": 249.363,
-          "end": 249.575
-        },
-        {
-          "word": "severe",
-          "start": 249.625,
-          "end": 250.213
-        },
-        {
-          "word": "and",
-          "start": 250.35,
-          "end": 250.525
-        },
-        {
-          "word": "the",
-          "start": 250.525,
-          "end": 250.7
-        },
-        {
-          "word": "sea",
-          "start": 250.7,
-          "end": 251.037
-        },
-        {
-          "word": "is",
-          "start": 251.088,
-          "end": 251.275
-        },
-        {
-          "word": "unpredictable",
-          "start": 251.35,
-          "end": 252.238
-        }
-      ]
-    },
-    {
-      "text": "Second, one island has a tiny community and the other has no permanent town.",
-      "start": 253.113,
-      "end": 259.562,
-      "words": [
-        {
-          "word": "Second",
-          "start": 253.113,
-          "end": 253.625
-        },
-        {
-          "word": "one",
-          "start": 253.863,
-          "end": 254.137
-        },
-        {
-          "word": "island",
-          "start": 254.175,
-          "end": 254.637
-        },
-        {
-          "word": "has",
-          "start": 254.637,
-          "end": 254.975
-        },
-        {
-          "word": "a",
-          "start": 255.012,
-          "end": 255.075
-        },
-        {
-          "word": "tiny",
-          "start": 255.088,
-          "end": 255.5
-        },
-        {
-          "word": "community",
-          "start": 255.5,
-          "end": 256.212
-        },
-        {
-          "word": "and",
-          "start": 256.438,
-          "end": 256.65
-        },
-        {
-          "word": "the",
-          "start": 256.65,
-          "end": 256.837
-        },
-        {
-          "word": "other",
-          "start": 256.913,
-          "end": 257.238
-        },
-        {
-          "word": "has",
-          "start": 257.238,
-          "end": 257.55
-        },
-        {
-          "word": "no",
-          "start": 257.55,
-          "end": 257.75
-        },
-        {
-          "word": "permanent",
-          "start": 257.775,
-          "end": 258.288
-        },
-        {
-          "word": "town",
-          "start": 258.288,
-          "end": 258.712
-        }
-      ]
-    },
-    {
-      "text": "Third, travel would require immigration, customs, security, and diplomatic agreement.",
-      "start": 259.562,
-      "end": 266.65,
-      "words": [
-        {
-          "word": "Third",
-          "start": 259.562,
-          "end": 259.938
-        },
-        {
-          "word": "travel",
-          "start": 260.087,
-          "end": 260.55
-        },
-        {
-          "word": "would",
-          "start": 260.55,
-          "end": 260.788
-        },
-        {
-          "word": "require",
-          "start": 260.788,
-          "end": 261.4
-        },
-        {
-          "word": "immigration",
-          "start": 261.475,
-          "end": 262.212
-        },
-        {
-          "word": "customs",
-          "start": 262.538,
-          "end": 263.025
-        },
-        {
-          "word": "security",
-          "start": 263.337,
-          "end": 264.05
-        },
-        {
-          "word": "and",
-          "start": 264.325,
-          "end": 264.538
-        },
-        {
-          "word": "diplomatic",
-          "start": 264.538,
-          "end": 265.137
-        },
-        {
-          "word": "agreement",
-          "start": 265.188,
-          "end": 265.775
-        }
-      ]
-    },
-    {
-      "text": "People have proposed a much larger Bering Strait bridge or tunnel.",
-      "start": 266.65,
-      "end": 271.913,
-      "words": [
-        {
-          "word": "People",
-          "start": 266.65,
-          "end": 267.012
-        },
-        {
-          "word": "have",
-          "start": 267.012,
-          "end": 267.3
-        },
-        {
-          "word": "proposed",
-          "start": 267.3,
-          "end": 267.925
-        },
-        {
-          "word": "a",
-          "start": 268.0,
-          "end": 268.087
-        },
-        {
-          "word": "much",
-          "start": 268.087,
-          "end": 268.45
-        },
-        {
-          "word": "larger",
-          "start": 268.45,
-          "end": 269.0
-        },
-        {
-          "word": "Bering",
-          "start": 269.0,
-          "end": 269.387
-        },
-        {
-          "word": "Strait",
-          "start": 269.387,
-          "end": 269.837
-        },
-        {
-          "word": "bridge",
-          "start": 269.887,
-          "end": 270.238
-        },
-        {
-          "word": "or",
-          "start": 270.325,
-          "end": 270.562
-        },
-        {
-          "word": "tunnel",
-          "start": 270.562,
-          "end": 271.075
-        }
-      ]
-    },
-    {
-      "text": "The islands seem like stepping stones.",
-      "start": 271.913,
-      "end": 275.212,
-      "words": [
-        {
-          "word": "The",
-          "start": 271.913,
-          "end": 272.062
-        },
-        {
-          "word": "islands",
-          "start": 272.137,
-          "end": 272.65
-        },
-        {
-          "word": "seem",
-          "start": 272.7,
-          "end": 273.1
-        },
-        {
-          "word": "like",
-          "start": 273.1,
-          "end": 273.375
-        },
-        {
-          "word": "stepping",
-          "start": 273.375,
-          "end": 273.788
-        },
-        {
-          "word": "stones",
-          "start": 273.788,
-          "end": 274.35
-        }
-      ]
-    },
-    {
-      "text": "But the full mainland crossing is about 82 km, not 4 km.",
-      "start": 275.212,
-      "end": 281.525,
-      "words": [
-        {
-          "word": "But",
-          "start": 275.212,
-          "end": 275.45
-        },
-        {
-          "word": "the",
-          "start": 275.488,
-          "end": 275.637
-        },
-        {
-          "word": "full",
-          "start": 275.637,
-          "end": 275.913
-        },
-        {
-          "word": "mainland",
-          "start": 275.913,
-          "end": 276.462
-        },
-        {
-          "word": "crossing",
-          "start": 276.462,
-          "end": 276.975
-        },
-        {
-          "word": "is",
-          "start": 277.038,
-          "end": 277.175
-        },
-        {
-          "word": "about",
-          "start": 277.175,
-          "end": 277.55
-        },
-        {
-          "word": "82 km",
-          "start": 277.625,
-          "end": 278.863
-        },
-        {
-          "word": "not",
-          "start": 279.262,
-          "end": 279.562
-        },
-        {
-          "word": "4 km",
-          "start": 279.562,
-          "end": 280.663
-        }
-      ]
-    },
-    {
-      "text": "And both ends are extremely remote, far from major road networks.",
-      "start": 281.525,
-      "end": 287.525,
-      "words": [
-        {
-          "word": "And",
-          "start": 281.525,
-          "end": 281.738
-        },
-        {
-          "word": "both",
-          "start": 281.738,
-          "end": 282.113
-        },
-        {
-          "word": "ends",
-          "start": 282.25,
-          "end": 282.6
-        },
-        {
-          "word": "are",
-          "start": 282.663,
-          "end": 282.925
-        },
-        {
-          "word": "extremely",
-          "start": 282.988,
-          "end": 283.637
-        },
-        {
-          "word": "remote",
-          "start": 283.637,
-          "end": 284.113
-        },
-        {
-          "word": "far",
-          "start": 284.438,
-          "end": 284.788
-        },
-        {
-          "word": "from",
-          "start": 284.788,
-          "end": 285.1
-        },
-        {
-          "word": "major",
-          "start": 285.1,
-          "end": 285.587
-        },
-        {
-          "word": "road",
-          "start": 285.587,
-          "end": 285.913
-        },
-        {
-          "word": "networks",
-          "start": 285.925,
-          "end": 286.663
-        }
-      ]
-    },
-    {
-      "text": "Therefore, the real project would include vast roads, railways, power, and support systems.",
-      "start": 287.525,
-      "end": 294.988,
-      "words": [
-        {
-          "word": "Therefore",
-          "start": 287.525,
-          "end": 288.075
-        },
-        {
-          "word": "the",
-          "start": 288.363,
-          "end": 288.462
-        },
-        {
-          "word": "real",
-          "start": 288.462,
-          "end": 288.775
-        },
-        {
-          "word": "project",
-          "start": 288.775,
-          "end": 289.288
-        },
-        {
-          "word": "would",
-          "start": 289.325,
-          "end": 289.575
-        },
-        {
-          "word": "include",
-          "start": 289.663,
-          "end": 290.163
-        },
-        {
-          "word": "vast",
-          "start": 290.188,
-          "end": 290.575
-        },
-        {
-          "word": "roads",
-          "start": 290.613,
-          "end": 291.087
-        },
-        {
-          "word": "railways",
-          "start": 291.3,
-          "end": 291.95
-        },
-        {
-          "word": "power",
-          "start": 292.225,
-          "end": 292.6
-        },
-        {
-          "word": "and",
-          "start": 292.8,
-          "end": 293.012
-        },
-        {
-          "word": "support",
-          "start": 293.012,
-          "end": 293.488
-        },
-        {
-          "word": "systems",
-          "start": 293.488,
-          "end": 294.125
-        }
-      ]
-    },
-    {
-      "text": "It would also need careful protection for local communities and Arctic ecosystems.",
-      "start": 294.988,
-      "end": 301.663,
-      "words": [
-        {
-          "word": "It",
-          "start": 294.988,
-          "end": 295.1
-        },
-        {
-          "word": "would",
-          "start": 295.113,
-          "end": 295.337
-        },
-        {
-          "word": "also",
-          "start": 295.425,
-          "end": 295.825
-        },
-        {
-          "word": "need",
-          "start": 295.825,
-          "end": 296.137
-        },
-        {
-          "word": "careful",
-          "start": 296.15,
-          "end": 296.675
-        },
-        {
-          "word": "protection",
-          "start": 296.675,
-          "end": 297.337
-        },
-        {
-          "word": "for",
-          "start": 297.375,
-          "end": 297.675
-        },
-        {
-          "word": "local",
-          "start": 297.675,
-          "end": 298.075
-        },
-        {
-          "word": "communities",
-          "start": 298.075,
-          "end": 298.913
-        },
-        {
-          "word": "and",
-          "start": 299.1,
-          "end": 299.363
-        },
-        {
-          "word": "Arctic",
-          "start": 299.425,
-          "end": 299.875
-        },
-        {
-          "word": "ecosystems",
-          "start": 299.938,
-          "end": 300.788
-        }
-      ]
-    },
-    {
-      "text": "So the map makes connection look easy. Reality makes it enormous.",
-      "start": 301.663,
-      "end": 307.738,
-      "words": [
-        {
-          "word": "So",
-          "start": 301.663,
-          "end": 301.875
-        },
-        {
-          "word": "the",
-          "start": 301.913,
-          "end": 302.038
-        },
-        {
-          "word": "map",
-          "start": 302.038,
-          "end": 302.375
-        },
-        {
-          "word": "makes",
-          "start": 302.375,
-          "end": 302.775
-        },
-        {
-          "word": "connection",
-          "start": 302.788,
-          "end": 303.375
-        },
-        {
-          "word": "look",
-          "start": 303.375,
-          "end": 303.637
-        },
-        {
-          "word": "easy",
-          "start": 303.712,
-          "end": 304.163
-        },
-        {
-          "word": "Reality",
-          "start": 305.05,
-          "end": 305.587
-        },
-        {
-          "word": "makes",
-          "start": 305.587,
-          "end": 305.975
-        },
-        {
-          "word": "it",
-          "start": 305.975,
-          "end": 306.125
-        },
-        {
-          "word": "enormous",
-          "start": 306.188,
-          "end": 306.863
-        }
-      ]
-    },
-    {
-      "text": "This tiny gap also explains why Asia and North America feel almost joined.",
-      "start": 307.738,
-      "end": 314.663,
-      "words": [
-        {
-          "word": "This",
-          "start": 307.738,
-          "end": 307.988
-        },
-        {
-          "word": "tiny",
-          "start": 307.988,
-          "end": 308.425
-        },
-        {
-          "word": "gap",
-          "start": 308.425,
-          "end": 308.725
-        },
-        {
-          "word": "also",
-          "start": 308.788,
-          "end": 309.188
-        },
-        {
-          "word": "explains",
-          "start": 309.188,
-          "end": 309.837
-        },
-        {
-          "word": "why",
-          "start": 309.938,
-          "end": 310.25
-        },
-        {
-          "word": "Asia",
-          "start": 310.325,
-          "end": 310.85
-        },
-        {
-          "word": "and",
-          "start": 311.05,
-          "end": 311.288
-        },
-        {
-          "word": "North",
-          "start": 311.288,
-          "end": 311.688
-        },
-        {
-          "word": "America",
-          "start": 311.788,
-          "end": 312.325
-        },
-        {
-          "word": "feel",
-          "start": 312.325,
-          "end": 312.663
-        },
-        {
-          "word": "almost",
-          "start": 312.762,
-          "end": 313.238
-        },
-        {
-          "word": "joined",
-          "start": 313.288,
-          "end": 313.762
-        }
-      ]
-    },
-    {
-      "text": "During the last Ice Age, sea levels were much lower.",
-      "start": 314.663,
-      "end": 319.413,
-      "words": [
-        {
-          "word": "During",
-          "start": 314.663,
-          "end": 315.012
-        },
-        {
-          "word": "the",
-          "start": 315.012,
-          "end": 315.137
-        },
-        {
-          "word": "last",
-          "start": 315.137,
-          "end": 315.525
-        },
-        {
-          "word": "Ice",
-          "start": 315.587,
-          "end": 315.913
-        },
-        {
-          "word": "Age",
-          "start": 315.988,
-          "end": 316.363
-        },
-        {
-          "word": "sea",
-          "start": 316.663,
-          "end": 316.95
-        },
-        {
-          "word": "levels",
-          "start": 316.988,
-          "end": 317.375
-        },
-        {
-          "word": "were",
-          "start": 317.45,
-          "end": 317.725
-        },
-        {
-          "word": "much",
-          "start": 317.725,
-          "end": 318.087
-        },
-        {
-          "word": "lower",
-          "start": 318.087,
-          "end": 318.512
-        }
-      ]
-    },
-    {
-      "text": "A broad land area called Beringia connected the continents.",
-      "start": 319.413,
-      "end": 324.05,
-      "words": [
-        {
-          "word": "A",
-          "start": 319.413,
-          "end": 319.462
-        },
-        {
-          "word": "broad",
-          "start": 319.462,
-          "end": 319.837
-        },
-        {
-          "word": "land",
-          "start": 319.837,
-          "end": 320.262
-        },
-        {
-          "word": "area",
-          "start": 320.35,
-          "end": 320.7
-        },
-        {
-          "word": "called",
-          "start": 320.7,
-          "end": 321.113
-        },
-        {
-          "word": "Beringia",
-          "start": 321.113,
-          "end": 321.738
-        },
-        {
-          "word": "connected",
-          "start": 321.775,
-          "end": 322.312
-        },
-        {
-          "word": "the",
-          "start": 322.312,
-          "end": 322.462
-        },
-        {
-          "word": "continents",
-          "start": 322.462,
-          "end": 323.175
-        }
-      ]
-    },
-    {
-      "text": "Therefore, people, animals, and plants could move through the wider region.",
-      "start": 324.05,
-      "end": 329.8,
-      "words": [
-        {
-          "word": "Therefore",
-          "start": 324.05,
-          "end": 324.637
-        },
-        {
-          "word": "people",
-          "start": 324.887,
-          "end": 325.325
-        },
-        {
-          "word": "animals",
-          "start": 325.462,
-          "end": 326.05
-        },
-        {
-          "word": "and",
-          "start": 326.238,
-          "end": 326.45
-        },
-        {
-          "word": "plants",
-          "start": 326.45,
-          "end": 326.95
-        },
-        {
-          "word": "could",
-          "start": 327.0,
-          "end": 327.163
-        },
-        {
-          "word": "move",
-          "start": 327.163,
-          "end": 327.538
-        },
-        {
-          "word": "through",
-          "start": 327.587,
-          "end": 327.85
-        },
-        {
-          "word": "the",
-          "start": 327.85,
-          "end": 327.975
-        },
-        {
-          "word": "wider",
-          "start": 327.975,
-          "end": 328.425
-        },
-        {
-          "word": "region",
-          "start": 328.425,
-          "end": 328.9
-        }
-      ]
-    },
-    {
-      "text": "But rising seas later covered that land.",
-      "start": 329.8,
-      "end": 333.613,
-      "words": [
-        {
-          "word": "But",
-          "start": 329.8,
-          "end": 330.025
-        },
-        {
-          "word": "rising",
-          "start": 330.062,
-          "end": 330.587
-        },
-        {
-          "word": "seas",
-          "start": 330.587,
-          "end": 331.025
-        },
-        {
-          "word": "later",
-          "start": 331.062,
-          "end": 331.5
-        },
-        {
-          "word": "covered",
-          "start": 331.525,
-          "end": 331.962
-        },
-        {
-          "word": "that",
-          "start": 331.962,
-          "end": 332.288
-        },
-        {
-          "word": "land",
-          "start": 332.288,
-          "end": 332.7
-        }
-      ]
-    },
-    {
-      "text": "The Diomedes remained above water like clues to the old connection.",
-      "start": 333.613,
-      "end": 338.675,
-      "words": [
-        {
-          "word": "The",
-          "start": 333.613,
-          "end": 333.688
-        },
-        {
-          "word": "Diomedes",
-          "start": 333.7,
-          "end": 334.35
-        },
-        {
-          "word": "remained",
-          "start": 334.4,
-          "end": 334.863
-        },
-        {
-          "word": "above",
-          "start": 334.863,
-          "end": 335.3
-        },
-        {
-          "word": "water",
-          "start": 335.312,
-          "end": 335.788
-        },
-        {
-          "word": "like",
-          "start": 335.788,
-          "end": 336.075
-        },
-        {
-          "word": "clues",
-          "start": 336.075,
-          "end": 336.475
-        },
-        {
-          "word": "to",
-          "start": 336.5,
-          "end": 336.6
-        },
-        {
-          "word": "the",
-          "start": 336.6,
-          "end": 336.762
-        },
-        {
-          "word": "old",
-          "start": 336.863,
-          "end": 337.125
-        },
-        {
-          "word": "connection",
-          "start": 337.175,
-          "end": 337.775
+          "word": "బడిపొయిండే.",
+          "start": 7.14,
+          "end": 7.64
         }
       ]
     },
     {
-      "text": "Now the answer is clear. The United States and Russia really are about 3.8 km apart at these islands.",
-      "start": 338.675,
-      "end": 348.82,
+      "text": "కాని ఆ పైలట మాత్రం తన పరాణాలగురించ ఆలో చిన్చకుండ నోటా డేబ్ భహయనాళగూ మూది జాస్వలంగా జేష్యాడిలు దాధాపు 14 వేల అడుగులు కింది పడిపోయిన్దలీ ఉక్కసారి ొహిణ్చండా విమానం ఒఏల జెత్తుళో ఉునుంన పైలట్ గాయపటివనాడూ కోకృపిటలోనే దౌడ� అదుపులోకి తీస్కునారు విమానంలౌ ఉన్న మరోఇద్దరూ పఈలట్లు జిసుకొని వీమఆననీ సవుధి �అరేభియాల౓నగి ురక్షితంగా లాణ్ చేసేదాడు అందులో ఉన్న మొత్టం నూట డెభైనాలగుమంధి ప్రాణాళతో జేటపడ్డారు ఇ ఘట్టన తర్వాత భారతప్రధాని నరేందరమోధి జకుడ గాపృటిం స్మిత్ మచ్చర ధైరియాంనీ పెసంసిన్ఛాడు అయనా పరసుతుటొ ఆసూపతృలో చికిసపొం ఉక్కసారే ఆలోచించన్డి తనా ప్రాణమ్ పరమాదంలు ఉునై వందలమం అంధి �పృణాల కోసం జాడాటిన ఆ పజిలట్ ీరూ కాపొటేనో స్మిథ మచేరు",
+      "start": 7.64,
+      "end": 97.86,
       "words": [
-        {
-          "word": "Now",
-          "start": 338.675,
-          "end": 338.9
-        },
-        {
-          "word": "the",
-          "start": 338.913,
-          "end": 339.1
-        },
-        {
-          "word": "answer",
-          "start": 339.113,
-          "end": 339.625
-        },
-        {
-          "word": "is",
-          "start": 339.712,
-          "end": 339.925
-        },
-        {
-          "word": "clear",
-          "start": 339.962,
-          "end": 340.35
-        },
-        {
-          "word": "The",
-          "start": 341.262,
-          "end": 341.35
-        },
-        {
-          "word": "United",
-          "start": 341.35,
-          "end": 341.95
-        },
-        {
-          "word": "States",
-          "start": 341.95,
-          "end": 342.425
-        },
-        {
-          "word": "and",
-          "start": 342.488,
-          "end": 342.712
-        },
         {
-          "word": "Russia",
-          "start": 342.712,
-          "end": 343.175
+          "word": "కాని",
+          "start": 7.64,
+          "end": 8.54
         },
         {
-          "word": "really",
-          "start": 343.175,
-          "end": 343.675
+          "word": "ఆ",
+          "start": 8.54,
+          "end": 9.0
         },
         {
-          "word": "are",
-          "start": 343.75,
-          "end": 343.988
+          "word": "పైలట",
+          "start": 9.0,
+          "end": 9.48
         },
         {
-          "word": "about",
-          "start": 343.988,
-          "end": 344.325
+          "word": "మాత్రం",
+          "start": 9.48,
+          "end": 9.9
         },
         {
-          "word": "3.8 km",
-          "start": 344.387,
-          "end": 346.038
+          "word": "తన",
+          "start": 9.9,
+          "end": 10.22
         },
         {
-          "word": "apart",
-          "start": 346.1,
-          "end": 346.562
+          "word": "పరాణాలగురించ",
+          "start": 10.22,
+          "end": 11.04
         },
         {
-          "word": "at",
-          "start": 346.625,
-          "end": 346.85
+          "word": "ఆలో",
+          "start": 11.04,
+          "end": 11.26
         },
         {
-          "word": "these",
-          "start": 346.85,
-          "end": 347.212
+          "word": "చిన్చకుండ",
+          "start": 11.26,
+          "end": 11.72
         },
-        {
-          "word": "islands",
-          "start": 347.262,
-          "end": 347.825
-        }
-      ]
-    },
-    {
-      "text": "But the same gap carries a national border and the International Date Line.",
-      "start": 348.82,
-      "end": 354.908,
-      "words": [
         {
-          "word": "But",
-          "start": 348.82,
-          "end": 349.07
+          "word": "నోటా",
+          "start": 11.72,
+          "end": 12.66
         },
         {
-          "word": "the",
-          "start": 349.108,
-          "end": 349.245
+          "word": "డేబ్",
+          "start": 12.66,
+          "end": 12.92
         },
         {
-          "word": "same",
-          "start": 349.245,
-          "end": 349.67
+          "word": "భహయనాళగూ",
+          "start": 12.92,
+          "end": 13.34
         },
         {
-          "word": "gap",
-          "start": 349.67,
-          "end": 350.02
+          "word": "మూది",
+          "start": 13.34,
+          "end": 13.58
         },
         {
-          "word": "carries",
-          "start": 350.045,
-          "end": 350.57
+          "word": "జాస్వలంగా",
+          "start": 13.58,
+          "end": 14.2
         },
         {
-          "word": "a",
-          "start": 350.645,
-          "end": 350.745
+          "word": "జేష్యాడిలు",
+          "start": 14.2,
+          "end": 19.76
         },
         {
-          "word": "national",
-          "start": 350.745,
-          "end": 351.27
+          "word": "దాధాపు",
+          "start": 37.64,
+          "end": 38.66
         },
         {
-          "word": "border",
-          "start": 351.27,
-          "end": 351.795
+          "word": "14",
+          "start": 38.66,
+          "end": 39.06
         },
         {
-          "word": "and",
-          "start": 352.045,
-          "end": 352.22
+          "word": "వేల",
+          "start": 39.06,
+          "end": 39.56
         },
         {
-          "word": "the",
-          "start": 352.22,
-          "end": 352.42
+          "word": "అడుగులు",
+          "start": 39.56,
+          "end": 40.08
         },
         {
-          "word": "International",
-          "start": 352.495,
-          "end": 353.308
+          "word": "కింది",
+          "start": 40.08,
+          "end": 40.56
         },
         {
-          "word": "Date",
-          "start": 353.308,
-          "end": 353.595
+          "word": "పడిపోయిన్దలీ",
+          "start": 40.56,
+          "end": 41.2
         },
-        {
-          "word": "Line",
-          "start": 353.595,
-          "end": 354.033
-        }
-      ]
-    },
-    {
-      "text": "Therefore, a neighbour visible across the water can be 21 hours ahead.",
-      "start": 354.908,
-      "end": 360.795,
-      "words": [
         {
-          "word": "Therefore",
-          "start": 354.908,
-          "end": 355.483
+          "word": "ఉక్కసారి",
+          "start": 41.2,
+          "end": 42.32
         },
         {
-          "word": "a",
-          "start": 355.808,
-          "end": 355.908
+          "word": "ొహిణ్చండా",
+          "start": 42.32,
+          "end": 42.92
         },
         {
-          "word": "neighbour",
-          "start": 355.908,
-          "end": 356.32
+          "word": "విమానం",
+          "start": 42.92,
+          "end": 43.78
         },
         {
-          "word": "visible",
-          "start": 356.32,
-          "end": 356.808
+          "word": "ఒఏల",
+          "start": 43.78,
+          "end": 43.86
         },
         {
-          "word": "across",
-          "start": 356.858,
-          "end": 357.32
+          "word": "జెత్తుళో",
+          "start": 43.86,
+          "end": 44.72
         },
         {
-          "word": "the",
-          "start": 357.32,
-          "end": 357.457
+          "word": "ఉునుంన",
+          "start": 44.72,
+          "end": 44.94
         },
         {
-          "word": "water",
-          "start": 357.457,
-          "end": 357.908
+          "word": "పైలట్",
+          "start": 44.94,
+          "end": 46.26
         },
         {
-          "word": "can",
-          "start": 357.945,
-          "end": 358.158
+          "word": "గాయపటివనాడూ",
+          "start": 46.26,
+          "end": 47.0
         },
         {
-          "word": "be",
-          "start": 358.158,
-          "end": 358.308
+          "word": "కోకృపిటలోనే",
+          "start": 47.0,
+          "end": 60.94
         },
         {
-          "word": "21 hours",
-          "start": 358.332,
-          "end": 359.445
+          "word": "దౌడ�",
+          "start": 60.94,
+          "end": 63.34
         },
-        {
-          "word": "ahead",
-          "start": 359.483,
-          "end": 359.895
-        }
-      ]
-    },
-    {
-      "text": "And remember the final twist: the mainlands are about 82 km apart.",
-      "start": 360.795,
-      "end": 366.882,
-      "words": [
         {
-          "word": "And",
-          "start": 360.795,
-          "end": 361.02
+          "word": "అదుపులోకి",
+          "start": 63.34,
+          "end": 64.28
         },
         {
-          "word": "remember",
-          "start": 361.02,
-          "end": 361.52
+          "word": "తీస్కునారు",
+          "start": 64.28,
+          "end": 64.84
         },
         {
-          "word": "the",
-          "start": 361.52,
-          "end": 361.645
+          "word": "విమానంలౌ",
+          "start": 64.84,
+          "end": 66.0
         },
         {
-          "word": "final",
-          "start": 361.645,
-          "end": 362.12
+          "word": "ఉన్న",
+          "start": 66.0,
+          "end": 66.24
         },
         {
-          "word": "twist",
-          "start": 362.12,
-          "end": 362.507
+          "word": "మరోఇద్దరూ",
+          "start": 66.24,
+          "end": 66.98
         },
         {
-          "word": "the",
-          "start": 362.808,
-          "end": 362.92
+          "word": "పఈలట్లు",
+          "start": 66.98,
+          "end": 67.54
         },
         {
-          "word": "mainlands",
-          "start": 362.92,
-          "end": 363.533
+          "word": "జిసుకొని",
+          "start": 67.54,
+          "end": 68.74
         },
         {
-          "word": "are",
-          "start": 363.608,
-          "end": 363.845
+          "word": "వీమఆననీ",
+          "start": 68.74,
+          "end": 69.7
         },
         {
-          "word": "about",
-          "start": 363.845,
-          "end": 364.207
+          "word": "సవుధి",
+          "start": 69.7,
+          "end": 70.26
         },
         {
-          "word": "82 km",
-          "start": 364.283,
-          "end": 365.457
+          "word": "�అరేభియాల౓నగి",
+          "start": 70.26,
+          "end": 70.98
         },
-        {
-          "word": "apart",
-          "start": 365.507,
-          "end": 365.983
-        }
-      ]
-    },
-    {
-      "text": "The 4 km claim is true because islands count as national territory.",
-      "start": 366.882,
-      "end": 372.783,
-      "words": [
         {
-          "word": "The",
-          "start": 366.882,
-          "end": 366.983
+          "word": "ురక్షితంగా",
+          "start": 70.98,
+          "end": 72.46
         },
         {
-          "word": "4 km",
-          "start": 366.983,
-          "end": 368.045
+          "word": "లాణ్",
+          "start": 72.46,
+          "end": 72.8
         },
         {
-          "word": "claim",
-          "start": 368.07,
-          "end": 368.483
+          "word": "చేసేదాడు",
+          "start": 72.8,
+          "end": 73.2
         },
         {
-          "word": "is",
-          "start": 368.545,
-          "end": 368.77
+          "word": "అందులో",
+          "start": 73.2,
+          "end": 74.18
         },
         {
-          "word": "true",
-          "start": 368.77,
-          "end": 369.045
+          "word": "ఉన్న",
+          "start": 74.18,
+          "end": 74.4
         },
         {
-          "word": "because",
-          "start": 369.045,
-          "end": 369.558
+          "word": "మొత్టం",
+          "start": 74.4,
+          "end": 74.86
         },
         {
-          "word": "islands",
-          "start": 369.62,
-          "end": 370.108
+          "word": "నూట",
+          "start": 74.86,
+          "end": 75.44
         },
         {
-          "word": "count",
-          "start": 370.132,
-          "end": 370.445
+          "word": "డెభైనాలగుమంధి",
+          "start": 75.44,
+          "end": 76.5
         },
         {
-          "word": "as",
-          "start": 370.52,
-          "end": 370.795
+          "word": "ప్రాణాళతో",
+          "start": 76.5,
+          "end": 77.16
         },
         {
-          "word": "national",
-          "start": 370.795,
-          "end": 371.32
+          "word": "జేటపడ్డారు",
+          "start": 77.16,
+          "end": 77.88
         },
-        {
-          "word": "territory",
-          "start": 371.32,
-          "end": 371.895
-        }
-      ]
-    },
-    {
-      "text": "Two tiny rocks make two giant countries look close enough to touch.",
-      "start": 372.783,
-      "end": 377.945,
-      "words": [
         {
-          "word": "Two",
-          "start": 372.783,
-          "end": 372.882
+          "word": "ఇ",
+          "start": 77.88,
+          "end": 78.56
         },
         {
-          "word": "tiny",
-          "start": 372.92,
-          "end": 373.32
+          "word": "ఘట్టన",
+          "start": 78.56,
+          "end": 78.96
         },
         {
-          "word": "rocks",
-          "start": 373.32,
-          "end": 373.695
+          "word": "తర్వాత",
+          "start": 78.96,
+          "end": 79.42
         },
         {
-          "word": "make",
-          "start": 373.695,
-          "end": 374.033
+          "word": "భారతప్రధాని",
+          "start": 79.42,
+          "end": 80.74
         },
         {
-          "word": "two",
-          "start": 374.033,
-          "end": 374.183
+          "word": "నరేందరమోధి",
+          "start": 80.74,
+          "end": 81.46
         },
         {
-          "word": "giant",
-          "start": 374.183,
-          "end": 374.595
+          "word": "జకుడ",
+          "start": 81.46,
+          "end": 81.68
         },
         {
-          "word": "countries",
-          "start": 374.62,
-          "end": 375.233
+          "word": "గాపృటిం",
+          "start": 81.68,
+          "end": 82.44
         },
         {
-          "word": "look",
-          "start": 375.358,
-          "end": 375.658
+          "word": "స్మిత్",
+          "start": 82.44,
+          "end": 82.88
         },
         {
-          "word": "close",
-          "start": 375.695,
-          "end": 376.095
+          "word": "మచ్చర",
+          "start": 82.88,
+          "end": 83.36
         },
         {
-          "word": "enough",
-          "start": 376.17,
-          "end": 376.545
+          "word": "ధైరియాంనీ",
+          "start": 83.36,
+          "end": 83.92
         },
         {
-          "word": "to",
-          "start": 376.545,
-          "end": 376.658
+          "word": "పెసంసిన్ఛాడు",
+          "start": 83.92,
+          "end": 84.72
         },
-        {
-          "word": "touch",
-          "start": 376.658,
-          "end": 377.058
-        }
-      ]
-    },
-    {
-      "text": "Every edge of the map hides a story, and GlobeTales brings it closer.",
-      "start": 377.945,
-      "end": 383.545,
-      "words": [
         {
-          "word": "Every",
-          "start": 377.945,
-          "end": 378.283
+          "word": "అయనా",
+          "start": 84.72,
+          "end": 85.78
         },
         {
-          "word": "edge",
-          "start": 378.37,
-          "end": 378.62
+          "word": "పరసుతుటొ",
+          "start": 85.78,
+          "end": 86.28
         },
         {
-          "word": "of",
-          "start": 378.707,
-          "end": 378.858
+          "word": "ఆసూపతృలో",
+          "start": 86.28,
+          "end": 87.1
         },
         {
-          "word": "the",
-          "start": 378.858,
-          "end": 378.983
+          "word": "చికిసపొం",
+          "start": 87.1,
+          "end": 87.72
         },
         {
-          "word": "map",
-          "start": 378.983,
-          "end": 379.332
+          "word": "ఉక్కసారే",
+          "start": 87.72,
+          "end": 89.36
         },
         {
-          "word": "hides",
-          "start": 379.332,
-          "end": 379.733
+          "word": "ఆలోచించన్డి",
+          "start": 89.36,
+          "end": 90.08
         },
         {
-          "word": "a",
-          "start": 379.77,
-          "end": 379.858
+          "word": "తనా",
+          "start": 90.08,
+          "end": 91.02
         },
         {
-          "word": "story",
-          "start": 379.858,
-          "end": 380.345
+          "word": "ప్రాణమ్",
+          "start": 91.02,
+          "end": 91.46
         },
         {
-          "word": "and",
-          "start": 380.658,
-          "end": 380.87
+          "word": "పరమాదంలు",
+          "start": 91.46,
+          "end": 92.02
         },
         {
-          "word": "GlobeTales",
-          "start": 380.87,
-          "end": 381.595
+          "word": "ఉునై",
+          "start": 92.02,
+          "end": 92.34
         },
         {
-          "word": "brings",
-          "start": 381.595,
-          "end": 381.983
+          "word": "వందలమం",
+          "start": 92.34,
+          "end": 93.44
         },
         {
-          "word": "it",
-          "start": 381.983,
-          "end": 382.12
+          "word": "అంధి",
+          "start": 93.44,
+          "end": 93.56
         },
-        {
-          "word": "closer",
-          "start": 382.145,
-          "end": 382.645
-        }
-      ]
-    },
-    {
-      "text": "Please like, share and subscribe to my YouTube channel.",
-      "start": 383.545,
-      "end": 387.283,
-      "words": [
         {
-          "word": "Please",
-          "start": 383.545,
-          "end": 383.845
+          "word": "�పృణాల",
+          "start": 93.56,
+          "end": 93.94
         },
         {
-          "word": "like",
-          "start": 383.845,
-          "end": 384.207
+          "word": "కోసం",
+          "start": 93.94,
+          "end": 94.32
         },
         {
-          "word": "share",
-          "start": 384.483,
-          "end": 384.87
+          "word": "జాడాటిన",
+          "start": 94.32,
+          "end": 94.86
         },
         {
-          "word": "and",
-          "start": 384.97,
-          "end": 385.183
+          "word": "ఆ",
+          "start": 94.86,
+          "end": 95.1
         },
         {
-          "word": "subscribe",
-          "start": 385.183,
-          "end": 385.82
+          "word": "పజిలట్",
+          "start": 95.1,
+          "end": 95.64
         },
         {
-          "word": "to",
-          "start": 385.895,
-          "end": 385.995
+          "word": "ీరూ",
+          "start": 95.64,
+          "end": 95.94
         },
         {
-          "word": "my",
-          "start": 386.02,
-          "end": 386.257
+          "word": "కాపొటేనో",
+          "start": 95.94,
+          "end": 96.94
         },
         {
-          "word": "YouTube",
-          "start": 386.257,
-          "end": 386.783
+          "word": "స్మిథ",
+          "start": 96.94,
+          "end": 97.16
         },
         {
-          "word": "channel",
-          "start": 386.783,
-          "end": 387.283
+          "word": "మచేరు",
+          "start": 97.16,
+          "end": 97.86
         }
       ]
     }

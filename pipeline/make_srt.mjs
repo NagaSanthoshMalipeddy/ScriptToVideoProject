@@ -1,7 +1,10 @@
 // make_srt.mjs — build an .srt subtitle track from public/timing.json + a cues file.
 //
 // Usage:
-//   node pipeline/make_srt.mjs <cues.json> <out.srt>
+//   node pipeline/make_srt.mjs <cues.json> <out.srt> [offsetSeconds]
+//
+// offsetSeconds shifts every cue later, e.g. 0.933 for 9:16 videos that open on the
+// withCover thumbnail (coverLeadFrames = 28 frames at 30 fps).
 //
 // The cues file is an array with one entry per narration section (same count as
 // timing.json sections). Each entry is an array of short caption lines. Each
@@ -13,6 +16,7 @@ import path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const cuesPath = process.argv[2];
 const outPath = process.argv[3] || "out/subtitles.srt";
+const offset = Number(process.argv[4] || 0);
 
 if (!cuesPath || !fs.existsSync(cuesPath)) {
   console.error(`Cues file not found: ${cuesPath}`);
@@ -49,7 +53,7 @@ for (let i = 0; i < n; i++) {
     const start = sec.start + (acc / sum) * total;
     acc += weights[j];
     const end = sec.start + (acc / sum) * total;
-    entries.push({ start, end, text: lines[j] });
+    entries.push({ start: start + offset, end: end + offset, text: lines[j] });
   }
 }
 

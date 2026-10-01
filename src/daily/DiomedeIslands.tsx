@@ -11,6 +11,7 @@ import {
 } from "remotion";
 import { BODY, DISPLAY } from "../airace/fonts";
 import { CtaCard, nudgeTimes, SubscribeNudge } from "../cartoon/Nudge";
+import { CoverTitle } from "../cartoon/CoverTitle";
 import type { Section, Timing } from "../types";
 import { geomPath } from "../ukraine/GeoMap";
 import { COUNTRIES } from "../wonders/data";
@@ -300,6 +301,7 @@ export const DiomedeVideo: React.FC<{ timing: Timing }> = ({ timing }) => {
       {sfx.map(([time, name, volume]) => cue(time, name, volume))}
       {nudgeTimes(ctaT).map((time) => cue(time + 1.1, "ding", 0.14))}
       <DiomedeScene timing={timing} />
+      <CoverTitle lines={["USA & RUSSIA", "ONLY 4 KM APART?!"]} sub="The Diomede Islands" accent="#4db3ff" />
     </AbsoluteFill>
   );
 };

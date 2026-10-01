@@ -612,6 +612,11 @@ Adapt them to the script length.
 
 The first scene is extremely important.
 
+**Frame 0 is the Instagram cover.** Every 9:16 video opens on its own thumbnail
+design for 1.2 s (`withCover`, see cartoon-explainer "Instagram cover frame"), then
+cross-fades into the hook. Design the thumbnail so the title and detail sit in
+y 300–1480.
+
 The hook should immediately communicate:
 
 - what the video is about

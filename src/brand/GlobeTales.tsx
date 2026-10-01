@@ -97,10 +97,10 @@ export const Globe: React.FC<{ r: number; cx: number; cy: number; lon0?: number;
       <circle cx={cx} cy={cy} r={r} fill={`url(#${id}-sea)`} />
       <g clipPath={`url(#${id}-clip)`}>
         {GRATICULE.map((l, i) => (
-          <path key={i} d={o.linePath(l)} fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth={r / 160} />
+          <path key={i} d={o.linePath(l)} fill="none" stroke="rgba(255,255,255,0.18)" strokeWidth={Math.min(r / 160, 2.5)} />
         ))}
         {COUNTRIES.map((c) => (
-          <path key={c.iso} d={rings(c.geom).map(o.ringPath).join("")} fill="#7be38e" stroke="#2f9e57" strokeWidth={r / 110} strokeLinejoin="round" />
+          <path key={c.iso} d={rings(c.geom).map(o.ringPath).join("")} fill="#7be38e" stroke="#2f9e57" strokeWidth={Math.min(r / 110, 3.5)} strokeLinejoin="round" />
         ))}
         <circle cx={cx} cy={cy} r={r} fill={`url(#${id}-shade)`} />
         <ellipse cx={cx - r * 0.38} cy={cy - r * 0.45} rx={r * 0.34} ry={r * 0.16} fill="rgba(255,255,255,0.38)" transform={`rotate(-32 ${cx - r * 0.38} ${cy - r * 0.45})`} />

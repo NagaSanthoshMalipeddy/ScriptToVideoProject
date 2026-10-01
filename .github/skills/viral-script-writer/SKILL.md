@@ -127,6 +127,9 @@ Please like, share and subscribe to my YouTube channel.
 - [ ] The word count fits the format. The facts are double-checked.
 
 ## Hand-off
+The title or hook line also becomes the **thumbnail**, and that thumbnail is the
+video's opening cover frame (`withCover`), because Instagram uses the first frame as
+the Reel cover. Keep it to 2 short lines (≤ 18 characters each) plus one detail tag.
 Next, run **shorts-animation-director**, which turns the [cues] into the storyboard.
 Then build with **cartoon-explainer** or **map-journey-animation**, and write the
 **youtube-upload-package**, using the given title as option 1.

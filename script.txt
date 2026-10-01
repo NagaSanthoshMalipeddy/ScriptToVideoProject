@@ -1,214 +1,179 @@
 # HOOK
-[MAP: zoom from space to the Bering Strait] [TEXT POP: "ONLY 4 KM?!"] [SFX: boom]
-USA and Russia are only 4 km apart?!
+[MAP: satellite zoom from East Asia to the Korean Peninsula]
+[TEXT POP: "70+ YEARS"]
+70+ Years Later, North & South Korea Are STILL at War!
 
-[PIN: Big Diomede Russia / Little Diomede USA]
-That sounds impossible on a normal world map. But it is true.
+[BORDER GLOW: Korean Demilitarized Zone]
+It sounds like clickbait. South Korea is a global economic power. North Korea is a nuclear-armed state. Both have existed for generations.
 
-[ROUTE: distance line between the islands] [TEXT POP: "3.8 KM"]
-Two rocky islands in the Bering Strait sit about 3.8 km apart.
+[TEXT POP: "NO PEACE TREATY"]
+But the war that created this divide never received a final peace treaty. The shooting mostly stopped. The legal and political conflict did not.
 
 # SETUP
-[MAP: North Pacific with Alaska and Russia highlighted]
-Look at the North Pacific. Alaska reaches west while Russia reaches east.
+[CAMERA: slow orbit above Korea]
+To understand why, watch this narrow peninsula. It sits between China, Russia, and Japan, facing the Pacific.
 
-[CAMERA: zoom through the 180th meridian]
-Flat maps split this area at the edge. Therefore, the neighbours look far apart.
+[PIN: Seoul · Pyongyang]
+Today, Seoul and Pyongyang are only about 195 kilometres apart. Yet crossing the border is almost impossible for ordinary people.
 
-[MAP: wrap the globe and bring both coasts together]
-Wrap that map into a globe, and the illusion disappears.
+[MAP: India to Korea comparison route]
+For viewers in India, imagine 2 rival states separated by a fortified strip, while families and history continue across it.
 
-[TEXT POP: "DIOMEDE ISLANDS"]
-The closest dramatic meeting point is the Diomede Islands.
-
-[FLAG: Russia over Big Diomede] [FLAG: USA over Little Diomede]
-Big Diomede belongs to Russia. Little Diomede belongs to the United States.
-
-[TEXT POP: "3.8 KM"]
-The water between their nearest shores is only about 3.8 km.
-
-[VS CARD: 3.8 km vs an Indian city commute]
-That is shorter than many daily commutes in an Indian city.
+[TIMELINE: 1910 → 1945]
+The story begins before either modern Korea existed. Japan annexed Korea in 1910 and ruled it until 1945.
 
 # BODY
-[MAP: zoom out to mainland capes]
-But do not confuse the islands with the continents themselves.
+[TIMELINE: August 1945]
+Japan surrendered at the end of World War Two. Therefore, Korea was suddenly free from Japanese rule.
 
-[PIN: Cape Dezhnev Russia / Cape Prince of Wales Alaska]
-The nearest mainland points are Cape Dezhnev and Cape Prince of Wales.
+[BORDER GLOW: 38th parallel]
+But freedom did not bring one Korean government. Soviet forces entered from the north. American forces entered from the south.
 
-[ROUTE: mainland distance line] [TEXT POP: "ABOUT 82 KM"]
-They are about 82 km apart across the Bering Strait.
+[TEXT POP: "38° NORTH"]
+Officials used the 38th parallel as a temporary dividing line. It was chosen quickly, not by the Korean people.
 
-[MAP: islands centered between the capes]
-The Diomedes sit roughly in the middle of that crossing.
-
-[BORDER GLOW: US–Russia maritime boundary]
-An international boundary runs between the two islands.
-
-[TIMELINE: 1867] [MAP: Alaska changes from Russia to USA]
-That line became crucial after the United States bought Alaska from Russia in 1867.
-
-[TEXT POP: "$7.2 MILLION"]
-The price was 7.2 million dollars.
-
-[MAP: old treaty line follows between the islands]
-Therefore, yesterday's internal Russian waters became a border between two countries.
-
-[CLOCK: 23:59 → 00:00] [SPLIT SCREEN: today / tomorrow]
-But geography adds an even stranger twist: the International Date Line.
-
-[BORDER GLOW: date line between Big and Little Diomede]
-It also passes between Big Diomede and Little Diomede.
-
-[CLOCK: Alaska time / Anadyr time]
-The islands use the official time zones of Alaska and Russia's far east.
-
-[TEXT POP: "21 HOURS"]
-Therefore, their clocks normally differ by 21 hours.
-
-[SPLIT SCREEN: Monday on Little / Tuesday on Big]
-Stand on Little Diomede on Monday, and Big Diomede can already be on Tuesday.
-
-[PIN: Yesterday Isle]
-That is why Little Diomede is often called Yesterday Isle.
-
-[PIN: Tomorrow Island]
-And Big Diomede is often called Tomorrow Island.
-
-[CAMERA: sunrise sweeps across both islands]
-But the Sun does not suddenly move 21 hours in 3.8 km.
-
-[CLOCK: solar noon comparison]
-The huge jump comes from human time zones and the chosen date line.
-
-[MAP: close-up of Little Diomede village]
-Little Diomede has a small Alaska Native community.
-
-[TEXT POP: "IÑUPIAT HOME"]
-Its village is home to Iñupiat people with deep roots in the region.
-
-[MAP: close-up of Big Diomede]
-Big Diomede, however, has no permanent civilian population today.
+[FLAG: USSR north · USA south]
+Therefore, the Soviet Union administered the north. The United States administered the south.
 
 [TIMELINE: 1948]
-Its residents were moved to the Soviet mainland in 1948.
+But Cold War distrust grew. Instead of reunification, 2 rival governments appeared in 1948.
 
-[MAP: Cold War border shutters closed]
-Soon the Cold War turned this narrow waterway into the Ice Curtain.
+[TEXT POP: "DPRK"]
+In the north, Kim Il Sung led the Democratic People's Republic of Korea.
 
-[BORDER GLOW: closed crossing]
-Families and neighbours who had moved across the strait were separated.
+[TEXT POP: "ROK"]
+In the south, Syngman Rhee led the Republic of Korea.
 
-[MAP: village lights glow on the dark Arctic coast]
-For people living here, this is not a map puzzle. It is home.
+[VS CARD: both claim all Korea]
+Both governments claimed to represent the entire peninsula. Therefore, the border was never accepted as permanent.
 
-[ICE: sea ice grows across the channel]
-In winter, sea ice may form between the islands.
+[TIMELINE: June 25, 1950]
+[SFX: boom]
+Then, on June 25, 1950, North Korean forces crossed the 38th parallel. The Korean War began.
 
-[CHARACTER: walking figure fades behind warning]
-But that does not create a public footpath.
+[ROUTE: red arrows toward Seoul]
+The attack moved fast. Seoul fell within 3 days.
 
-[SPLIT SCREEN: thin ice / strong current]
-Ice shifts. Currents are powerful. Fog and extreme cold arrive quickly.
+[ROUTE: red arrows toward Busan]
+Therefore, South Korean forces retreated. United Nations forces, led mainly by the United States, joined the defense.
 
-[BORDER GLOW: restricted international boundary]
-Most importantly, this is a controlled international border.
+[PIN: Busan]
+By August, defenders held a shrinking area around Busan, called the Pusan Perimeter.
 
-[TEXT POP: "NOT A TOURIST CROSSING"]
-Therefore, trying to cross without permission is illegal and dangerous.
+[TEXT POP: "ALMOST THE WHOLE SOUTH"]
+North Korean forces controlled most of the peninsula. It looked like the war might end quickly.
 
-[TIMELINE: 1987] [ROUTE: swimmer Little Diomede → Big Diomede]
-One famous crossing did happen in 1987.
+[PIN: Incheon]
+[SFX: whoosh]
+But on September 15, 1950, UN forces landed at Incheon, far behind the front.
 
-[CHARACTER: Lynne Cox swimming]
-American swimmer Lynne Cox swam from Little Diomede to Big Diomede.
+[ARROW: supply lines cut]
+The landing threatened North Korean supply lines. Therefore, the entire battlefield changed.
 
-[FLAG: USA and USSR officials]
-But this was no secret stunt. Both governments gave permission.
+[PIN: Seoul]
+Seoul was retaken. UN and South Korean forces crossed north of the 38th parallel.
 
-[TEXT POP: "2 HOURS 6 MINUTES"]
-She completed the cold-water swim in 2 hours and 6 minutes.
+[ROUTE: blue arrows toward Pyongyang]
+They captured Pyongyang and moved toward the Yalu River, beside China.
 
-[CROWD: people greeting swimmer] [SFX: ding]
-Her arrival became a small symbol of warming relations near the Cold War's end.
+[MAP: zoom to China–Korea border]
+But China feared hostile forces near its border. Chinese forces entered the war in large numbers.
 
-[TIMELINE: 1991]
-Four years later, the Soviet Union ended.
+[ROUTE: orange arrows south]
+Therefore, UN forces were pushed south. Seoul changed hands again in January 1951.
 
-[MAP: route options appear then lock]
-So why is there no simple ferry or bridge today?
+[ARROW: line returns north]
+But UN forces regrouped and retook Seoul in March.
 
-[MAP: storm waves and drifting ice]
-First, the weather is severe and the sea is unpredictable.
+[ARROW: front line oscillates]
+The front moved north. Then south. Then north again.
 
-[MAP: tiny village and empty island]
-Second, one island has a tiny community and the other has no permanent town.
+[TEXT POP: "STALEMATE"]
+By mid-1951, neither side could force a clear victory. Therefore, the war became a stalemate near the old dividing line.
 
-[BORDER GLOW: visa and security icons]
-Third, travel would require immigration, customs, security, and diplomatic agreement.
+[TIMELINE: July 1951]
+Peace talks began in July 1951. But the fighting did not stop while negotiators argued.
 
-[BRIDGE: concept line stretches across Bering Strait]
-People have proposed a much larger Bering Strait bridge or tunnel.
+[TEXT POP: "2 MORE YEARS"]
+For 2 more years, soldiers fought over hills while talks continued.
 
-[ROUTE: Alaska mainland → Diomedes → Russia mainland]
-The islands seem like stepping stones.
+[VS CARD: prisoners · border · supervision]
+The hardest questions involved prisoners of war, the new boundary, and how any agreement would be monitored.
 
-[TEXT POP: "82 KM OF STRAIT"]
-But the full mainland crossing is about 82 km, not 4 km.
+[TIMELINE: July 27, 1953]
+[SFX: ding]
+Finally, on July 27, 1953, the Korean Armistice Agreement was signed at Panmunjom.
 
-[MAP: roads fade far from both capes]
-And both ends are extremely remote, far from major road networks.
+[TEXT POP: "FIGHTING STOPS"]
+North Korea, China, and the United Nations Command signed it. The agreement stopped active fighting.
 
-[COUNTER: costs and infrastructure rise]
-Therefore, the real project would include vast roads, railways, power, and support systems.
+[TEXT POP: "SOUTH KOREA DID NOT SIGN"]
+But South Korea's government refused to sign. It opposed a settlement that left Korea divided.
 
-[MAP: wildlife and community icons]
-It would also need careful protection for local communities and Arctic ecosystems.
+[TEXT POP: "ARMISTICE ≠ PEACE"]
+More importantly, an armistice is not a peace treaty. It pauses a war without fully ending the dispute.
 
-[VS CARD: close on map / hard in reality]
-So the map makes connection look easy. Reality makes it enormous.
+[MAP: DMZ line appears]
+Therefore, the agreement created a military boundary and a Demilitarized Zone around it.
 
-[CAMERA: pull back to the Arctic]
-This tiny gap also explains why Asia and North America feel almost joined.
+[TEXT POP: "ABOUT 250 km"]
+The DMZ stretches about 250 kilometres across the peninsula.
 
-[MAP: Bering land bridge appears]
-During the last Ice Age, sea levels were much lower.
+[TEXT POP: "ABOUT 4 km WIDE"]
+It is roughly 4 kilometres wide, with each side pulling back about 2 kilometres from the military line.
 
-[TEXT POP: "BERINGIA"]
-A broad land area called Beringia connected the continents.
+[PIN: Panmunjom]
+Panmunjom became the symbol of the frozen conflict. Meetings happen there, but normal travel does not.
 
-[ROUTE: people and animals move across Beringia]
-Therefore, people, animals, and plants could move through the wider region.
+[SPLIT SCREEN: family photos north / south]
+The human cost continued after the battles. Millions of relatives were separated by the division.
 
-[MAP: sea levels rise and land bridge disappears]
-But rising seas later covered that land.
+[CLOCK: decades pass]
+Some families later met in limited reunions. But many people died without seeing relatives again.
 
-[PIN: Diomede Islands remain]
-The Diomedes remained above water like clues to the old connection.
+[VS CARD: Seoul today · Pyongyang today]
+Meanwhile, the 2 Koreas developed in radically different ways.
+
+[CHART: South Korea economy rises]
+South Korea became a democracy and one of the world's largest economies.
+
+[CHART: North Korea isolation]
+North Korea remained under one-party rule, built a large military, and later developed nuclear weapons.
+
+[BORDER GLOW: DMZ]
+Therefore, the armistice line became more than a battlefield marker. It became one of Earth's sharpest political divides.
+
+[TIMELINE: 1972 → 2000 → 2018]
+There have been talks, summits, family reunions, and moments of reduced tension.
+
+[SPLIT SCREEN: handshake · missile launch]
+But periods of hope repeatedly gave way to missile tests, military drills, sanctions, and renewed threats.
+
+[TEXT POP: "NOT DAILY WARFARE"]
+This does not mean the 2 Koreas fight every day. Most days pass without shooting.
+
+[TEXT POP: "AN UNFINISHED WAR"]
+But without a peace treaty, the Korean War remains formally unfinished.
 
 # AHA
-[CAMERA: fast zoom from globe to islands] [TEXT POP: "3.8 KM"]
-Now the answer is clear. The United States and Russia really are about 3.8 km apart at these islands.
+[CAMERA: pull out to East Asia]
+So why are North and South Korea still described as being at war?
 
-[SPLIT SCREEN: distance line / date line]
-But the same gap carries a national border and the International Date Line.
+[VS CARD: ceasefire vs peace]
+Because the 1953 agreement was a ceasefire between military commanders, not a final political peace between the 2 Korean states.
 
-[CLOCK: Monday → Tuesday] [TEXT POP: "21 HOURS"]
-Therefore, a neighbour visible across the water can be 21 hours ahead.
+[TEXT POP: "PAUSED IN 1953"]
+That is the surprising truth. The war did not reach a normal ending. It was paused in 1953.
 
-[MAP: mainland line appears] [TEXT POP: "82 KM"]
-And remember the final twist: the mainlands are about 82 km apart.
+[MAP: both Koreas highlighted in gold]
+More than 70 years later, the pause still shapes alliances, armies, diplomacy, and millions of lives.
 
-[TEXT POP: "CLOSEST SHORES · BIGGEST TIME JUMP"]
-The 4 km claim is true because islands count as national territory.
-
-[MAP: glowing Diomede pair against dark Arctic]
-Two tiny rocks make two giant countries look close enough to touch.
+[TEXT POP: "ONE PENINSULA · TWO STATES"]
+One peninsula became 2 states. A temporary line became a fortified border. And a ceasefire became a lifetime.
 
 # CTA
-[LOGO: GlobeTales] [MAP: globe rotates]
-Every edge of the map hides a story, and GlobeTales brings it closer.
+[CAMERA: slow pullback over Asia]
+History is not only what ended. Sometimes, it is what the world never finished.
 
-[CTA: like share subscribe]
+[SFX: pop]
 Please like, share and subscribe to my YouTube channel.

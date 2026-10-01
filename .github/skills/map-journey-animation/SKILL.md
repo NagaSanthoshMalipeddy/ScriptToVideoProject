@@ -17,6 +17,34 @@ Always start from it; don't rebuild the system from scratch.
 
 ---
 
+## DEFAULT MAP STYLE: satellite (use this for every map)
+The channel's map look is a **real satellite basemap**, not flat cartoon fills. Reference:
+`SatMapDemo` (the Americas with Mexico highlighted).
+- **Component:** `SatelliteMap` in `src/geo/SatelliteMap.tsx`.
+  - Imagery is NASA Blue Marble (July, topography + bathymetry, public domain).
+  - It uses the **Web Mercator** projection, so Greenland is tall, Antarctica runs
+    along the bottom, and wide views fill the 9:16 frame.
+  - Props: `view={{ lon, lat, span }}`, where `span` is the degrees of longitude
+    across the frame width. Animate `lon`, `lat` and `span` for camera flights
+    (exponential zoom).
+  - `project(lon, lat)` comes from `makeSatProjector(view, w, h)`. Use it for pins,
+    routes and labels drawn on top.
+- **Images:** run `node pipeline/make_basemap.mjs` once. It builds `public/basemap/`
+  (the world image plus 648 10° tiles), which is gitignored. Rebuild it if it's
+  missing.
+- **No borders.** Highlight only the countries the story is about:
+  - `highlights={[{ geom: countryGeom("MEX"), label: "Mexico", labelAt: [lon, lat] }]}`
+  - This gives a translucent gold fill, a thin gold outline and a small white italic
+    label.
+  - `countryGeom` uses 1:50m outlines with recognised borders and the **official
+    India outline**.
+- **Text:** centred white captions with a soft shadow, as in the reference. Use
+  `darken` (0–0.4) when text needs contrast.
+- The flat cream/ocean `MapView` style below is legacy. Use it only if the user asks
+  for the cartoon map look.
+
+---
+
 ## The signature look (keep all of these)
 
 | Element | What it does | Where |
@@ -33,7 +61,7 @@ Always start from it; don't rebuild the system from scratch.
 | **Landmark card** | Slides up from the bottom after landing. It holds a flat cartoon drawing of the landmark (spring pop, slight tilt that settles, idle float, twinkling sparkles), the flag and country name, a **coordinates chip**, and fact chips that pop in as the narration mentions them | `WonderCard`, `Art.tsx` |
 | **Hook** | World view pans slowly. All pins drop in sequence, each with a pop sound, while a matching row of flags pops in below. Big stroked title | beat `i === 0` |
 | **Outro** | Pulls back to the world view with every pin and the full route, then a grid of all the illustrations, a question, and a FOLLOW button | beat `i === 8` |
-| **Sound** | whoosh on each flight, pop on the pin drop, ding when the card lands, pops for the hook pins, and riser plus boom for the outro | `Sequence` + `public/sfx` |
+| **Sound** | whoosh on each flight, pop on the pin drop, ding when the card lands, pops for the hook pins, and a boom for the outro. No riser. | `Sequence` + `public/sfx` |
 
 Colour palette: ocean `#bfe3ff`, land `#f6ecd9`, ink `#20232a`, gold `#ffc93c`, one
 colour per place, and white panels (94% opacity) with a thick ink border and a hard
@@ -89,7 +117,7 @@ for chips.
    isn't 7, update the `i === 8`, `i <= 7` and `prev = i === 8 ? 7 : ...` checks.
    Search for `8` and `7` in the file.
 6. **Generate**:
-   `node generate.mjs --file <slug>-script.txt --voice en-IN-PrabhatNeural --size vertical --comp <Comp> --out out/<slug>.mp4`
+   `node generate.mjs --file <slug>-script.txt --voice en-US-ChristopherNeural --size vertical --comp <Comp> --out out/<slug>.mp4`
    `pipeline/tts.py` syncs scene cuts to each paragraph's first spoken word.
 7. **Check stills** with `view_image` before the full render: the hook (about 4s),
    one frame after a landing, one mid-flight, a place in India (to confirm the

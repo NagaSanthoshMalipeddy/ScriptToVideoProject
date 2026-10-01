@@ -4,6 +4,7 @@ import type { Section, Timing } from "../types";
 import { geomPath } from "../ukraine/GeoMap";
 import { cut } from "../warmap/WarMap";
 import { CtaCard, nudgeTimes, SubscribeNudge } from "../cartoon/Nudge";
+import { CoverTitle } from "../cartoon/CoverTitle";
 import { COUNTRIES } from "../wonders/data";
 import { TE_DISPLAY } from "../story/fonts";
 import { BODY } from "../airace/fonts";
@@ -468,6 +469,7 @@ export const WalkWorld: React.FC<{ timing: Timing }> = ({ timing }) => {
       {nudgeTimes(plan.ctaT).map((t) => cue(t + 1.1, "ding", 0.22))}
       {cue(plan.subT + 1.2, "ding", 0.3)}
       <WalkWorldScene plan={plan} T={T} frame={frame} />
+      <CoverTitle lines={["27 YEARS", "TO WALK THE WORLD?!"]} sub="No planes · no cars · no boats" accent={GOLD} />
     </AbsoluteFill>
   );
 };

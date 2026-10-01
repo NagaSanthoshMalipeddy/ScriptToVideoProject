@@ -59,12 +59,8 @@ writeWav("ding", make(0.5, (t) => {
   return (Math.sin(2 * Math.PI * 880 * t) * 0.6 + Math.sin(2 * Math.PI * 1320 * t) * 0.3 + Math.sin(2 * Math.PI * 1760 * t) * 0.15) * e * 0.7;
 }));
 
-// riser — suspense build
-writeWav("riser", make(1.3, (t) => {
-  const p = t / 1.3;
-  const f = 180 + 1100 * p * p;
-  return (Math.sin(2 * Math.PI * f * t) * 0.5 + rnd() * 0.25) * p * 0.6;
-}));
+// riser — removed from the channel sound; kept as a silent file so older compositions still render.
+writeWav("riser", make(0.05, () => 0));
 
 // boom — big impact
 writeWav("boom", make(0.6, (t) => {

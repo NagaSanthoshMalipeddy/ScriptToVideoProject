@@ -5,6 +5,9 @@ Usage: python pipeline/transcribe.py <audio file> [out_script.txt] [model] [lang
 
 Uses faster-whisper (local, CPU) with word timestamps. Sections are sentences,
 so scene cuts land on the first word of each sentence, exactly like tts.py output.
+
+Set ALIGN_SCRIPT=<script.txt> to keep that script's paragraphs as the sections
+(same layout as tts.py), so an existing composition's cues fit the recorded voice.
 """
 
 import json
@@ -74,12 +77,22 @@ def main():
     for i in range(1, len(out)):
         out[i - 1]["end"] = out[i]["start"]
 
+    align = os.environ.get("ALIGN_SCRIPT")
+    if align:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import tts
+
+        tts.SCRIPT_PATH = align
+        out = tts.assign_sections(tts.load_sections(), words)
+        script_out = None
+
     duration = (words[-1]["end"] if words else info.duration) + 0.6
     with open(os.path.join(PUBLIC, "timing.json"), "w", encoding="utf-8") as f:
         json.dump({"audio": "audio.mp3", "durationSec": round(max(duration, info.duration), 3), "sections": out}, f, ensure_ascii=False, indent=2)
-    with open(script_out, "w", encoding="utf-8") as f:
-        f.write("\n\n".join(s["text"] for s in out) + "\n")
-    print(f"  {len(words)} words, {len(out)} sections -> public/timing.json, {os.path.relpath(script_out, ROOT)}")
+    if script_out:
+        with open(script_out, "w", encoding="utf-8") as f:
+            f.write("\n\n".join(s["text"] for s in out) + "\n")
+    print(f"  {len(words)} words, {len(out)} sections -> public/timing.json")
 
 
 if __name__ == "__main__":

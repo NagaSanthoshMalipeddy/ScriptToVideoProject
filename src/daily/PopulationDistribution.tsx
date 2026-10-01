@@ -11,6 +11,7 @@ import {
 } from "remotion";
 import { BODY, DISPLAY } from "../airace/fonts";
 import { CtaCard, nudgeTimes, SubscribeNudge } from "../cartoon/Nudge";
+import { CoverTitle } from "../cartoon/CoverTitle";
 import type { Section, Timing } from "../types";
 import statesJson from "./us-states.json";
 
@@ -505,6 +506,7 @@ export const PopulationDistributionVideo: React.FC<{ timing: Timing }> = ({
         </Sequence>
       ))}
       <PopulationScene timing={timing} />
+      <CoverTitle lines={["HALF OF AMERICA", "LIVES IN 9 STATES!"]} sub="Where Americans really live" accent="#ff3b4a" />
       {time > timing.durationSec + 1 && (
         <AbsoluteFill style={{ background: C.navy }} />
       )}

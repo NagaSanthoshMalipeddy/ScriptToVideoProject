@@ -21,6 +21,10 @@ $Stamp = Get-Date -Format "yyyy-MM-dd_HHmm"
 $Log = Join-Path $Logs "$Stamp.log"
 function Say($m) { $line = "[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $m; Write-Host $line; if (-not $DryRun) { Add-Content $Log $line -Encoding utf8 } }
 
+# `out/daily/logs/.stop` (younger than 8 h) cancels pending batch runs without touching the one in progress.
+$Stop = Join-Path $Logs ".stop"
+if (-not $DryRun -and (Test-Path $Stop) -and ((Get-Item $Stop).LastWriteTime -gt (Get-Date).AddHours(-8))) { Write-Host "Stop flag set; skipping."; exit 0 }
+
 if ((Test-Path $Lock) -and ((Get-Item $Lock).LastWriteTime -gt (Get-Date).AddHours(-6))) { Say "Another run is in progress; exiting."; exit 0 }
 
 $lines = [System.Collections.Generic.List[string]](Get-Content $Queue -Encoding utf8)
@@ -52,12 +56,13 @@ OUTPUT FOLDER: $outDir  (create it; put every deliverable there)
 
 Do the complete job:
 1. Write the narration script with the viral-script-writer skill (.github/skills/viral-script-writer): 5-part formula, But/Therefore twists, [visual cues], short punchy sentences, accurate facts (Short: 60-100 s; Long: 5-8 min). No gore or glorification of violence. End with the verbatim line "Please like, share and subscribe to my YouTube channel." Save it in the output folder and copy it to script.txt.
-2. Follow the repo skills in .github/skills: plan with shorts-animation-director, then build with cartoon-explainer (default style), or map-journey-animation / the documentary map pattern (src/iraniraq/IraqDoc.tsx, src/korea/KoreaLong.tsx) when the topic is about countries, places, wars or history. Reuse existing components. Put any new code under src/daily/ and register compositions in src/Root.tsx. Use accurate maps (India with its official boundary).
-3. Set config.json width/height for the format, run python pipeline/tts.py, check key stills (no MISSING CUES, no overlapping text), then render with npx remotion render. Run renders in the foreground and wait for them to finish; never end your turn while a render is still running.
+2. Follow the repo skills in .github/skills: plan with shorts-animation-director, then build with cartoon-explainer (default style), or map-journey-animation / the documentary map pattern (src/iraniraq/IraqDoc.tsx, src/korea/KoreaLong.tsx) when the topic is about countries, places, wars or history. Reuse existing components. Put any new code under src/daily/ and register compositions in src/Root.tsx. Use accurate maps (India with its official boundary). For every map use the satellite basemap: SatelliteMap + countryGeom from src/geo/SatelliteMap.tsx (NASA Blue Marble, Web Mercator, no borders, highlighted countries in translucent gold with a small italic label, as in SatMapDemo); run node pipeline/make_basemap.mjs first if public/basemap is missing. Do not use flat cartoon map fills.
+3. Set config.json width/height for the format and use the channel narrator: voice en-US-ChristopherNeural, rate +0% (unless EXTRA NOTES ask for another voice or language). Run python pipeline/tts.py, check key stills (no MISSING CUES, no overlapping text), then render with npx remotion render. Run renders in the foreground and wait for them to finish; never end your turn while a render is still running.
 4. Deliver the full package:
    - $($deliver -join "`n   - ")
-   Every video ends with the like/share/subscribe CTA and shows the subscribe nudge every 20 s.
-5. Finally restore config.json to width 1080, height 1920, rate +0%, and make sure npx tsc --noEmit passes.
+   Every video ends with the like/share/subscribe CTA and shows the subscribe nudge every 20 s. Sound effects: only whoosh, pop, ding and boom from public/sfx; never use riser. Background music: withCover already adds public/music/slow-motion-beat.mp3 very quietly (BackgroundBeat, 5%); for 16:9 videos render <BackgroundBeat /> from src/cartoon/WithCover.tsx yourself.
+   Every 9:16 video opens on its own thumbnail design: in src/Root.tsx register withCover(Video, Thumb) from src/cartoon/WithCover.tsx with durationInFrames + pad + coverLeadFrames(config.fps). The video holds the thumbnail for 1.2 s, then cross-fades into the hook, because Instagram uses frame 0 as the Reel cover. Keep the thumbnail's title and details inside y 300-1480, and check --frame=0 with crop=1080:1350:0:285. Because the cover delays the voice, build the 9:16 Telugu .srt with the offset: node pipeline/make_srt.mjs <cues.json> <out.srt> 0.9333
+5. Finally restore config.json to width 1080, height 1920, rate +0%, voice en-US-ChristopherNeural, and make sure npx tsc --noEmit passes.
 
 Rules:
 - Do NOT run git commands that change the repo or remote (no commit, push, stash, checkout, restore, reset, clean, add).
