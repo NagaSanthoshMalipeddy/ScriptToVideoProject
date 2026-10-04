@@ -45,10 +45,10 @@ Example lines (these are ignored, because only lines that start with `- [ ]` cou
 - [x] Country Closest to Space [title: Not Everest! This Country Is Closest to Space 🚀] [short] [note: REMAKE in the current style: reuse the facts and narration from out/daily/2026-09-28-country-closest-to-space/country-closest-to-space-script.txt, keep it accurate; every map scene must use SatelliteMap + countryGeom; use new component and composition names ending in Sat so the old video stays untouched]  (done 2026-09-29 18:20 -> out/daily/2026-09-29-country-closest-to-space)
 - [x] Märket Island Border [title: Sweden and Finland Share a Tiny Island With a Zig-Zag Border! 🏝️] [short] [note: REMAKE in the current style: reuse the facts and narration from out/daily/2026-09-28-m-rket-island-border/m-rket-island-border-script.txt, keep it accurate; every map scene must use SatelliteMap + countryGeom; use new component and composition names ending in Sat so the old video stays untouched]  (done 2026-09-29 18:37 -> out/daily/2026-09-29-m-rket-island-border)
 - [x] Korean Peninsula Conflict [title: 70+ Years Later, North & South Korea Are STILL at War! 🇰🇷] [both]  (done 2026-09-30 14:47 -> out/daily/2026-09-30-korean-peninsula-conflict)
-- [ ] Stalag Luft III Great Escape [title: The Prisoners Who Dug Their Way Out of a Nazi Camp ⛏️] [both]
-- [ ] UAE, Dubai and Abu Dhabi [title: Dubai Is NOT a Country! UAE vs Dubai vs Abu Dhabi Explained 🇦🇪] [both]
-- [ ] Oklahoma Panhandle [title: Why Oklahoma Has a Weird "Handle" on the Map 🗺️] [both]
-- [ ] Escape from Alcatraz 1962 [title: How 3 Prisoners Escaped Alcatraz on a Homemade Raft 🛶] [both]
+- [x] Stalag Luft III Great Escape [title: The Prisoners Who Dug Their Way Out of a Nazi Camp ⛏️] [both]  (done 2026-10-01 14:35 -> out/daily/2026-10-01-stalag-luft-iii-great-escape)
+- [x] UAE, Dubai and Abu Dhabi [title: Dubai Is NOT a Country! UAE vs Dubai vs Abu Dhabi Explained 🇦🇪] [both]  (done 2026-10-02 14:51 -> out/daily/2026-10-02-uae-dubai-and-abu-dhabi)
+- [x] Oklahoma Panhandle [title: Why Oklahoma Has a Weird "Handle" on the Map 🗺️] [both]  (done 2026-10-03 14:47 -> out/daily/2026-10-03-oklahoma-panhandle)
+- [x] Escape from Alcatraz 1962 [title: How 3 Prisoners Escaped Alcatraz on a Homemade Raft 🛶] [both]  (done 2026-10-04 15:05 -> out/daily/2026-10-04-escape-from-alcatraz-1962)
 - [ ] American Towns Surrounded by Canada [title: American Towns TRAPPED Inside Canada! 🇺🇸🇨🇦] [both]
 - [ ] Longest Open-Water Swimming Route [title: The Longest Swim Without Touching Land — Is It Even Possible? 🌊] [both]
 - [ ] Holland and the Netherlands [title: Holland Is NOT the Netherlands?! 🇳🇱] [both]

@@ -87,7 +87,7 @@ const PhotoCard: React.FC<{ w: number; tilt?: number; border?: string }> = ({ w,
   </div>
 );
 
-const Plane: React.FC<{ size: number; color?: string }> = ({ size, color = "#ffffff" }) => (
+export const Plane: React.FC<{ size: number; color?: string }> = ({ size, color = "#ffffff" }) => (
   <svg width={size} height={size} viewBox="-20 -20 40 40">
     <path d="M18 0 L6 -2 L-2 -14 L-6 -14 L-1 -2 L-12 -2 L-16 -7 L-18 -7 L-15 0 L-18 7 L-16 7 L-12 2 L-1 2 L-6 14 L-2 14 L6 2 Z" fill={color} stroke="#111" strokeWidth={1.5} strokeLinejoin="round" />
   </svg>
@@ -104,14 +104,14 @@ const SidePlane: React.FC<{ w: number }> = ({ w }) => (
   </svg>
 );
 
-const Person: React.FC<{ size: number; color: string }> = ({ size, color }) => (
+export const Person: React.FC<{ size: number; color: string }> = ({ size, color }) => (
   <svg width={size} height={size * 1.3} viewBox="0 0 40 52">
     <circle cx={20} cy={11} r={9} fill={color} />
     <path d="M4 52 Q4 24 20 24 Q36 24 36 52 Z" fill={color} />
   </svg>
 );
 
-const Tricolor: React.FC<{ w: number; h?: number }> = ({ w, h = 14 }) => (
+export const Tricolor: React.FC<{ w: number; h?: number }> = ({ w, h = 14 }) => (
   <div style={{ width: w, display: "flex", flexDirection: "column", borderRadius: 4, overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.5)" }}>
     <div style={{ height: h, background: SAFFRON }} />
     <div style={{ height: h, background: "#fff", display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -121,7 +121,7 @@ const Tricolor: React.FC<{ w: number; h?: number }> = ({ w, h = 14 }) => (
   </div>
 );
 
-const Title: React.FC<{ text: string; t: number; top: number; size?: number; color?: string; frame: number; fps: number; te?: boolean }> = ({ text, t, top, size = 110, color = "#fff", frame, fps, te = true }) => {
+export const Title: React.FC<{ text: string; t: number; top: number; size?: number; color?: string; frame: number; fps: number; te?: boolean }> = ({ text, t, top, size = 110, color = "#fff", frame, fps, te = true }) => {
   const p = pop(frame, fps, t);
   return (
     <div style={{ position: "absolute", left: 30, right: 30, top, textAlign: "center", transform: `scale(${0.5 + 0.5 * p}) rotate(${(1 - p) * -5}deg)`, opacity: clamp(p * 1.6) }}>
@@ -130,11 +130,11 @@ const Title: React.FC<{ text: string; t: number; top: number; size?: number; col
   );
 };
 
-const Chip: React.FC<{ text: string; p: number; bg?: string; color?: string; size?: number; te?: boolean; border?: string }> = ({ text, p, bg = "rgba(0,0,0,0.8)", color = "#fff", size = 44, te = false, border = GOLD }) => (
+export const Chip: React.FC<{ text: string; p: number; bg?: string; color?: string; size?: number; te?: boolean; border?: string }> = ({ text, p, bg = "rgba(0,0,0,0.8)", color = "#fff", size = 44, te = false, border = GOLD }) => (
   <div style={{ display: "inline-block", transform: `scale(${p})`, opacity: clamp(p * 2), background: bg, color, fontFamily: te ? TE_DISPLAY : BODY, fontWeight: 800, fontSize: size, letterSpacing: te ? 0 : 2, padding: "12px 30px", borderRadius: 999, border: `3px solid ${border}`, boxShadow: "0 8px 24px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>{text}</div>
 );
 
-const Stamp: React.FC<{ text: string; p: number; color: string; size?: number; tilt?: number; te?: boolean }> = ({ text, p, color, size = 96, tilt = -7, te = true }) => (
+export const Stamp: React.FC<{ text: string; p: number; color: string; size?: number; tilt?: number; te?: boolean }> = ({ text, p, color, size = 96, tilt = -7, te = true }) => (
   <div style={{ display: "inline-block", fontFamily: te ? TE_DISPLAY : DISPLAY, fontWeight: 700, fontSize: size, lineHeight: 1.1, color, border: `10px solid ${color}`, borderRadius: 18, padding: "6px 34px", background: "rgba(0,0,0,0.6)", transform: `rotate(${tilt}deg) scale(${2 - p})`, opacity: clamp(p * 1.5), textAlign: "center", whiteSpace: "pre-line" }}>{text}</div>
 );
 
@@ -219,7 +219,7 @@ const Cockpit: React.FC<{ T: number; frame: number }> = ({ T, frame }) => {
   );
 };
 
-const Door: React.FC<{ open: number }> = ({ open }) => (
+export const Door: React.FC<{ open: number }> = ({ open }) => (
   <div style={{ position: "relative", width: 520, height: 760, perspective: 1400 }}>
     <div style={{ position: "absolute", inset: 0, background: `radial-gradient(ellipse at 50% 50%, rgba(255,240,200,${open}) 0%, rgba(255,210,120,${0.6 * open}) 40%, #0a0d14 75%)`, borderRadius: 16, border: "14px solid #2c3444" }} />
     <div style={{ position: "absolute", left: 14, top: 14, width: 492, height: 732, background: "linear-gradient(90deg, #5d6678, #3b4252)", border: "4px solid #1a1f29", borderRadius: 8, transformOrigin: "0% 50%", transform: `rotateY(${-100 * open}deg)` }}>

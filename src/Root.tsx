@@ -47,17 +47,48 @@ import { BermudaThumb, BermudaTriangle } from "./daily/BermudaTriangle";
 import { ChannelIntro, ChannelIntroThumb, INTRO_SECONDS } from "./daily/ChannelIntro";
 import { ShahJahanThumb, ShahJahanWives, TAJ_SECONDS } from "./daily/ShahJahanWives";
 import { PILOT_SECONDS, PilotHero, PilotThumb } from "./daily/PilotHero";
+import { DRYDAY_SECONDS, GandhiDryDay, GandhiDryDayThumb } from "./daily/GandhiDryDay";
+import { FlydubaiTwist, FlydubaiTwistThumb, TWIST_SECONDS } from "./daily/FlydubaiTwist";
+import { NTR_SECONDS, NtrAiMorph, NtrAiMorphThumb } from "./daily/NtrAiMorph";
+import { DEEPFAKE_SECONDS, DeepfakeExplainer, DeepfakeExplainerThumb } from "./daily/DeepfakeExplainer";
+import { SIR_SECONDS, SirVotes, SirVotesThumb } from "./daily/SirVotes";
 import {
   KoreanPeninsulaThumb,
   KoreanPeninsulaVideo,
 } from "./daily/KoreanPeninsulaConflict";
+import { StalagLuftIIIThumb, StalagLuftIIIVideo } from "./daily/StalagLuftIII";
+import { UaeExplainer, UaeThumbnail } from "./daily/UaeDubaiAbuDhabi";
+import {
+  OklahomaPanhandleLong,
+  OklahomaPanhandleShort,
+  OklahomaPanhandleThumb,
+} from "./daily/OklahomaPanhandle";
+import {
+  AlcatrazEscapeLong,
+  AlcatrazEscapeShort,
+  AlcatrazEscapeThumb,
+} from "./daily/AlcatrazEscape";
 
 const ChannelIntroIG = withCover(ChannelIntro, ChannelIntroThumb, { beat: 0.12 });
 const ShahJahanWivesIG = withCover(ShahJahanWives, ShahJahanThumb);
 const PilotHeroIG = withCover(PilotHero, PilotThumb);
+const GandhiDryDayIG = withCover(GandhiDryDay, GandhiDryDayThumb);
+const FlydubaiTwistIG = withCover(FlydubaiTwist, FlydubaiTwistThumb);
+const NtrAiMorphIG = withCover(NtrAiMorph, NtrAiMorphThumb);
+const SirVotesIG = withCover(SirVotes, SirVotesThumb);
 const KoreanPeninsulaShortIG = withCover(
   KoreanPeninsulaVideo,
   KoreanPeninsulaThumb
+);
+const StalagLuftIIIShortIG = withCover(StalagLuftIIIVideo, StalagLuftIIIThumb);
+const UaeShortIG = withCover(UaeExplainer, UaeThumbnail);
+const OklahomaPanhandleShortIG = withCover(
+  OklahomaPanhandleShort,
+  OklahomaPanhandleThumb
+);
+const AlcatrazEscapeShortIG = withCover(
+  AlcatrazEscapeShort,
+  AlcatrazEscapeThumb
 );
 import {
   StraitOfGibraltarThumb,
@@ -215,6 +246,78 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{ timing, beats: beatsJson as unknown as CartoonBeat[] }}
       />
       <Composition
+        id="OklahomaPanhandleShort"
+        component={OklahomaPanhandleShortIG}
+        durationInFrames={durationInFrames + 2 * config.fps + coverLeadFrames(config.fps)}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="AlcatrazEscapeShort"
+        component={AlcatrazEscapeShortIG}
+        durationInFrames={durationInFrames + 2 * config.fps + coverLeadFrames(config.fps)}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="AlcatrazEscapeLong"
+        component={AlcatrazEscapeLong}
+        durationInFrames={durationInFrames + 2 * config.fps}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="AlcatrazEscapeShortThumb"
+        component={AlcatrazEscapeThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="AlcatrazEscapeLongThumb"
+        component={AlcatrazEscapeThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="OklahomaPanhandleLong"
+        component={OklahomaPanhandleLong}
+        durationInFrames={durationInFrames + 2 * config.fps}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="OklahomaPanhandleShortThumb"
+        component={OklahomaPanhandleThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="OklahomaPanhandleLongThumb"
+        component={OklahomaPanhandleThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
         id="IndiaBorders"
         component={IndiaBorders}
         durationInFrames={durationInFrames}
@@ -283,6 +386,16 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="ShahJahanWivesThumb" component={ShahJahanThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} />
       <Composition id="PilotHero" component={PilotHeroIG} durationInFrames={Math.round(PILOT_SECONDS * config.fps) + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} />
       <Composition id="PilotHeroThumb" component={PilotThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} />
+      <Composition id="GandhiDryDay" component={GandhiDryDayIG} durationInFrames={Math.round(DRYDAY_SECONDS * config.fps) + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} />
+      <Composition id="GandhiDryDayThumb" component={GandhiDryDayThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} />
+      <Composition id="FlydubaiTwist" component={FlydubaiTwistIG} durationInFrames={Math.round(TWIST_SECONDS * config.fps) + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} />
+      <Composition id="FlydubaiTwistThumb" component={FlydubaiTwistThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} />
+      <Composition id="NtrAiMorph" component={NtrAiMorphIG} durationInFrames={Math.round(NTR_SECONDS * config.fps) + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} />
+      <Composition id="NtrAiMorphThumb" component={NtrAiMorphThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} />
+      <Composition id="DeepfakeExplainer" component={DeepfakeExplainer} durationInFrames={Math.round(DEEPFAKE_SECONDS * config.fps)} fps={config.fps} width={1920} height={1080} />
+      <Composition id="DeepfakeExplainerThumb" component={DeepfakeExplainerThumb} durationInFrames={1} fps={config.fps} width={1920} height={1080} />
+      <Composition id="SirVotes" component={SirVotesIG} durationInFrames={Math.round(SIR_SECONDS * config.fps) + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} />
+      <Composition id="SirVotesThumb" component={SirVotesThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} />
       <Composition id="BermudaTriangleVoice" component={BermudaVoiceIG} durationInFrames={durationInFrames + 3 * config.fps + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
       <Composition id="BermudaTriangleShort" component={BermudaIG} durationInFrames={durationInFrames + 3 * config.fps + coverLeadFrames(config.fps)} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
       <Composition id="BermudaTriangleThumb" component={BermudaThumb} durationInFrames={1} fps={config.fps} width={1080} height={1920} defaultProps={{ timing }} />
@@ -502,6 +615,78 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="KoreanPeninsulaConflictLongThumb"
         component={KoreanPeninsulaThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="StalagLuftIIIShort"
+        component={StalagLuftIIIShortIG}
+        durationInFrames={durationInFrames + 2 * config.fps + coverLeadFrames(config.fps)}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="StalagLuftIIILong"
+        component={StalagLuftIIIVideo}
+        durationInFrames={durationInFrames + 2 * config.fps}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="StalagLuftIIIShortThumb"
+        component={StalagLuftIIIThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="StalagLuftIIILongThumb"
+        component={StalagLuftIIIThumb}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="UaeDubaiAbuDhabiShort"
+        component={UaeShortIG}
+        durationInFrames={durationInFrames + config.fps + coverLeadFrames(config.fps)}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="UaeDubaiAbuDhabiLong"
+        component={UaeExplainer}
+        durationInFrames={durationInFrames + 2 * config.fps}
+        fps={config.fps}
+        width={1920}
+        height={1080}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="UaeDubaiAbuDhabiShortThumb"
+        component={UaeThumbnail}
+        durationInFrames={1}
+        fps={config.fps}
+        width={1080}
+        height={1920}
+        defaultProps={{ timing }}
+      />
+      <Composition
+        id="UaeDubaiAbuDhabiLongThumb"
+        component={UaeThumbnail}
         durationInFrames={1}
         fps={config.fps}
         width={1920}

@@ -1,179 +1,248 @@
 # HOOK
-[MAP: satellite zoom from East Asia to the Korean Peninsula]
-[TEXT POP: "70+ YEARS"]
-70+ Years Later, North & South Korea Are STILL at War!
+[MAP: fast zoom from California to Alcatraz Island]
+[TEXT POP: "3 prisoners · homemade raft"]
+How 3 Prisoners Escaped Alcatraz on a Homemade Raft.
 
-[BORDER GLOW: Korean Demilitarized Zone]
-It sounds like clickbait. South Korea is a global economic power. North Korea is a nuclear-armed state. Both have existed for generations.
-
-[TEXT POP: "NO PEACE TREATY"]
-But the war that created this divide never received a final peace treaty. The shooting mostly stopped. The legal and political conflict did not.
+[SPLIT SCREEN: locked cell / black water]
+They beat the cells, the guards, and the island. But did they beat the bay?
 
 # SETUP
-[CAMERA: slow orbit above Korea]
-To understand why, watch this narrow peninsula. It sits between China, Russia, and Japan, facing the Pacific.
+[MAP: San Francisco Bay at night]
+In June 1962, Alcatraz was called escape-proof.
 
-[PIN: Seoul · Pyongyang]
-Today, Seoul and Pyongyang are only about 195 kilometres apart. Yet crossing the border is almost impossible for ordinary people.
+[PIN: Alcatraz Island · 37.8267° N, 122.4230° W]
+The prison sat about 2 kilometres from San Francisco.
 
-[MAP: India to Korea comparison route]
-For viewers in India, imagine 2 rival states separated by a fortified strip, while families and history continue across it.
+[TEXT POP: "Cold · rough · fast"]
+Cold water and strong currents formed a natural wall.
 
-[TIMELINE: 1910 → 1945]
-The story begins before either modern Korea existed. Japan annexed Korea in 1910 and ruled it until 1945.
+[TIMELINE: 1934 → 1962]
+Since the federal prison opened in 1934, every escape had failed.
+
+[CHARACTER: three silhouettes appear]
+But Frank Morris and brothers John and Clarence Anglin noticed weaknesses.
+
+[CHARACTER: fourth silhouette fades back]
+A fourth planner, Allen West, helped them. He would not leave that night.
+
+[COUNTER: 14 escape attempts · 36 men]
+Their plan was not the first. During the federal prison years, 36 men made 14 escape attempts.
+
+[SPLIT SCREEN: captured / missing]
+Most were caught, stopped, or died. Only this attempt left three fates unresolved.
 
 # BODY
-[TIMELINE: August 1945]
-Japan surrendered at the end of World War Two. Therefore, Korea was suddenly free from Japanese rule.
+[CAMERA: push through the back of a cell]
+Their cells stood beside an unguarded utility corridor.
 
-[BORDER GLOW: 38th parallel]
-But freedom did not bring one Korean government. Soviet forces entered from the north. American forces entered from the south.
+[TEXT POP: "Vent opening"]
+Each rear wall had a small opening below the sink.
 
-[TEXT POP: "38° NORTH"]
-Officials used the 38th parallel as a temporary dividing line. It was chosen quickly, not by the Korean people.
-
-[FLAG: USSR north · USA south]
-Therefore, the Soviet Union administered the north. The United States administered the south.
-
-[TIMELINE: 1948]
-But Cold War distrust grew. Instead of reunification, 2 rival governments appeared in 1948.
-
-[TEXT POP: "DPRK"]
-In the north, Kim Il Sung led the Democratic People's Republic of Korea.
-
-[TEXT POP: "ROK"]
-In the south, Syngman Rhee led the Republic of Korea.
-
-[VS CARD: both claim all Korea]
-Both governments claimed to represent the entire peninsula. Therefore, the border was never accepted as permanent.
-
-[TIMELINE: June 25, 1950]
-[SFX: boom]
-Then, on June 25, 1950, North Korean forces crossed the 38th parallel. The Korean War began.
-
-[ROUTE: red arrows toward Seoul]
-The attack moved fast. Seoul fell within 3 days.
-
-[ROUTE: red arrows toward Busan]
-Therefore, South Korean forces retreated. United Nations forces, led mainly by the United States, joined the defense.
-
-[PIN: Busan]
-By August, defenders held a shrinking area around Busan, called the Pusan Perimeter.
-
-[TEXT POP: "ALMOST THE WHOLE SOUTH"]
-North Korean forces controlled most of the peninsula. It looked like the war might end quickly.
-
-[PIN: Incheon]
-[SFX: whoosh]
-But on September 15, 1950, UN forces landed at Incheon, far behind the front.
-
-[ARROW: supply lines cut]
-The landing threatened North Korean supply lines. Therefore, the entire battlefield changed.
-
-[PIN: Seoul]
-Seoul was retaken. UN and South Korean forces crossed north of the 38th parallel.
-
-[ROUTE: blue arrows toward Pyongyang]
-They captured Pyongyang and moved toward the Yalu River, beside China.
-
-[MAP: zoom to China–Korea border]
-But China feared hostile forces near its border. Chinese forces entered the war in large numbers.
-
-[ROUTE: orange arrows south]
-Therefore, UN forces were pushed south. Seoul changed hands again in January 1951.
-
-[ARROW: line returns north]
-But UN forces regrouped and retook Seoul in March.
-
-[ARROW: front line oscillates]
-The front moved north. Then south. Then north again.
-
-[TEXT POP: "STALEMATE"]
-By mid-1951, neither side could force a clear victory. Therefore, the war became a stalemate near the old dividing line.
-
-[TIMELINE: July 1951]
-Peace talks began in July 1951. But the fighting did not stop while negotiators argued.
-
-[TEXT POP: "2 MORE YEARS"]
-For 2 more years, soldiers fought over hills while talks continued.
-
-[VS CARD: prisoners · border · supervision]
-The hardest questions involved prisoners of war, the new boundary, and how any agreement would be monitored.
-
-[TIMELINE: July 27, 1953]
-[SFX: ding]
-Finally, on July 27, 1953, the Korean Armistice Agreement was signed at Panmunjom.
-
-[TEXT POP: "FIGHTING STOPS"]
-North Korea, China, and the United Nations Command signed it. The agreement stopped active fighting.
-
-[TEXT POP: "SOUTH KOREA DID NOT SIGN"]
-But South Korea's government refused to sign. It opposed a settlement that left Korea divided.
-
-[TEXT POP: "ARMISTICE ≠ PEACE"]
-More importantly, an armistice is not a peace treaty. It pauses a war without fully ending the dispute.
-
-[MAP: DMZ line appears]
-Therefore, the agreement created a military boundary and a Demilitarized Zone around it.
-
-[TEXT POP: "ABOUT 250 km"]
-The DMZ stretches about 250 kilometres across the peninsula.
-
-[TEXT POP: "ABOUT 4 km WIDE"]
-It is roughly 4 kilometres wide, with each side pulling back about 2 kilometres from the military line.
-
-[PIN: Panmunjom]
-Panmunjom became the symbol of the frozen conflict. Meetings happen there, but normal travel does not.
-
-[SPLIT SCREEN: family photos north / south]
-The human cost continued after the battles. Millions of relatives were separated by the division.
-
-[CLOCK: decades pass]
-Some families later met in limited reunions. But many people died without seeing relatives again.
-
-[VS CARD: Seoul today · Pyongyang today]
-Meanwhile, the 2 Koreas developed in radically different ways.
-
-[CHART: South Korea economy rises]
-South Korea became a democracy and one of the world's largest economies.
-
-[CHART: North Korea isolation]
-North Korea remained under one-party rule, built a large military, and later developed nuclear weapons.
-
-[BORDER GLOW: DMZ]
-Therefore, the armistice line became more than a battlefield marker. It became one of Earth's sharpest political divides.
-
-[TIMELINE: 1972 → 2000 → 2018]
-There have been talks, summits, family reunions, and moments of reduced tension.
-
-[SPLIT SCREEN: handshake · missile launch]
-But periods of hope repeatedly gave way to missile tests, military drills, sanctions, and renewed threats.
-
-[TEXT POP: "NOT DAILY WARFARE"]
-This does not mean the 2 Koreas fight every day. Most days pass without shooting.
-
-[TEXT POP: "AN UNFINISHED WAR"]
-But without a peace treaty, the Korean War remains formally unfinished.
-
-# AHA
-[CAMERA: pull out to East Asia]
-So why are North and South Korea still described as being at war?
-
-[VS CARD: ceasefire vs peace]
-Because the 1953 agreement was a ceasefire between military commanders, not a final political peace between the 2 Korean states.
-
-[TEXT POP: "PAUSED IN 1953"]
-That is the surprising truth. The war did not reach a normal ending. It was paused in 1953.
-
-[MAP: both Koreas highlighted in gold]
-More than 70 years later, the pause still shapes alliances, armies, diplomacy, and millions of lives.
-
-[TEXT POP: "ONE PENINSULA · TWO STATES"]
-One peninsula became 2 states. A temporary line became a fortified border. And a ceasefire became a lifetime.
-
-# CTA
-[CAMERA: slow pullback over Asia]
-History is not only what ended. Sometimes, it is what the world never finished.
+[ARROW: spoon chips at concrete]
+The men used spoons and other improvised tools to widen those openings.
 
 [SFX: pop]
+They covered the damage with painted cardboard during inspections.
+
+[CLOCK: weeks turning into months]
+The work was slow. But noise from music hour helped hide the scraping.
+
+[ARROW: cell → utility corridor]
+Therefore, one by one, they could slip behind the cell block.
+
+[TEXT POP: "Secret workshop"]
+Above the cells, they created a hidden workshop.
+
+[SPLIT SCREEN: dummy face materials]
+Guards still counted heads at night. So the men made convincing dummies.
+
+[CHARACTER: papier-mâché head]
+They shaped them from soap, paper, concrete dust, and other scraps.
+
+[TEXT POP: "Real hair"]
+Hair gathered from the prison barbershop made the trick look real.
+
+[SPLIT SCREEN: guard flashlight / motionless bed]
+Placed on pillows, the heads could fool a quick flashlight check.
+
+[COUNTER: raincoats → 50+]
+But leaving the building was only half the problem.
+
+[TEXT POP: "The bay was the wall"]
+They still needed to cross San Francisco Bay.
+
+[CHARACTER: raincoats spread across workshop]
+Therefore, they collected more than 50 rubberized raincoats.
+
+[ARROW: heat seals a seam]
+They joined the seams with contact cement and heat.
+
+[TEXT POP: "6 × 14 feet"]
+The finished raft was roughly 6 feet wide and 14 feet long.
+
+[SPLIT SCREEN: raft / life vest]
+More raincoat material became life vests.
+
+[CHARACTER: accordion-style pump]
+They also built a hand-operated pump to inflate everything at the shore.
+
+[CHARACTER: wooden paddles]
+Wooden paddles completed their unlikely boat.
+
+[TIMELINE: December 1961 → June 1962]
+The preparation took months, and every inspection could have ended it.
+
+[CLOCK: June 11, 1962]
+Then came the night of June 11, 1962.
+
+[SPLIT SCREEN: dummy in bed / prisoner enters vent]
+The dummies took their places. The men slipped through the wall openings.
+
+[ARROW: corridor → roof]
+They climbed the utility space and reached the roof.
+
+[CHARACTER: careful silhouettes beside guards]
+But the prison was still active around them.
+
+[ARROW: roof → bakery roof → ground]
+They crossed rooftops, climbed down, and moved toward the island's northeast shore.
+
+[TEXT POP: "Launch point"]
+At the water, they inflated the raft and life vests.
+
+[ROUTE: Alcatraz → Angel Island]
+Investigators believed their planned destination was Angel Island to the north.
+
+[MAP: dark bay currents move west]
+The distance looked short. But the bay did not move in straight lines.
+
+[ARROW: tidal current bends route]
+Tides could sweep a small raft toward the Golden Gate and the Pacific.
+
+[CHARACTER: raft rocks but stays intact]
+Therefore, timing mattered as much as the raft.
+
+[SFX: whoosh]
+Sometime after 10 p.m., the three men disappeared into the dark.
+
+[CLOCK: night patrol continues]
+For hours, guards saw quiet shapes beneath blankets.
+
+[CLOCK: morning count]
+But the morning count finally exposed the dummies.
+
+[SFX: boom]
+Alcatraz locked down, boats searched the water, and aircraft scanned the bay.
+
+[MAP: search rings around Alcatraz]
+Investigators found pieces of evidence, but not the three men.
+
+[CHARACTER: paddle floating]
+A paddle was recovered, along with raincoat material and personal items.
+
+[TEXT POP: "No confirmed bodies"]
+No body was conclusively identified as Morris or either Anglin brother.
+
+[SPLIT SCREEN: FBI files / blank outcome]
+The FBI examined sightings, family contacts, and claims for 17 years.
+
+[TIMELINE: 1962 → 1979]
+In 1979, it closed its investigation.
+
+[TEXT POP: "Likely drowned"]
+The bureau's conclusion was that the men most likely drowned.
+
+[SPLIT SCREEN: cold water / missing proof]
+The water was cold, the current dangerous, and survival uncertain.
+
+[TEXT POP: "But..."]
+But likely is not the same as proven.
+
+[CHARACTER: three question marks]
+No verified trace showed the men alive after that night.
+
+[CHARACTER: empty shoreline]
+Yet no final physical evidence proved all three died.
+
+[TIMELINE: case passes to U.S. Marshals]
+Therefore, the U.S. Marshals Service continued following credible leads.
+
+[SPLIT SCREEN: famous movie / official record]
+Popular culture turned the escape into a legend.
+
+[TEXT POP: "Planning, patience, deception"]
+The real achievement was less glamorous: patient work, observation, and coordination.
+
+[CHARACTER: Allen West at blocked opening]
+Allen West's part also reveals how narrow the timing was.
+
+[ARROW: blocked vent]
+He could not get through his opening in time.
+
+[CHARACTER: three silhouettes leave]
+So Morris and the Anglins left without him.
+
+[SPLIT SCREEN: teamwork / fragile timing]
+That shows the plan's strange balance. It needed teamwork, but one delay could separate the team.
+
+[CHARACTER: cardboard grille closes]
+Every hidden opening also had to look normal before each inspection.
+
+[CLOCK: daily routine repeats]
+Therefore, the men rehearsed inside the same strict routine they were trying to defeat.
+
+[SPLIT SCREEN: small clue / large search]
+After the alarm, each recovered object mattered because the raft itself did not provide a clear ending.
+
+[CHARACTER: investigator pins reports]
+Reports appeared from across the country. But a report is not proof without a verified trail.
+
+[TEXT POP: "No confirmed contact"]
+Investigators found no confirmed message, purchase, or family contact that settled the case.
+
+[SPLIT SCREEN: engineering success / survival question]
+The surviving evidence could explain how they left. It could not prove where they finished.
+
+[MAP: currents split around the island]
+Even modern tide models show why simple guesses are risky.
+
+[ARROW: route changes with departure time]
+A small change in launch time can send a floating object toward a different shore.
+
+[TEXT POP: "Possible ≠ proven"]
+That means a crossing may have been possible. It does not mean this crossing succeeded.
+
+[SPLIT SCREEN: prison wall / bay]
+That choice split the story into two separate questions.
+
+[TEXT POP: "Question 1"]
+Did they escape the prison building? Yes.
+
+[TEXT POP: "Question 2"]
+Did they reach lasting freedom? Nobody can prove it.
+
+# AHA
+[MAP: route ends in a question mark]
+That is the key to the Alcatraz mystery.
+
+[TEXT POP: "Escape from prison ≠ escape from bay"]
+The homemade raft solved the prison's last designed barrier.
+
+[SPLIT SCREEN: successful launch / unknown shore]
+But the bay created a final test with no confirmed answer.
+
+[MAP: pull back from Alcatraz across the bay]
+The three men vanished between a proven escape and an unproven survival.
+
+[TEXT POP: "Unsolved since 1962"]
+Therefore, the plan is remembered not because we know the ending.
+
+[CHARACTER: file closes, question mark remains]
+It is remembered because every known clue stops before the ending.
+
+# CTA
+[MAP: moonlit Alcatraz with route fading]
+History sometimes gives us an escape route, but not a destination.
+
+[SFX: ding]
 Please like, share and subscribe to my YouTube channel.
